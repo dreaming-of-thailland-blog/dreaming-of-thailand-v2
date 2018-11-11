@@ -1,0 +1,52 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-js",
+        "jsonName": "about-f34",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-company-team-js",
+        "jsonName": "company-team-a16",
+        "path": "/company/team/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-2-js",
+        "jsonName": "page-2-fbc",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-chiang-rai-71d",
+        "path": "/posts/chiang-rai"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-golden-triangle-c96",
+        "path": "/posts/golden-triangle"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-white-temple-126",
+        "path": "/posts/white-temple"
+    }
+]
