@@ -19,7 +19,7 @@ const LISTING_QUERY = graphql`
                         cover {
                             id
                             childImageSharp {
-                                fluid(maxWidth: 300) {
+                                fluid(maxWidth: 1000) {
                                     ...GatsbyImageSharpFluid_tracedSVG
                                 }
                             }

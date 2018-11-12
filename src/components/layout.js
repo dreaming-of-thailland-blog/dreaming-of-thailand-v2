@@ -8,15 +8,18 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Archive from './archive';
-import './layout.css'
+// import './layout.css'
 
 const MainLayout = styled.main`
   max-width: 90%;
   margin: 1rem auto;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 40px;
-`
+  .grid-container {
+    display: grid;
+    grid: 100px / repeat(4, 1fr);
+    grid-gap: 10px 10px;
+    }
+  }
+`;
 
 const Layout = ({ children, location }) => (
   <StaticQuery
@@ -67,10 +70,9 @@ const Layout = ({ children, location }) => (
           {/**/}
         {/*}*/}
         <MainLayout>
-          <div>
+          <div className='grid-container'>
           {children}
           </div>
-          <Archive />
         </MainLayout>
       </>
     )}
