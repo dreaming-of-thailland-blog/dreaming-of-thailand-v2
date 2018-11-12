@@ -2,24 +2,22 @@ import React from 'react'
 import styled from 'styled-components';
 import { StaticQuery, graphql, Link } from 'gatsby'
 
-// TODO: move this query to a new file and import...
-// language=GraphQL
-const POST_ARCHIVE_QUERY = graphql`
-      query BlogPostArchive {
+const postArchiveQuery = graphql`
+    query BlogPostArchive {
         allMarkdownRemark(limit: 5, sort: {
-        order: DESC,
-        fields: [frontmatter___date]
+            order: DESC,
+            fields: [frontmatter___date]
         }) {
-          edges{
-            node {
-              frontmatter {
-                title
-                slug
-              }
+            edges{
+                node {
+                    frontmatter {
+                        title
+                        slug
+                    }
+                }
             }
-          }
         }
-      }`
+    }`
 
 const ArchiveList = styled.ul`
   padding: 0;
@@ -35,7 +33,7 @@ const ArchiveList = styled.ul`
 
 const Archive = () => (
   <StaticQuery
-    query={POST_ARCHIVE_QUERY}
+    query={postArchiveQuery}
     render={({allMarkdownRemark}) => (
       <>
        <aside>

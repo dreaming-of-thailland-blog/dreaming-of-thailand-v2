@@ -2,7 +2,10 @@
 slug: "/golden-triangle"
 date: "2018-11-08"
 title: "Golden Triangle"
+cover: "../images/statue.jpg"
 ---
+
+![statue](../images/statue.jpg)
 
 # Visiting Thailand's Golden Triangle
 

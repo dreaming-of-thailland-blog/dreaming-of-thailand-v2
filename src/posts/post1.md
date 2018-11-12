@@ -2,9 +2,10 @@
 slug: "/white-temple"
 date: "2018-11-06"
 title: "Visiting the White Temple"
+cover: "../images/white-temple.jpg"
 ---
 
-![](../images/white-temple.jpg)
+![white-temple](../images/white-temple.jpg)
 
 # Visiting the White Temple
  
