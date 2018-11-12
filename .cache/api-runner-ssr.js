@@ -1,9 +1,12 @@
 var plugins = [{
+      plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Dreaming of Thailand","short_name":"Thailand Travel Blog","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/white-temple.jpg"},
+    },{
       plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Dreaming of Thailand","short_name":"Thailand Travel Blog","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/white-temple.jpg"},
+      plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
     },{
       plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},

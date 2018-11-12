@@ -196,91 +196,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-react-helmet",
-      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
-      "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.1",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-react-helmet",
-      "packageJson": {
-        "name": "gatsby-plugin-react-helmet",
-        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.1",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "react-helmet",
-          "seo",
-          "document",
-          "head",
-          "title",
-          "meta",
-          "link",
-          "script",
-          "base",
-          "noscript",
-          "style"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "matthews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "react-helmet",
-            "version": ">=5.1.3"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "44f282f5ccb56e80ebc48e05c52ae55f",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "b622a8b9-2980-5114-b622-faac8f2a4326": {
       "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-source-filesystem",
       "id": "b622a8b9-2980-5114-b622-faac8f2a4326",
@@ -525,231 +440,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
-      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-transformer-sharp",
-      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
-      "name": "gatsby-transformer-sharp",
-      "version": "2.1.8",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType",
-        "onPreExtractQueries"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-transformer-sharp",
-      "packageJson": {
-        "name": "gatsby-transformer-sharp",
-        "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.8",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.33"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.0-beta.3"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "831b1c923f5b3cf2f77e6c969b0e61d2",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "84d6154d-4241-556c-a679-cc8339cac100": {
-      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sharp",
-      "id": "84d6154d-4241-556c-a679-cc8339cac100",
-      "name": "gatsby-plugin-sharp",
-      "version": "2.0.12",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sharp",
-      "packageJson": {
-        "name": "gatsby-plugin-sharp",
-        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.12",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "async",
-            "version": "^2.1.2"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-exists-cached",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "imagemin",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-mozjpeg",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "imagemin-pngquant",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-webp",
-            "version": "^4.1.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mini-svg-data-uri",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.0"
-          },
-          {
-            "name": "svgo",
-            "version": "^0.7.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "5d88d01abb3f84ce191cd82b1a244f09",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "eb9ab2fe-c4f3-5644-808d-c4e9b1a91aac": {
       "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-manifest",
       "id": "eb9ab2fe-c4f3-5644-808d-c4e9b1a91aac",
@@ -855,7 +545,13 @@
             "version": "2.0.6",
             "pluginOptions": {
               "plugins": [],
-              "maxWidth": 1000
+              "maxWidth": 1000,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
             },
             "nodeAPIs": [],
             "browserAPIs": [],
@@ -1104,30 +800,35 @@
         "owner": "internal-data-bridge"
       }
     },
-    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
-      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-transformer-remark",
-      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
-      "name": "gatsby-transformer-remark",
-      "version": "2.1.12",
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.8",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
         "onCreateNode",
-        "setFieldsOnGraphQLNodeType"
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-transformer-sharp",
       "packageJson": {
-        "name": "gatsby-transformer-remark",
-        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.1.12",
-        "keywords": {
-          "$ref": "$[\"nodes\"][\"f5958400-743a-5332-adf0-1cd1226d6a48\"][\"packageJson\"][\"keywords\"]"
-        },
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
         "author": {
-          "$ref": "$[\"nodes\"][\"f5958400-743a-5332-adf0-1cd1226d6a48\"][\"packageJson\"][\"author\"]"
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
         },
         "license": "MIT",
         "dependencies": [
@@ -1140,72 +841,20 @@
             "version": "^3.5.0"
           },
           {
-            "name": "gray-matter",
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
             "version": "^4.0.0"
           },
           {
-            "name": "hast-util-raw",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "hast-util-to-html",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mdast-util-to-hast",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "mdast-util-toc",
-            "version": "^2.0.1"
-          },
-          {
-            "name": "remark",
-            "version": "^9.0.0"
-          },
-          {
-            "name": "remark-parse",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "remark-retext",
-            "version": "^3.1.0"
-          },
-          {
-            "name": "remark-stringify",
-            "version": "^5.0.0"
-          },
-          {
-            "name": "retext-english",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "sanitize-html",
-            "version": "^1.18.2"
-          },
-          {
-            "name": "underscore.string",
-            "version": "^3.3.4"
-          },
-          {
-            "name": "unified",
-            "version": "^6.1.5"
-          },
-          {
-            "name": "unist-util-remove-position",
-            "version": "^1.1.2"
-          },
-          {
-            "name": "unist-util-select",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "unist-util-visit",
-            "version": "^1.3.0"
+            "name": "sharp",
+            "version": "^0.21.0"
           }
         ],
         "devDependencies": [
@@ -1230,6 +879,10 @@
           {
             "name": "gatsby",
             "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
           }
         ],
         "optionalDependecies": [],
@@ -1238,7 +891,405 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0b5f96114c2233c68029562320d54b9f",
+        "contentDigest": "831b1c923f5b3cf2f77e6c969b0e61d2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4303f310-a6d0-5b7c-b8cd-0fc45931d73d": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-netlify-cms",
+      "id": "4303f310-a6d0-5b7c-b8cd-0fc45931d73d",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "3.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "3.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "friendly-errors-webpack-plugin",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "html-webpack-exclude-assets-plugin",
+            "version": "^0.0.7"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-css-extract-plugin",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0-beta.29"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.0.6"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "149c7b64a6fe92d0d8929a850b14ffc8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "44f282f5ccb56e80ebc48e05c52ae55f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5d88d01abb3f84ce191cd82b1a244f09",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3185f215c49801fb51cf3f8aa2828e7f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1320,11 +1371,188 @@
         "owner": "internal-data-bridge"
       }
     },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPostPrefetchPathname",
+        "onServiceWorkerActive"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.20"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aaca2bfd59502187f60cd84fd9a28b97",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "54e3ea36-236a-5532-9628-10debfd8525c": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-netlify",
+      "id": "54e3ea36-236a-5532-9628-10debfd8525c",
+      "name": "gatsby-plugin-netlify",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "kebab-hash",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^3.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9df917d2d7aeaeeb6bc8ee1c1d2cbfa3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/michaelcastor/projects/thailand-blog",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "bcf4ac593f310838b89bc605f5f609a1",
+      "version": "15d8a63a8938c19047199bd74ee7cf40",
       "pluginOptions": {
         "plugins": []
       },
@@ -1335,8 +1563,8 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog",
       "packageJson": {
-        "name": "Dreaming of Thailand",
-        "description": "Travels in the Land of Smiles",
+        "name": "Dreaming-of-Thailand",
+        "description": "Travels-in-the-Land-of-Smiles",
         "version": "0.3.0",
         "keywords": [
           "gatsby"
@@ -1365,6 +1593,14 @@
             "version": "^2.0.8"
           },
           {
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^3.0.7"
+          },
+          {
             "name": "gatsby-plugin-offline",
             "version": "^2.0.13"
           },
@@ -1375,6 +1611,10 @@
           {
             "name": "gatsby-plugin-sharp",
             "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.2"
           },
           {
             "name": "gatsby-plugin-styled-components",
@@ -1395,6 +1635,10 @@
           {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.8"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.1.3"
           },
           {
             "name": "react",
@@ -1430,7 +1674,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b96f111285d8eb123548e7aed32fe830",
+        "contentDigest": "ebde18517f394e4fb2eac27b36f475a2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1541,18 +1785,19 @@
     "Site": {
       "siteMetadata": {
         "title": "Dreaming of Thailand",
-        "description": "Travels in the Land of Smiles"
+        "description": "Travels in the Land of Smiles",
+        "siteUrl": "https://dreaming-of-thailand-v2.netlify.com/"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-11T00:05:33.791Z",
+      "buildTime": "2018-11-12T03:02:18.094Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dfb878e193c3590f562465c8b2298d5b",
+        "contentDigest": "acfd165813a56d22be7fce26f037ca66",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1562,7 +1807,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c4fb8a32d3d03044935eaaf4e0807767",
+        "contentDigest": "564d07c7ee288b2e976efef266819d18",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1571,11 +1816,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2018-11-10T16:59:33.718Z",
-      "accessTime": "2018-11-11T00:05:36.026Z",
-      "changeTime": "2018-11-10T16:59:33.718Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-11-11T08:04:49.871Z",
+      "accessTime": "2018-11-12T03:02:20.744Z",
+      "changeTime": "2018-11-11T08:04:49.871Z",
       "birthTime": "2018-11-07T18:47:20.714Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src",
@@ -1585,20 +1830,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 15850176,
       "blocks": 0,
-      "atimeMs": 1541894736025.5154,
-      "mtimeMs": 1541869173718.002,
-      "ctimeMs": 1541869173718.002,
+      "atimeMs": 1541991740743.54,
+      "mtimeMs": 1541923489871.2705,
+      "ctimeMs": 1541923489871.2705,
       "birthtimeMs": 1541616440713.688,
-      "atime": "2018-11-11T00:05:36.026Z",
-      "mtime": "2018-11-10T16:59:33.718Z",
-      "ctime": "2018-11-10T16:59:33.718Z",
+      "atime": "2018-11-12T03:02:20.744Z",
+      "mtime": "2018-11-11T08:04:49.871Z",
+      "ctime": "2018-11-11T08:04:49.871Z",
       "birthtime": "2018-11-07T18:47:20.714Z"
     },
     "75c3ceca-58ad-50fe-bfab-9ff99f8cd2d8": {
@@ -1621,7 +1866,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-11-07T18:47:20.715Z",
-      "accessTime": "2018-11-11T00:05:36.026Z",
+      "accessTime": "2018-11-11T02:46:54.237Z",
       "changeTime": "2018-11-07T18:47:20.715Z",
       "birthTime": "2018-11-07T18:47:20.715Z",
       "root": "/",
@@ -1639,24 +1884,14 @@
       "blksize": 4194304,
       "ino": 15850178,
       "blocks": 48,
-      "atimeMs": 1541894736025.65,
+      "atimeMs": 1541904414237.008,
       "mtimeMs": 1541616440715.4856,
       "ctimeMs": 1541616440715.4856,
       "birthtimeMs": 1541616440715.013,
-      "atime": "2018-11-11T00:05:36.026Z",
+      "atime": "2018-11-11T02:46:54.237Z",
       "mtime": "2018-11-07T18:47:20.715Z",
       "ctime": "2018-11-07T18:47:20.715Z",
       "birthtime": "2018-11-07T18:47:20.715Z"
-    },
-    "4f202643-de50-583f-a773-0721684d67b6": {
-      "id": "4f202643-de50-583f-a773-0721684d67b6",
-      "children": [],
-      "parent": "75c3ceca-58ad-50fe-bfab-9ff99f8cd2d8",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "5e26d1f7-f709-5d97-9df5-a47b4a760c6c": {
       "id": "5e26d1f7-f709-5d97-9df5-a47b4a760c6c",
@@ -1678,7 +1913,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-11-07T18:47:20.715Z",
-      "accessTime": "2018-11-11T00:05:36.026Z",
+      "accessTime": "2018-11-11T02:46:54.451Z",
       "changeTime": "2018-11-07T18:47:20.715Z",
       "birthTime": "2018-11-07T18:47:20.714Z",
       "root": "/",
@@ -1696,14 +1931,24 @@
       "blksize": 4194304,
       "ino": 15850177,
       "blocks": 328,
-      "atimeMs": 1541894736025.64,
+      "atimeMs": 1541904414451.0554,
       "mtimeMs": 1541616440714.788,
       "ctimeMs": 1541616440714.788,
       "birthtimeMs": 1541616440713.7524,
-      "atime": "2018-11-11T00:05:36.026Z",
+      "atime": "2018-11-11T02:46:54.451Z",
       "mtime": "2018-11-07T18:47:20.715Z",
       "ctime": "2018-11-07T18:47:20.715Z",
       "birthtime": "2018-11-07T18:47:20.714Z"
+    },
+    "4f202643-de50-583f-a773-0721684d67b6": {
+      "id": "4f202643-de50-583f-a773-0721684d67b6",
+      "children": [],
+      "parent": "75c3ceca-58ad-50fe-bfab-9ff99f8cd2d8",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "96537a49-7f1c-54e0-ac3f-1cb48a538fbd": {
       "id": "96537a49-7f1c-54e0-ac3f-1cb48a538fbd",
@@ -1735,7 +1980,7 @@
       "size": 1034086,
       "prettySize": "1.03 MB",
       "modifiedTime": "2018-11-10T03:58:07.000Z",
-      "accessTime": "2018-11-11T00:05:36.026Z",
+      "accessTime": "2018-11-11T02:52:23.157Z",
       "changeTime": "2018-11-10T03:58:33.794Z",
       "birthTime": "2018-11-10T03:58:07.000Z",
       "root": "/",
@@ -1753,24 +1998,14 @@
       "blksize": 4194304,
       "ino": 16567876,
       "blocks": 2024,
-      "atimeMs": 1541894736025.6626,
+      "atimeMs": 1541904743156.5242,
       "mtimeMs": 1541822287000,
       "ctimeMs": 1541822313793.9617,
       "birthtimeMs": 1541822287000,
-      "atime": "2018-11-11T00:05:36.026Z",
+      "atime": "2018-11-11T02:52:23.157Z",
       "mtime": "2018-11-10T03:58:07.000Z",
       "ctime": "2018-11-10T03:58:33.794Z",
       "birthtime": "2018-11-10T03:58:07.000Z"
-    },
-    "4c5e7cf7-eb59-55e5-b895-6a0171409b41": {
-      "id": "4c5e7cf7-eb59-55e5-b895-6a0171409b41",
-      "children": [],
-      "parent": "c84e61f5-46b7-5a41-87b6-2f6350e96599",
-      "internal": {
-        "contentDigest": "363fda816098646c86132992219ba6dd",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "d8a65131-2529-5031-b8c0-95ed1cef34f3": {
       "id": "d8a65131-2529-5031-b8c0-95ed1cef34f3",
@@ -1792,7 +2027,7 @@
       "size": 1070989,
       "prettySize": "1.07 MB",
       "modifiedTime": "2018-08-15T23:04:53.000Z",
-      "accessTime": "2018-11-10T23:44:35.884Z",
+      "accessTime": "2018-11-11T02:46:58.086Z",
       "changeTime": "2018-11-10T16:59:33.754Z",
       "birthTime": "2018-08-15T23:04:53.000Z",
       "root": "/",
@@ -1810,14 +2045,24 @@
       "blksize": 4194304,
       "ino": 16580164,
       "blocks": 2096,
-      "atimeMs": 1541893475883.6052,
+      "atimeMs": 1541904418085.5603,
       "mtimeMs": 1534374293000,
       "ctimeMs": 1541869173754.481,
       "birthtimeMs": 1534374293000,
-      "atime": "2018-11-10T23:44:35.884Z",
+      "atime": "2018-11-11T02:46:58.086Z",
       "mtime": "2018-08-15T23:04:53.000Z",
       "ctime": "2018-11-10T16:59:33.754Z",
       "birthtime": "2018-08-15T23:04:53.000Z"
+    },
+    "4c5e7cf7-eb59-55e5-b895-6a0171409b41": {
+      "id": "4c5e7cf7-eb59-55e5-b895-6a0171409b41",
+      "children": [],
+      "parent": "c84e61f5-46b7-5a41-87b6-2f6350e96599",
+      "internal": {
+        "contentDigest": "363fda816098646c86132992219ba6dd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "8d1f925c-95ac-57fc-aed5-764dfbaaef81": {
       "id": "8d1f925c-95ac-57fc-aed5-764dfbaaef81",
@@ -1834,7 +2079,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bca50ab63f1c0e681412bc9cd4532694",
+        "contentDigest": "dae2bd1ca8acb54d71d761091dcc47de",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1845,9 +2090,9 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-11-10T17:01:30.891Z",
-      "accessTime": "2018-11-11T00:05:36.051Z",
-      "changeTime": "2018-11-10T17:01:30.891Z",
+      "modifiedTime": "2018-11-12T02:53:27.803Z",
+      "accessTime": "2018-11-12T03:02:20.788Z",
+      "changeTime": "2018-11-12T02:53:27.803Z",
       "birthTime": "2018-11-08T17:38:31.842Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src",
@@ -1864,61 +2109,14 @@
       "blksize": 4194304,
       "ino": 16481319,
       "blocks": 0,
-      "atimeMs": 1541894736051.1978,
-      "mtimeMs": 1541869290890.8076,
-      "ctimeMs": 1541869290890.8076,
+      "atimeMs": 1541991740788.4956,
+      "mtimeMs": 1541991207803.0525,
+      "ctimeMs": 1541991207803.0525,
       "birthtimeMs": 1541698711842.228,
-      "atime": "2018-11-11T00:05:36.051Z",
-      "mtime": "2018-11-10T17:01:30.891Z",
-      "ctime": "2018-11-10T17:01:30.891Z",
+      "atime": "2018-11-12T03:02:20.788Z",
+      "mtime": "2018-11-12T02:53:27.803Z",
+      "ctime": "2018-11-12T02:53:27.803Z",
       "birthtime": "2018-11-08T17:38:31.842Z"
-    },
-    "50394d1e-7c42-56d0-9384-e43bc6f1c6bc": {
-      "id": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc",
-      "children": [
-        "8d2bd18b-c2f1-5383-86c1-de558c38b4e6"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "f0b89cc53419cf47c852ea5782d7f6b3",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/post2.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post2.md",
-      "relativePath": "post2.md",
-      "extension": "md",
-      "size": 1227,
-      "prettySize": "1.23 kB",
-      "modifiedTime": "2018-11-09T00:20:40.524Z",
-      "accessTime": "2018-11-10T23:44:35.884Z",
-      "changeTime": "2018-11-09T00:20:40.526Z",
-      "birthTime": "2018-11-09T00:20:40.524Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
-      "base": "post2.md",
-      "ext": ".md",
-      "name": "post2",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 16547171,
-      "blocks": 8,
-      "atimeMs": 1541893475884.0413,
-      "mtimeMs": 1541722840523.824,
-      "ctimeMs": 1541722840526.4985,
-      "birthtimeMs": 1541722840523.5042,
-      "atime": "2018-11-10T23:44:35.884Z",
-      "mtime": "2018-11-09T00:20:40.524Z",
-      "ctime": "2018-11-09T00:20:40.526Z",
-      "birthtime": "2018-11-09T00:20:40.524Z"
     },
     "81d35b1e-57da-53f5-9705-471f77f880bb": {
       "id": "81d35b1e-57da-53f5-9705-471f77f880bb",
@@ -1927,7 +2125,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a7f341e69506c957427716e8337058a9",
+        "contentDigest": "3778c7c67c03dec0aa3f8763871a6e8c",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/post1.md\"",
@@ -1937,12 +2135,12 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post1.md",
       "relativePath": "post1.md",
       "extension": "md",
-      "size": 1250,
-      "prettySize": "1.25 kB",
-      "modifiedTime": "2018-11-10T17:01:30.890Z",
-      "accessTime": "2018-11-10T23:44:35.884Z",
-      "changeTime": "2018-11-10T17:01:30.891Z",
-      "birthTime": "2018-11-10T17:01:30.890Z",
+      "size": 1298,
+      "prettySize": "1.3 kB",
+      "modifiedTime": "2018-11-12T02:53:27.802Z",
+      "accessTime": "2018-11-12T02:53:27.802Z",
+      "changeTime": "2018-11-12T02:53:27.803Z",
+      "birthTime": "2018-11-12T02:53:27.802Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
       "base": "post1.md",
@@ -1956,16 +2154,63 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 16580240,
+      "ino": 16614304,
       "blocks": 8,
-      "atimeMs": 1541893475884.0208,
-      "mtimeMs": 1541869290890.0522,
-      "ctimeMs": 1541869290890.6807,
-      "birthtimeMs": 1541869290889.8584,
-      "atime": "2018-11-10T23:44:35.884Z",
-      "mtime": "2018-11-10T17:01:30.890Z",
-      "ctime": "2018-11-10T17:01:30.891Z",
-      "birthtime": "2018-11-10T17:01:30.890Z"
+      "atimeMs": 1541991207802.152,
+      "mtimeMs": 1541991207802.2827,
+      "ctimeMs": 1541991207802.9924,
+      "birthtimeMs": 1541991207802.152,
+      "atime": "2018-11-12T02:53:27.802Z",
+      "mtime": "2018-11-12T02:53:27.802Z",
+      "ctime": "2018-11-12T02:53:27.803Z",
+      "birthtime": "2018-11-12T02:53:27.802Z"
+    },
+    "50394d1e-7c42-56d0-9384-e43bc6f1c6bc": {
+      "id": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc",
+      "children": [
+        "8d2bd18b-c2f1-5383-86c1-de558c38b4e6"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "107fff1bec8564ea49d652c081107d28",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/post2.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post2.md",
+      "relativePath": "post2.md",
+      "extension": "md",
+      "size": 1305,
+      "prettySize": "1.3 kB",
+      "modifiedTime": "2018-11-12T02:53:21.415Z",
+      "accessTime": "2018-11-12T02:53:21.414Z",
+      "changeTime": "2018-11-12T02:53:21.416Z",
+      "birthTime": "2018-11-12T02:53:21.414Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "post2.md",
+      "ext": ".md",
+      "name": "post2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16614299,
+      "blocks": 8,
+      "atimeMs": 1541991201414.4143,
+      "mtimeMs": 1541991201414.5432,
+      "ctimeMs": 1541991201416.2817,
+      "birthtimeMs": 1541991201414.4143,
+      "atime": "2018-11-12T02:53:21.414Z",
+      "mtime": "2018-11-12T02:53:21.415Z",
+      "ctime": "2018-11-12T02:53:21.416Z",
+      "birthtime": "2018-11-12T02:53:21.414Z"
     },
     "786b09b8-5357-5f37-beac-8acc3a047542": {
       "id": "786b09b8-5357-5f37-beac-8acc3a047542",
@@ -1974,7 +2219,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ee4df30d0f00754ca51a06d88e2d8dbb",
+        "contentDigest": "d725c1126f61414c945cb471a5c6d3d2",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/post3.md\"",
@@ -1984,12 +2229,12 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post3.md",
       "relativePath": "post3.md",
       "extension": "md",
-      "size": 1216,
-      "prettySize": "1.22 kB",
-      "modifiedTime": "2018-11-09T01:15:05.425Z",
-      "accessTime": "2018-11-10T23:44:35.884Z",
-      "changeTime": "2018-11-09T01:15:05.428Z",
-      "birthTime": "2018-11-09T01:15:05.425Z",
+      "size": 1279,
+      "prettySize": "1.28 kB",
+      "modifiedTime": "2018-11-12T02:53:16.460Z",
+      "accessTime": "2018-11-12T02:53:16.460Z",
+      "changeTime": "2018-11-12T02:53:16.462Z",
+      "birthTime": "2018-11-12T02:53:16.460Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
       "base": "post3.md",
@@ -2003,98 +2248,193 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 16553498,
+      "ino": 16614286,
       "blocks": 8,
-      "atimeMs": 1541893475884.0593,
-      "mtimeMs": 1541726105425.1423,
-      "ctimeMs": 1541726105427.5337,
-      "birthtimeMs": 1541726105424.7698,
-      "atime": "2018-11-10T23:44:35.884Z",
-      "mtime": "2018-11-09T01:15:05.425Z",
-      "ctime": "2018-11-09T01:15:05.428Z",
-      "birthtime": "2018-11-09T01:15:05.425Z"
+      "atimeMs": 1541991196459.6755,
+      "mtimeMs": 1541991196459.8108,
+      "ctimeMs": 1541991196461.8777,
+      "birthtimeMs": 1541991196459.6755,
+      "atime": "2018-11-12T02:53:16.460Z",
+      "mtime": "2018-11-12T02:53:16.460Z",
+      "ctime": "2018-11-12T02:53:16.462Z",
+      "birthtime": "2018-11-12T02:53:16.460Z"
     },
-    "8d2bd18b-c2f1-5383-86c1-de558c38b4e6": {
-      "id": "8d2bd18b-c2f1-5383-86c1-de558c38b4e6",
-      "children": [],
-      "parent": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc",
+    "25ba0a69-1826-5bf1-9ea1-3468e47bda14": {
+      "id": "25ba0a69-1826-5bf1-9ea1-3468e47bda14",
+      "children": [
+        "cec93746-1c80-5817-b88e-0c4e010c1b8d"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
-        "type": "MarkdownRemark",
-        "contentDigest": "a76ba28d69537ec028244fc9fcf6d60c",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "04b78b50def8210a98680ae2ca9c53a7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/clock-tower.jpg\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Chiang Rai Clock Tower",
-        "slug": "/chiang-rai",
-        "date": "2018-11-07",
-        "_PARENT": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc"
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower.jpg",
+      "relativePath": "clock-tower.jpg",
+      "extension": "jpg",
+      "size": 701969,
+      "prettySize": "702 kB",
+      "modifiedTime": "2018-08-15T22:32:33.000Z",
+      "accessTime": "2018-11-11T08:03:55.000Z",
+      "changeTime": "2018-11-11T08:03:55.930Z",
+      "birthTime": "2018-08-15T22:32:33.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "clock-tower.jpg",
+      "ext": ".jpg",
+      "name": "clock-tower",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16601679,
+      "blocks": 1376,
+      "atimeMs": 1541923435000,
+      "mtimeMs": 1534372353000,
+      "ctimeMs": 1541923435930.481,
+      "birthtimeMs": 1534372353000,
+      "atime": "2018-11-11T08:03:55.000Z",
+      "mtime": "2018-08-15T22:32:33.000Z",
+      "ctime": "2018-11-11T08:03:55.930Z",
+      "birthtime": "2018-08-15T22:32:33.000Z"
+    },
+    "cec93746-1c80-5817-b88e-0c4e010c1b8d": {
+      "id": "cec93746-1c80-5817-b88e-0c4e010c1b8d",
+      "children": [],
+      "parent": "25ba0a69-1826-5bf1-9ea1-3468e47bda14",
+      "internal": {
+        "contentDigest": "04b78b50def8210a98680ae2ca9c53a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "355b1b89-b06e-5610-aaac-7ab704eb9781": {
+      "id": "355b1b89-b06e-5610-aaac-7ab704eb9781",
+      "children": [
+        "dd78672d-de92-56e4-9178-fa84fff42bd6"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "93728217ee34d52086a4b42d395a475d",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/statue.jpg\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "excerpt": "",
-      "rawMarkdownBody": "\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post2.md"
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/statue.jpg",
+      "relativePath": "statue.jpg",
+      "extension": "jpg",
+      "size": 10167296,
+      "prettySize": "10.2 MB",
+      "modifiedTime": "2018-04-03T15:12:52.000Z",
+      "accessTime": "2018-11-11T08:04:39.418Z",
+      "changeTime": "2018-11-11T08:04:49.871Z",
+      "birthTime": "2018-04-03T15:12:52.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "statue.jpg",
+      "ext": ".jpg",
+      "name": "statue",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16601690,
+      "blocks": 19864,
+      "atimeMs": 1541923479417.9792,
+      "mtimeMs": 1522768372000,
+      "ctimeMs": 1541923489871.2703,
+      "birthtimeMs": 1522768372000,
+      "atime": "2018-11-11T08:04:39.418Z",
+      "mtime": "2018-04-03T15:12:52.000Z",
+      "ctime": "2018-11-11T08:04:49.871Z",
+      "birthtime": "2018-04-03T15:12:52.000Z"
+    },
+    "dd78672d-de92-56e4-9178-fa84fff42bd6": {
+      "id": "dd78672d-de92-56e4-9178-fa84fff42bd6",
+      "children": [],
+      "parent": "355b1b89-b06e-5610-aaac-7ab704eb9781",
+      "internal": {
+        "contentDigest": "93728217ee34d52086a4b42d395a475d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "100667e3-e76a-51b6-9a81-f7ffb75cfc74": {
       "id": "100667e3-e76a-51b6-9a81-f7ffb75cfc74",
       "children": [],
       "parent": "786b09b8-5357-5f37-beac-8acc3a047542",
       "internal": {
-        "content": "\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+        "content": "\n![statue](../images/statue.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
         "type": "MarkdownRemark",
-        "contentDigest": "f2acd81a6d55b5381039adfab5f35509",
+        "contentDigest": "3d7be1846b9b24c492de46d6d12c5adf",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "Golden Triangle",
         "slug": "/golden-triangle",
         "date": "2018-11-08",
+        "cover": "../images/statue.jpg",
         "_PARENT": "786b09b8-5357-5f37-beac-8acc3a047542"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+      "rawMarkdownBody": "\n![statue](../images/statue.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post3.md"
+    },
+    "8d2bd18b-c2f1-5383-86c1-de558c38b4e6": {
+      "id": "8d2bd18b-c2f1-5383-86c1-de558c38b4e6",
+      "children": [],
+      "parent": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc",
+      "internal": {
+        "content": "\n![clock-tower](../images/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+        "type": "MarkdownRemark",
+        "contentDigest": "b47b87aad89bda0eeb263bd0969b8a93",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Chiang Rai Clock Tower",
+        "slug": "/chiang-rai",
+        "date": "2018-11-07",
+        "cover": "../images/clock-tower.jpg",
+        "_PARENT": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![clock-tower](../images/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post2.md"
     },
     "66a66fc1-5c81-511e-bf90-d0d53b01a16b": {
       "id": "66a66fc1-5c81-511e-bf90-d0d53b01a16b",
       "children": [],
       "parent": "81d35b1e-57da-53f5-9705-471f77f880bb",
       "internal": {
-        "content": "\n![](../images/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+        "content": "\n![white-temple](../images/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
         "type": "MarkdownRemark",
-        "contentDigest": "a260c90adc5ae04cfbf9e9b1970eb6a2",
+        "contentDigest": "d61836bcf497be45d9f432aff1742363",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "Visiting the White Temple",
         "slug": "/white-temple",
         "date": "2018-11-06",
+        "cover": "../images/white-temple.jpg",
         "_PARENT": "81d35b1e-57da-53f5-9705-471f77f880bb"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](../images/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+      "rawMarkdownBody": "\n![white-temple](../images/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post1.md"
-    },
-    "SitePage /posts/chiang-rai": {
-      "jsonName": "posts-chiang-rai-71d",
-      "internalComponentName": "ComponentPostsChiangRai",
-      "path": "/posts/chiang-rai",
-      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
-      "componentChunkName": "component---src-components-post-layout-js",
-      "context": {
-        "slug": "/chiang-rai"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
-      "id": "SitePage /posts/chiang-rai",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4a230a22d509e7b933cb670cbee33d56",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
     },
     "SitePage /posts/golden-triangle": {
       "jsonName": "posts-golden-triangle-c96",
@@ -2114,6 +2454,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "7f863809651a3db7238d4110cc2dcdd6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/chiang-rai": {
+      "jsonName": "posts-chiang-rai-71d",
+      "internalComponentName": "ComponentPostsChiangRai",
+      "path": "/posts/chiang-rai",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/chiang-rai"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/chiang-rai",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4a230a22d509e7b933cb670cbee33d56",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2265,7 +2627,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6f9d0cbf6eb6ade3cceda03ac90303d6"
+    "PLUGINS_HASH": "99c128e203e30fdcac479869a59d65d9"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2284,18 +2646,43 @@
       "4c5e7cf7-eb59-55e5-b895-6a0171409b41": [
         "sq--src-components-layout-js"
       ],
+      "66a66fc1-5c81-511e-bf90-d0d53b01a16b": [
+        "/posts/white-temple"
+      ],
       "8d2bd18b-c2f1-5383-86c1-de558c38b4e6": [
         "/posts/chiang-rai"
       ],
       "100667e3-e76a-51b6-9a81-f7ffb75cfc74": [
         "/posts/golden-triangle"
       ],
-      "66a66fc1-5c81-511e-bf90-d0d53b01a16b": [
-        "/posts/white-temple"
+      "d8a65131-2529-5031-b8c0-95ed1cef34f3": [
+        "/",
+        "sq--src-components-listing-js"
+      ],
+      "25ba0a69-1826-5bf1-9ea1-3468e47bda14": [
+        "/",
+        "sq--src-components-listing-js"
+      ],
+      "355b1b89-b06e-5610-aaac-7ab704eb9781": [
+        "/",
+        "sq--src-components-listing-js"
+      ],
+      "8d1f925c-95ac-57fc-aed5-764dfbaaef81": [
+        "/",
+        "sq--src-components-listing-js"
+      ],
+      "cec93746-1c80-5817-b88e-0c4e010c1b8d": [
+        "/",
+        "sq--src-components-listing-js"
+      ],
+      "dd78672d-de92-56e4-9178-fa84fff42bd6": [
+        "/",
+        "sq--src-components-listing-js"
       ]
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null,
         "sq--src-components-archive-js",
         "sq--src-components-listing-js"
@@ -2303,27 +2690,20 @@
     }
   },
   "jsonDataPaths": {
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-archive-js": 1967351310,
+    "posts-chiang-rai-71d": "231/path---posts-chiang-rai-71-d-860-znYdgRC2bmReRRfHvVIHXwwH6NE",
+    "sq--src-components-image-js": 2011440971,
+    "posts-white-temple-126": "352/path---posts-white-temple-126-dcc-BjwwXlS326jvWDkhVOooGaYY",
+    "sq--src-components-listing-js": 72632339,
+    "posts-golden-triangle-c96": "926/path---posts-golden-triangle-c-96-85f-SGHyWRcpcEIsc4vSpwy3kIlSkCQ",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 973632614,
-    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "company-team-a16": "654/path---company-team-a-16-046-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971,
-    "sq--src-components-archive-js": 1735061898,
-    "somefakepage-bea": "601/path---somefakepage-bea-f3b-NZuapzHg3X9TaN1iIixfv1W23E",
-    "white-temple-e2b": "84/path---white-temple-e-2-b-c4e-NZuapzHg3X9TaN1iIixfv1W23E",
-    "chiang-rai-098": "435/path---chiang-rai-098-e2b-NZuapzHg3X9TaN1iIixfv1W23E",
-    "golden-triangle-af0": "853/path---golden-triangle-af-0-d45-NZuapzHg3X9TaN1iIixfv1W23E",
-    "white-temple-35c": "8/path---white-temple-35-c-c3e-NZuapzHg3X9TaN1iIixfv1W23E",
-    "chiang-rai-d8e": "909/path---chiang-rai-d-8-e-a36-NZuapzHg3X9TaN1iIixfv1W23E",
-    "golden-triangle-76d": "686/path---golden-triangle-76-d-a8e-NZuapzHg3X9TaN1iIixfv1W23E",
-    "posts-white-temple-126": "15/path---posts-white-temple-126-dcc-AE7iyBuotN9x4zynUcj70PY",
-    "posts-golden-triangle-c96": "695/path---posts-golden-triangle-c-96-85f-uGuLPiOZFyiy1WikiWghuOd8ms",
-    "posts-chiang-rai-71d": "725/path---posts-chiang-rai-71-d-860-gcMPjeEZG2SjMW9C9AKV1U19L8",
-    "sq--src-components-listing-js": 1630240565
+    "sq--src-components-layout-js": 973632614
   },
   "components": {
     "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js": {
@@ -2356,6 +2736,14 @@
     }
   },
   "staticQueryComponents": {
+    "sq--src-components-archive-js": {
+      "name": "BlogPostArchive",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/archive.js",
+      "id": "sq--src-components-archive-js",
+      "jsonName": "sq--src-components-archive-js",
+      "query": "query BlogPostArchive {\n  allMarkdownRemark(limit: 5, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 1967351310
+    },
     "sq--src-components-image-js": {
       "name": "usersMichaelcastorProjectsThailandBlogSrcComponentsImageJs2011440971",
       "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/image.js",
@@ -2363,14 +2751,6 @@
       "jsonName": "sq--src-components-image-js",
       "query": "query usersMichaelcastorProjectsThailandBlogSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
-    },
-    "sq--src-components-archive-js": {
-      "name": "BlogPostArchive",
-      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/archive.js",
-      "id": "sq--src-components-archive-js",
-      "jsonName": "sq--src-components-archive-js",
-      "query": "query BlogPostArchive {\n  allMarkdownRemark(limit: 5, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 1735061898
     },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
@@ -2385,8 +2765,8 @@
       "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/listing.js",
       "id": "sq--src-components-listing-js",
       "jsonName": "sq--src-components-listing-js",
-      "query": "query BlogPostListing {\n  allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM DD YYYY\")\n          title\n          slug\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 1630240565
+      "query": "query BlogPostListing {\n  allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          slug\n          cover {\n            id\n            childImageSharp {\n              fluid(maxWidth: 300) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 72632339
     }
   }
 }

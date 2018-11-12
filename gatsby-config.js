@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Dreaming of Thailand',
-    description: 'Travels in the Land of Smiles'
+    description: 'Travels in the Land of Smiles',
+    siteUrl: 'https://dreaming-of-thailand-v2.netlify.com/',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,10 +19,8 @@ module.exports = {
         path: `${__dirname}/src/posts`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-manifest`, // TODO:  Complete manifest...
       options: {
         name: 'Dreaming of Thailand',
         short_name: 'Thailand Travel Blog',
@@ -47,13 +45,13 @@ module.exports = {
         ],
       },
     },
-    'gatsby-transformer-remark',
-    'gatsby-plugin-styled-components',
-    'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
-    'gatsby-plugin-netlify', // always should be last in the array...
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify', // always last in the array...
   ],
 };
