@@ -36,13 +36,38 @@
     },
     {
         "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-black-house-eac",
+        "path": "/posts/black-house"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
         "jsonName": "posts-chiang-rai-71d",
         "path": "/posts/chiang-rai"
     },
     {
         "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-doi-chang-f9f",
+        "path": "/posts/doi-chang"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-doi-mae-salong-f47",
+        "path": "/posts/doi-mae-salong"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
         "jsonName": "posts-golden-triangle-c96",
         "path": "/posts/golden-triangle"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-khantoke-b3a",
+        "path": "/posts/khantoke"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-koh-lipe-7d3",
+        "path": "/posts/koh-lipe"
     },
     {
         "componentChunkName": "component---src-components-post-layout-js",

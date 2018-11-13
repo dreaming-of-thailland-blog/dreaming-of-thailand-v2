@@ -30,8 +30,8 @@ exports.createPages = ({ graphql, actions }) => {
             slug: node.frontmatter.slug,
           }
         });
-      })
+      });
       resolve();
       })
     });
-  }
+  };

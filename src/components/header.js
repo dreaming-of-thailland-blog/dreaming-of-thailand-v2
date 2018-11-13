@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
 
-import riceField from '../images/rice-field.jpg';
+// import riceField from '../images/rice-field.jpg';
 
 const HeaderWrapper = styled.div`
-  background: #524763;
+  background: #000000;
   img {
     margin-bottom: 0;
   }
@@ -28,13 +28,13 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          <img
-            style={{
-              width: '100px',
-            }}
-            src={riceField}
-            alt="Rice Field"
-          />
+          {/*<img*/}
+            {/*style={{*/}
+              {/*width: '100px',*/}
+            {/*}}*/}
+            {/*src={riceField}*/}
+            {/*alt="Rice Field"*/}
+          {/*/>*/}
         </Link>
       </h1>
     </HeaderContainer>
