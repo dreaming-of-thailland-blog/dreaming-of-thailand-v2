@@ -440,9 +440,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "eb9ab2fe-c4f3-5644-808d-c4e9b1a91aac": {
+    "0c48092c-9a71-5c64-aaf5-2b66764efc9b": {
       "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-manifest",
-      "id": "eb9ab2fe-c4f3-5644-808d-c4e9b1a91aac",
+      "id": "0c48092c-9a71-5c64-aaf5-2b66764efc9b",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.8",
       "pluginOptions": {
@@ -453,7 +453,7 @@
         "background_color": "#663399",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "src/images/white-temple.jpg"
+        "icon": "src/images/white-temple/white-temple.jpg"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -526,7 +526,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3a3e45fe8f33be339f6b774a51f14e92",
+        "contentDigest": "9c0f024a344a9f7732ccad9cbaa7b108",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -892,116 +892,6 @@
       "children": [],
       "internal": {
         "contentDigest": "831b1c923f5b3cf2f77e6c969b0e61d2",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "4303f310-a6d0-5b7c-b8cd-0fc45931d73d": {
-      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-netlify-cms",
-      "id": "4303f310-a6d0-5b7c-b8cd-0fc45931d73d",
-      "name": "gatsby-plugin-netlify-cms",
-      "version": "3.0.7",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
-      "browserAPIs": [
-        "onInitialClientRender"
-      ],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-netlify-cms",
-      "packageJson": {
-        "name": "gatsby-plugin-netlify-cms",
-        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
-        "version": "3.0.7",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "netlify",
-          "netlify-cms",
-          "cms"
-        ],
-        "author": {
-          "name": "Shawn Erquhart",
-          "email": "shawn@erquh.art"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "friendly-errors-webpack-plugin",
-            "version": "^1.7.0"
-          },
-          {
-            "name": "html-webpack-exclude-assets-plugin",
-            "version": "^0.0.7"
-          },
-          {
-            "name": "html-webpack-plugin",
-            "version": "^3.2.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mini-css-extract-plugin",
-            "version": "^0.4.1"
-          },
-          {
-            "name": "netlify-identity-widget",
-            "version": "^1.4.11"
-          },
-          {
-            "name": "webpack",
-            "version": "^4.16.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          },
-          {
-            "name": "react",
-            "version": "^16.4.1"
-          },
-          {
-            "name": "react-dom",
-            "version": "^16.4.1"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0-beta.29"
-          },
-          {
-            "name": "netlify-cms",
-            "version": "^2.0.6"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "149c7b64a6fe92d0d8929a850b14ffc8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1552,7 +1442,7 @@
       "resolve": "/Users/michaelcastor/projects/thailand-blog",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "15d8a63a8938c19047199bd74ee7cf40",
+      "version": "00045256dd33b047de8f1292cff2414f",
       "pluginOptions": {
         "plugins": []
       },
@@ -1597,10 +1487,6 @@
             "version": "^2.0.4"
           },
           {
-            "name": "gatsby-plugin-netlify-cms",
-            "version": "^3.0.7"
-          },
-          {
             "name": "gatsby-plugin-offline",
             "version": "^2.0.13"
           },
@@ -1637,8 +1523,8 @@
             "version": "^2.1.8"
           },
           {
-            "name": "netlify-cms",
-            "version": "^2.1.3"
+            "name": "normalize.css",
+            "version": "^8.0.1"
           },
           {
             "name": "react",
@@ -1674,7 +1560,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ebde18517f394e4fb2eac27b36f475a2",
+        "contentDigest": "f5232cb04135243f3ae1700d287f3889",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1792,12 +1678,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-12T03:02:18.094Z",
+      "buildTime": "2018-11-13T17:57:24.444Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "acfd165813a56d22be7fce26f037ca66",
+        "contentDigest": "b81b30fd8a295bc7610852440d69b277",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1807,7 +1693,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "564d07c7ee288b2e976efef266819d18",
+        "contentDigest": "4ae147d5c8cd437e27090dbc4b346950",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1816,11 +1702,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2018-11-11T08:04:49.871Z",
-      "accessTime": "2018-11-12T03:02:20.744Z",
-      "changeTime": "2018-11-11T08:04:49.871Z",
+      "size": 384,
+      "prettySize": "384 B",
+      "modifiedTime": "2018-11-13T17:02:16.021Z",
+      "accessTime": "2018-11-13T17:57:27.481Z",
+      "changeTime": "2018-11-13T17:02:16.021Z",
       "birthTime": "2018-11-07T18:47:20.714Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src",
@@ -1830,21 +1716,373 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 12,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 15850176,
       "blocks": 0,
-      "atimeMs": 1541991740743.54,
-      "mtimeMs": 1541923489871.2705,
-      "ctimeMs": 1541923489871.2705,
+      "atimeMs": 1542131847480.727,
+      "mtimeMs": 1542128536020.7014,
+      "ctimeMs": 1542128536020.7014,
       "birthtimeMs": 1541616440713.688,
-      "atime": "2018-11-12T03:02:20.744Z",
-      "mtime": "2018-11-11T08:04:49.871Z",
-      "ctime": "2018-11-11T08:04:49.871Z",
+      "atime": "2018-11-13T17:57:27.481Z",
+      "mtime": "2018-11-13T17:02:16.021Z",
+      "ctime": "2018-11-13T17:02:16.021Z",
       "birthtime": "2018-11-07T18:47:20.714Z"
+    },
+    "53db22c3-bccc-5443-94e4-0eae32e498ca": {
+      "id": "53db22c3-bccc-5443-94e4-0eae32e498ca",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d05e3ef6289c08f1e9d25ae9de14669f",
+        "type": "Directory",
+        "description": "Directory \"src/images/clock-tower\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "relativePath": "clock-tower",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-11-13T16:26:38.970Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T16:26:38.970Z",
+      "birthTime": "2018-11-13T16:26:21.878Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "clock-tower",
+      "ext": "",
+      "name": "clock-tower",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651589,
+      "blocks": 0,
+      "atimeMs": 1542131847485.029,
+      "mtimeMs": 1542126398969.5647,
+      "ctimeMs": 1542126398969.5647,
+      "birthtimeMs": 1542126381877.9387,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T16:26:38.970Z",
+      "ctime": "2018-11-13T16:26:38.970Z",
+      "birthtime": "2018-11-13T16:26:21.878Z"
+    },
+    "88344667-eac6-548d-a1d1-ad7bdab50fbc": {
+      "id": "88344667-eac6-548d-a1d1-ad7bdab50fbc",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "20200f0e3b4cd5be0591fb27b938eaef",
+        "type": "Directory",
+        "description": "Directory \"src/images/doi-chang\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "relativePath": "doi-chang",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-11-13T14:25:19.621Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T14:25:19.621Z",
+      "birthTime": "2018-11-13T14:25:19.438Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "doi-chang",
+      "ext": "",
+      "name": "doi-chang",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646687,
+      "blocks": 0,
+      "atimeMs": 1542131847484.99,
+      "mtimeMs": 1542119119620.766,
+      "ctimeMs": 1542119119620.766,
+      "birthtimeMs": 1542119119437.967,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T14:25:19.621Z",
+      "ctime": "2018-11-13T14:25:19.621Z",
+      "birthtime": "2018-11-13T14:25:19.438Z"
+    },
+    "9f38c6ff-70a3-59b2-9fe8-439fd6ecbb1c": {
+      "id": "9f38c6ff-70a3-59b2-9fe8-439fd6ecbb1c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fe85b0883a75e82df76915627b0eaeb4",
+        "type": "Directory",
+        "description": "Directory \"src/images/black-house\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "relativePath": "black-house",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-11-13T01:26:40.000Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T14:17:57.070Z",
+      "birthTime": "2018-11-13T00:42:59.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "black-house",
+      "ext": "",
+      "name": "black-house",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16633973,
+      "blocks": 0,
+      "atimeMs": 1542131847484.9502,
+      "mtimeMs": 1542072400000,
+      "ctimeMs": 1542118677070.4016,
+      "birthtimeMs": 1542069779000,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T01:26:40.000Z",
+      "ctime": "2018-11-13T14:17:57.070Z",
+      "birthtime": "2018-11-13T00:42:59.000Z"
+    },
+    "6b9d9ea5-170e-584b-b801-09e3c87828eb": {
+      "id": "6b9d9ea5-170e-584b-b801-09e3c87828eb",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "309801230182eb089553684fedbc8e48",
+        "type": "Directory",
+        "description": "Directory \"src/images/doi-mae-salong\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "relativePath": "doi-mae-salong",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-11-13T14:41:39.958Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T14:41:39.958Z",
+      "birthTime": "2018-11-13T14:41:39.726Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "doi-mae-salong",
+      "ext": "",
+      "name": "doi-mae-salong",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16648050,
+      "blocks": 0,
+      "atimeMs": 1542131847484.9705,
+      "mtimeMs": 1542120099958.348,
+      "ctimeMs": 1542120099958.348,
+      "birthtimeMs": 1542120099725.7864,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T14:41:39.958Z",
+      "ctime": "2018-11-13T14:41:39.958Z",
+      "birthtime": "2018-11-13T14:41:39.726Z"
+    },
+    "86e5802c-d6ef-5fab-8496-31a475266704": {
+      "id": "86e5802c-d6ef-5fab-8496-31a475266704",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0c4aee0c6e7c3fc4213dea01b6edb00c",
+        "type": "Directory",
+        "description": "Directory \"src/images/golden-triangle\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "relativePath": "golden-triangle",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-11-13T16:31:21.742Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T16:31:21.742Z",
+      "birthTime": "2018-11-13T16:29:51.888Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "golden-triangle",
+      "ext": "",
+      "name": "golden-triangle",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651880,
+      "blocks": 0,
+      "atimeMs": 1542131847485.0098,
+      "mtimeMs": 1542126681741.852,
+      "ctimeMs": 1542126681741.852,
+      "birthtimeMs": 1542126591887.74,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T16:31:21.742Z",
+      "ctime": "2018-11-13T16:31:21.742Z",
+      "birthtime": "2018-11-13T16:29:51.888Z"
+    },
+    "cffeb9bf-a7ae-568b-9455-146dd6bdb53b": {
+      "id": "cffeb9bf-a7ae-568b-9455-146dd6bdb53b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "428fc185214297466e68b5917bc3d497",
+        "type": "Directory",
+        "description": "Directory \"src/images/koh-lipe\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe",
+      "relativePath": "koh-lipe",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-11-13T17:02:59.343Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T17:02:59.343Z",
+      "birthTime": "2018-11-13T16:54:24.844Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "koh-lipe",
+      "ext": "",
+      "name": "koh-lipe",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653795,
+      "blocks": 0,
+      "atimeMs": 1542131847485.068,
+      "mtimeMs": 1542128579343.2097,
+      "ctimeMs": 1542128579343.2097,
+      "birthtimeMs": 1542128064843.7139,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T17:02:59.343Z",
+      "ctime": "2018-11-13T17:02:59.343Z",
+      "birthtime": "2018-11-13T16:54:24.844Z"
+    },
+    "411fe94a-d523-51d8-bd97-e0f650d7e003": {
+      "id": "411fe94a-d523-51d8-bd97-e0f650d7e003",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "af8a8880d86457095dff3cd19da5e967",
+        "type": "Directory",
+        "description": "Directory \"src/images/old-chiangmai-khantoke\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
+      "relativePath": "old-chiangmai-khantoke",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-11-13T16:54:11.324Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T16:54:11.324Z",
+      "birthTime": "2018-11-13T16:54:11.204Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "old-chiangmai-khantoke",
+      "ext": "",
+      "name": "old-chiangmai-khantoke",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653765,
+      "blocks": 0,
+      "atimeMs": 1542131847485.0493,
+      "mtimeMs": 1542128051324.3618,
+      "ctimeMs": 1542128051324.3618,
+      "birthtimeMs": 1542128051204.0022,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T16:54:11.324Z",
+      "ctime": "2018-11-13T16:54:11.324Z",
+      "birthtime": "2018-11-13T16:54:11.204Z"
+    },
+    "b8cf0bbc-d761-5e01-9a38-2f7d5ac9b66f": {
+      "id": "b8cf0bbc-d761-5e01-9a38-2f7d5ac9b66f",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "67b7ff8f514ff21e62673191a6de9f88",
+        "type": "Directory",
+        "description": "Directory \"src/images/white-temple\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple",
+      "relativePath": "white-temple",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-11-13T16:25:41.694Z",
+      "accessTime": "2018-11-13T17:57:27.485Z",
+      "changeTime": "2018-11-13T16:25:41.694Z",
+      "birthTime": "2018-11-13T16:20:22.400Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "base": "white-temple",
+      "ext": "",
+      "name": "white-temple",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16650681,
+      "blocks": 0,
+      "atimeMs": 1542131847485.0876,
+      "mtimeMs": 1542126341694.4788,
+      "ctimeMs": 1542126341694.4788,
+      "birthtimeMs": 1542126022400.2327,
+      "atime": "2018-11-13T17:57:27.485Z",
+      "mtime": "2018-11-13T16:25:41.694Z",
+      "ctime": "2018-11-13T16:25:41.694Z",
+      "birthtime": "2018-11-13T16:20:22.400Z"
     },
     "75c3ceca-58ad-50fe-bfab-9ff99f8cd2d8": {
       "id": "75c3ceca-58ad-50fe-bfab-9ff99f8cd2d8",
@@ -1866,7 +2104,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-11-07T18:47:20.715Z",
-      "accessTime": "2018-11-11T02:46:54.237Z",
+      "accessTime": "2018-11-13T17:10:53.666Z",
       "changeTime": "2018-11-07T18:47:20.715Z",
       "birthTime": "2018-11-07T18:47:20.715Z",
       "root": "/",
@@ -1884,61 +2122,14 @@
       "blksize": 4194304,
       "ino": 15850178,
       "blocks": 48,
-      "atimeMs": 1541904414237.008,
+      "atimeMs": 1542129053665.666,
       "mtimeMs": 1541616440715.4856,
       "ctimeMs": 1541616440715.4856,
       "birthtimeMs": 1541616440715.013,
-      "atime": "2018-11-11T02:46:54.237Z",
+      "atime": "2018-11-13T17:10:53.666Z",
       "mtime": "2018-11-07T18:47:20.715Z",
       "ctime": "2018-11-07T18:47:20.715Z",
       "birthtime": "2018-11-07T18:47:20.715Z"
-    },
-    "5e26d1f7-f709-5d97-9df5-a47b4a760c6c": {
-      "id": "5e26d1f7-f709-5d97-9df5-a47b4a760c6c",
-      "children": [
-        "96537a49-7f1c-54e0-ac3f-1cb48a538fbd"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2018-11-07T18:47:20.715Z",
-      "accessTime": "2018-11-11T02:46:54.451Z",
-      "changeTime": "2018-11-07T18:47:20.715Z",
-      "birthTime": "2018-11-07T18:47:20.714Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 15850177,
-      "blocks": 328,
-      "atimeMs": 1541904414451.0554,
-      "mtimeMs": 1541616440714.788,
-      "ctimeMs": 1541616440714.788,
-      "birthtimeMs": 1541616440713.7524,
-      "atime": "2018-11-11T02:46:54.451Z",
-      "mtime": "2018-11-07T18:47:20.715Z",
-      "ctime": "2018-11-07T18:47:20.715Z",
-      "birthtime": "2018-11-07T18:47:20.714Z"
     },
     "4f202643-de50-583f-a773-0721684d67b6": {
       "id": "4f202643-de50-583f-a773-0721684d67b6",
@@ -1950,12 +2141,1065 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "96537a49-7f1c-54e0-ac3f-1cb48a538fbd": {
-      "id": "96537a49-7f1c-54e0-ac3f-1cb48a538fbd",
-      "children": [],
-      "parent": "5e26d1f7-f709-5d97-9df5-a47b4a760c6c",
+    "6d91fcf5-4ccc-5e5a-a13f-7513a218ab0e": {
+      "id": "6d91fcf5-4ccc-5e5a-a13f-7513a218ab0e",
+      "children": [
+        "d899e665-4bb1-5a37-b401-f9219e5c30f6"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "contentDigest": "a2f853ecb6d86c74d2cfc8a279e4d7b3",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/more-doi-chang-coffee.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/more-doi-chang-coffee.jpg",
+      "relativePath": "doi-chang/more-doi-chang-coffee.jpg",
+      "extension": "jpg",
+      "size": 304808,
+      "prettySize": "305 kB",
+      "modifiedTime": "2018-11-13T01:32:27.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:25:19.623Z",
+      "birthTime": "2018-11-13T01:32:27.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "more-doi-chang-coffee.jpg",
+      "ext": ".jpg",
+      "name": "more-doi-chang-coffee",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646697,
+      "blocks": 600,
+      "atimeMs": 1542129423432.117,
+      "mtimeMs": 1542072747000,
+      "ctimeMs": 1542119119623.3818,
+      "birthtimeMs": 1542072747000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:32:27.000Z",
+      "ctime": "2018-11-13T14:25:19.623Z",
+      "birthtime": "2018-11-13T01:32:27.000Z"
+    },
+    "a6a4290f-96a1-5815-a25b-33b66ead145c": {
+      "id": "a6a4290f-96a1-5815-a25b-33b66ead145c",
+      "children": [
+        "00b75750-f4a0-5b95-874b-ee2f0c71a4b5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc65a0608e06ac1fac95a2feebb88520",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/koh-lipe/koh-lipe-boat.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe/koh-lipe-boat.jpg",
+      "relativePath": "koh-lipe/koh-lipe-boat.jpg",
+      "extension": "jpg",
+      "size": 425246,
+      "prettySize": "425 kB",
+      "modifiedTime": "2018-11-13T16:48:53.000Z",
+      "accessTime": "2018-11-13T17:17:03.767Z",
+      "changeTime": "2018-11-13T17:02:23.622Z",
+      "birthTime": "2018-11-13T16:48:53.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe",
+      "base": "koh-lipe-boat.jpg",
+      "ext": ".jpg",
+      "name": "koh-lipe-boat",
+      "relativeDirectory": "koh-lipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653796,
+      "blocks": 832,
+      "atimeMs": 1542129423767.2444,
+      "mtimeMs": 1542127733000,
+      "ctimeMs": 1542128543621.5015,
+      "birthtimeMs": 1542127733000,
+      "atime": "2018-11-13T17:17:03.767Z",
+      "mtime": "2018-11-13T16:48:53.000Z",
+      "ctime": "2018-11-13T17:02:23.622Z",
+      "birthtime": "2018-11-13T16:48:53.000Z"
+    },
+    "d899e665-4bb1-5a37-b401-f9219e5c30f6": {
+      "id": "d899e665-4bb1-5a37-b401-f9219e5c30f6",
+      "children": [],
+      "parent": "6d91fcf5-4ccc-5e5a-a13f-7513a218ab0e",
+      "internal": {
+        "contentDigest": "a2f853ecb6d86c74d2cfc8a279e4d7b3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ad9f3aca-24fe-5702-92b2-e624ebe535e1": {
+      "id": "ad9f3aca-24fe-5702-92b2-e624ebe535e1",
+      "children": [
+        "94f8b8d1-c233-5b28-a700-77119d68b028"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2e9f8ede21da16351691acb160da75cf",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/koh-lipe/koh-lipe-speed-boat.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe/koh-lipe-speed-boat.jpg",
+      "relativePath": "koh-lipe/koh-lipe-speed-boat.jpg",
+      "extension": "jpg",
+      "size": 512893,
+      "prettySize": "513 kB",
+      "modifiedTime": "2018-11-13T16:47:06.000Z",
+      "accessTime": "2018-11-13T17:17:03.767Z",
+      "changeTime": "2018-11-13T17:02:59.343Z",
+      "birthTime": "2018-11-13T16:47:06.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe",
+      "base": "koh-lipe-speed-boat.jpg",
+      "ext": ".jpg",
+      "name": "koh-lipe-speed-boat",
+      "relativeDirectory": "koh-lipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653800,
+      "blocks": 1008,
+      "atimeMs": 1542129423767.4978,
+      "mtimeMs": 1542127626000,
+      "ctimeMs": 1542128579343.2095,
+      "birthtimeMs": 1542127626000,
+      "atime": "2018-11-13T17:17:03.767Z",
+      "mtime": "2018-11-13T16:47:06.000Z",
+      "ctime": "2018-11-13T17:02:59.343Z",
+      "birthtime": "2018-11-13T16:47:06.000Z"
+    },
+    "46cec956-65ea-5902-b9d5-4bc9d522c62d": {
+      "id": "46cec956-65ea-5902-b9d5-4bc9d522c62d",
+      "children": [
+        "47e1673d-c0fd-562f-a13a-64b5760036ca"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a3d29947d79a9d3df69bf419368c58da",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/cher-and-uncle.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/cher-and-uncle.jpg",
+      "relativePath": "golden-triangle/cher-and-uncle.jpg",
+      "extension": "jpg",
+      "size": 480052,
+      "prettySize": "480 kB",
+      "modifiedTime": "2018-11-13T01:38:21.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:29:52.110Z",
+      "birthTime": "2018-11-13T01:38:21.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "cher-and-uncle.jpg",
+      "ext": ".jpg",
+      "name": "cher-and-uncle",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651886,
+      "blocks": 944,
+      "atimeMs": 1542129423432.404,
+      "mtimeMs": 1542073101000,
+      "ctimeMs": 1542126592109.6606,
+      "birthtimeMs": 1542073101000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:38:21.000Z",
+      "ctime": "2018-11-13T16:29:52.110Z",
+      "birthtime": "2018-11-13T01:38:21.000Z"
+    },
+    "00b75750-f4a0-5b95-874b-ee2f0c71a4b5": {
+      "id": "00b75750-f4a0-5b95-874b-ee2f0c71a4b5",
+      "children": [],
+      "parent": "a6a4290f-96a1-5815-a25b-33b66ead145c",
+      "internal": {
+        "contentDigest": "dc65a0608e06ac1fac95a2feebb88520",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c8640557-84e5-5183-a009-3d294a234fb2": {
+      "id": "c8640557-84e5-5183-a009-3d294a234fb2",
+      "children": [
+        "4d4fc9f7-5e28-53c8-869e-95679c8790be"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ac0c5df6c2d6ff09c9f88a1181f1f3b6",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/doi-chang-coffee.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/doi-chang-coffee.jpg",
+      "relativePath": "doi-chang/doi-chang-coffee.jpg",
+      "extension": "jpg",
+      "size": 532367,
+      "prettySize": "532 kB",
+      "modifiedTime": "2018-11-13T01:29:04.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:25:19.554Z",
+      "birthTime": "2018-11-13T01:29:04.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "doi-chang-coffee.jpg",
+      "ext": ".jpg",
+      "name": "doi-chang-coffee",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646693,
+      "blocks": 1040,
+      "atimeMs": 1542129423432.0051,
+      "mtimeMs": 1542072544000,
+      "ctimeMs": 1542119119553.9624,
+      "birthtimeMs": 1542072544000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:29:04.000Z",
+      "ctime": "2018-11-13T14:25:19.554Z",
+      "birthtime": "2018-11-13T01:29:04.000Z"
+    },
+    "94f8b8d1-c233-5b28-a700-77119d68b028": {
+      "id": "94f8b8d1-c233-5b28-a700-77119d68b028",
+      "children": [],
+      "parent": "ad9f3aca-24fe-5702-92b2-e624ebe535e1",
+      "internal": {
+        "contentDigest": "2e9f8ede21da16351691acb160da75cf",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "47e1673d-c0fd-562f-a13a-64b5760036ca": {
+      "id": "47e1673d-c0fd-562f-a13a-64b5760036ca",
+      "children": [],
+      "parent": "46cec956-65ea-5902-b9d5-4bc9d522c62d",
+      "internal": {
+        "contentDigest": "a3d29947d79a9d3df69bf419368c58da",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fa2b3cab-39a4-528f-97e1-7633fcb87cef": {
+      "id": "fa2b3cab-39a4-528f-97e1-7633fcb87cef",
+      "children": [
+        "65122004-fbe5-5026-8e79-82c1e405836f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "01b8e4e765602220a7b3b5977a5b15ce",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
+      "relativePath": "old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
+      "extension": "jpg",
+      "size": 650587,
+      "prettySize": "651 kB",
+      "modifiedTime": "2018-11-13T16:50:14.000Z",
+      "accessTime": "2018-11-13T17:17:03.768Z",
+      "changeTime": "2018-11-13T16:54:11.221Z",
+      "birthTime": "2018-11-13T16:50:14.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
+      "base": "khantoke-thai-dancers.jpg",
+      "ext": ".jpg",
+      "name": "khantoke-thai-dancers",
+      "relativeDirectory": "old-chiangmai-khantoke",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653767,
+      "blocks": 1272,
+      "atimeMs": 1542129423767.8865,
+      "mtimeMs": 1542127814000,
+      "ctimeMs": 1542128051221.1997,
+      "birthtimeMs": 1542127814000,
+      "atime": "2018-11-13T17:17:03.768Z",
+      "mtime": "2018-11-13T16:50:14.000Z",
+      "ctime": "2018-11-13T16:54:11.221Z",
+      "birthtime": "2018-11-13T16:50:14.000Z"
+    },
+    "4d4fc9f7-5e28-53c8-869e-95679c8790be": {
+      "id": "4d4fc9f7-5e28-53c8-869e-95679c8790be",
+      "children": [],
+      "parent": "c8640557-84e5-5183-a009-3d294a234fb2",
+      "internal": {
+        "contentDigest": "ac0c5df6c2d6ff09c9f88a1181f1f3b6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8387e7d6-c001-5e87-81b1-647f31888a87": {
+      "id": "8387e7d6-c001-5e87-81b1-647f31888a87",
+      "children": [
+        "39ad55a0-8d73-52c6-84f5-1a471160fa66"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dd801bffa8e4f7931daad4966f75f67a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea-tasting.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-tasting.jpg",
+      "relativePath": "doi-mae-salong/tea-tasting.jpg",
+      "extension": "jpg",
+      "size": 709010,
+      "prettySize": "709 kB",
+      "modifiedTime": "2018-11-13T01:36:31.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:41:39.882Z",
+      "birthTime": "2018-11-13T01:36:31.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea-tasting.jpg",
+      "ext": ".jpg",
+      "name": "tea-tasting",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16648053,
+      "blocks": 1392,
+      "atimeMs": 1542129423432.2502,
+      "mtimeMs": 1542072991000,
+      "ctimeMs": 1542120099881.764,
+      "birthtimeMs": 1542072991000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:36:31.000Z",
+      "ctime": "2018-11-13T14:41:39.882Z",
+      "birthtime": "2018-11-13T01:36:31.000Z"
+    },
+    "ccf39244-7d1d-56e3-a81d-f7bb3d840032": {
+      "id": "ccf39244-7d1d-56e3-a81d-f7bb3d840032",
+      "children": [
+        "d296f84f-351a-5d22-8622-424de993c405"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "04b78b50def8210a98680ae2ca9c53a7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/clock-tower/clock-tower.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/clock-tower.jpg",
+      "relativePath": "clock-tower/clock-tower.jpg",
+      "extension": "jpg",
+      "size": 701969,
+      "prettySize": "702 kB",
+      "modifiedTime": "2018-08-15T22:32:33.000Z",
+      "accessTime": "2018-11-13T17:12:54.137Z",
+      "changeTime": "2018-11-13T16:26:38.970Z",
+      "birthTime": "2018-08-15T22:32:33.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "base": "clock-tower.jpg",
+      "ext": ".jpg",
+      "name": "clock-tower",
+      "relativeDirectory": "clock-tower",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16601679,
+      "blocks": 1376,
+      "atimeMs": 1542129174136.7478,
+      "mtimeMs": 1534372353000,
+      "ctimeMs": 1542126398969.5647,
+      "birthtimeMs": 1534372353000,
+      "atime": "2018-11-13T17:12:54.137Z",
+      "mtime": "2018-08-15T22:32:33.000Z",
+      "ctime": "2018-11-13T16:26:38.970Z",
+      "birthtime": "2018-08-15T22:32:33.000Z"
+    },
+    "2b4a9039-c1d5-529c-8942-3c311264c621": {
+      "id": "2b4a9039-c1d5-529c-8942-3c311264c621",
+      "children": [
+        "73f39843-9996-5268-bc23-b0ceb329bc11"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f95ab2ed5ca702fd261bd3ad8acc58fb",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/coffee-map.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/coffee-map.jpg",
+      "relativePath": "doi-chang/coffee-map.jpg",
+      "extension": "jpg",
+      "size": 685637,
+      "prettySize": "686 kB",
+      "modifiedTime": "2018-11-13T01:30:36.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:25:19.548Z",
+      "birthTime": "2018-11-13T01:30:36.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "coffee-map.jpg",
+      "ext": ".jpg",
+      "name": "coffee-map",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646692,
+      "blocks": 1344,
+      "atimeMs": 1542129423431.972,
+      "mtimeMs": 1542072636000,
+      "ctimeMs": 1542119119547.8315,
+      "birthtimeMs": 1542072636000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:30:36.000Z",
+      "ctime": "2018-11-13T14:25:19.548Z",
+      "birthtime": "2018-11-13T01:30:36.000Z"
+    },
+    "85ef5cde-baf8-5fc4-922d-4c20f4d7754f": {
+      "id": "85ef5cde-baf8-5fc4-922d-4c20f4d7754f",
+      "children": [
+        "4ee2a4c2-36c0-5944-b6c6-e55dba128602"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "66adfdecf25581452024ddb5411cbadc",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/koh-lipe/koh-lipe-mountain-resort.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe/koh-lipe-mountain-resort.jpg",
+      "relativePath": "koh-lipe/koh-lipe-mountain-resort.jpg",
+      "extension": "jpg",
+      "size": 630367,
+      "prettySize": "630 kB",
+      "modifiedTime": "2018-11-13T16:48:01.000Z",
+      "accessTime": "2018-11-13T17:17:03.767Z",
+      "changeTime": "2018-11-13T17:02:50.786Z",
+      "birthTime": "2018-11-13T16:48:01.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe",
+      "base": "koh-lipe-mountain-resort.jpg",
+      "ext": ".jpg",
+      "name": "koh-lipe-mountain-resort",
+      "relativeDirectory": "koh-lipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653801,
+      "blocks": 1232,
+      "atimeMs": 1542129423767.419,
+      "mtimeMs": 1542127681000,
+      "ctimeMs": 1542128570785.5132,
+      "birthtimeMs": 1542127681000,
+      "atime": "2018-11-13T17:17:03.767Z",
+      "mtime": "2018-11-13T16:48:01.000Z",
+      "ctime": "2018-11-13T17:02:50.786Z",
+      "birthtime": "2018-11-13T16:48:01.000Z"
+    },
+    "ed335406-c6b0-5656-ad0b-a7e3f5d58678": {
+      "id": "ed335406-c6b0-5656-ad0b-a7e3f5d58678",
+      "children": [
+        "6121bee3-0a58-5a89-a0d5-d516076dc0be"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "23b67d26bcfdcf0f51573b96df4666d1",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg",
+      "relativePath": "old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg",
+      "extension": "jpg",
+      "size": 706746,
+      "prettySize": "707 kB",
+      "modifiedTime": "2018-11-13T16:52:11.000Z",
+      "accessTime": "2018-11-13T17:17:03.768Z",
+      "changeTime": "2018-11-13T16:54:11.328Z",
+      "birthTime": "2018-11-13T16:52:11.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
+      "base": "khantoke-hill-tribe-stick-dancers.jpg",
+      "ext": ".jpg",
+      "name": "khantoke-hill-tribe-stick-dancers",
+      "relativeDirectory": "old-chiangmai-khantoke",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653771,
+      "blocks": 1384,
+      "atimeMs": 1542129423767.6985,
+      "mtimeMs": 1542127931000,
+      "ctimeMs": 1542128051328.0676,
+      "birthtimeMs": 1542127931000,
+      "atime": "2018-11-13T17:17:03.768Z",
+      "mtime": "2018-11-13T16:52:11.000Z",
+      "ctime": "2018-11-13T16:54:11.328Z",
+      "birthtime": "2018-11-13T16:52:11.000Z"
+    },
+    "8b5e33ba-27a0-5ab8-baa0-853bf440dd62": {
+      "id": "8b5e33ba-27a0-5ab8-baa0-853bf440dd62",
+      "children": [
+        "f18f9a7e-b68e-51a9-a058-596c52c2bc66"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f1797b1203a246f6bf2920a5fd334f67",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/old-chiangmai-khantoke/khantoke-musicians.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke/khantoke-musicians.jpg",
+      "relativePath": "old-chiangmai-khantoke/khantoke-musicians.jpg",
+      "extension": "jpg",
+      "size": 686303,
+      "prettySize": "686 kB",
+      "modifiedTime": "2018-11-13T16:51:07.000Z",
+      "accessTime": "2018-11-13T17:17:03.768Z",
+      "changeTime": "2018-11-13T16:54:11.217Z",
+      "birthTime": "2018-11-13T16:51:07.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
+      "base": "khantoke-musicians.jpg",
+      "ext": ".jpg",
+      "name": "khantoke-musicians",
+      "relativeDirectory": "old-chiangmai-khantoke",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653766,
+      "blocks": 1344,
+      "atimeMs": 1542129423767.7852,
+      "mtimeMs": 1542127867000,
+      "ctimeMs": 1542128051216.5024,
+      "birthtimeMs": 1542127867000,
+      "atime": "2018-11-13T17:17:03.768Z",
+      "mtime": "2018-11-13T16:51:07.000Z",
+      "ctime": "2018-11-13T16:54:11.217Z",
+      "birthtime": "2018-11-13T16:51:07.000Z"
+    },
+    "65122004-fbe5-5026-8e79-82c1e405836f": {
+      "id": "65122004-fbe5-5026-8e79-82c1e405836f",
+      "children": [],
+      "parent": "fa2b3cab-39a4-528f-97e1-7633fcb87cef",
+      "internal": {
+        "contentDigest": "01b8e4e765602220a7b3b5977a5b15ce",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "145efe90-b394-5d70-a099-24c103dcb2cc": {
+      "id": "145efe90-b394-5d70-a099-24c103dcb2cc",
+      "children": [
+        "0e038c53-e8bc-5d29-89bd-df67f0a1f9f4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dfab4589c443852f1c06930e5642c910",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/crocodile.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/crocodile.jpg",
+      "relativePath": "black-house/crocodile.jpg",
+      "extension": "jpg",
+      "size": 718052,
+      "prettySize": "718 kB",
+      "modifiedTime": "2018-11-13T01:25:31.681Z",
+      "accessTime": "2018-11-13T17:45:00.969Z",
+      "changeTime": "2018-11-13T01:25:31.681Z",
+      "birthTime": "2018-11-13T01:25:26.763Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "crocodile.jpg",
+      "ext": ".jpg",
+      "name": "crocodile",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16636021,
+      "blocks": 1408,
+      "atimeMs": 1542131100969.2266,
+      "mtimeMs": 1542072331681.3276,
+      "ctimeMs": 1542072331681.3276,
+      "birthtimeMs": 1542072326762.6514,
+      "atime": "2018-11-13T17:45:00.969Z",
+      "mtime": "2018-11-13T01:25:31.681Z",
+      "ctime": "2018-11-13T01:25:31.681Z",
+      "birthtime": "2018-11-13T01:25:26.763Z"
+    },
+    "6ef1d11d-60ed-5543-b661-e65c63a86ed4": {
+      "id": "6ef1d11d-60ed-5543-b661-e65c63a86ed4",
+      "children": [
+        "b12649a5-9a9d-558e-a764-dea89af83951"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "69c3c249d146a05470d96d73a2ed4d4a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/golden-triangle-sign.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/golden-triangle-sign.jpg",
+      "relativePath": "golden-triangle/golden-triangle-sign.jpg",
+      "extension": "jpg",
+      "size": 755833,
+      "prettySize": "756 kB",
+      "modifiedTime": "2018-11-13T01:41:32.000Z",
+      "accessTime": "2018-11-13T17:17:03.433Z",
+      "changeTime": "2018-11-13T16:29:52.334Z",
+      "birthTime": "2018-11-13T01:41:32.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "golden-triangle-sign.jpg",
+      "ext": ".jpg",
+      "name": "golden-triangle-sign",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651894,
+      "blocks": 1480,
+      "atimeMs": 1542129423432.5234,
+      "mtimeMs": 1542073292000,
+      "ctimeMs": 1542126592334.4219,
+      "birthtimeMs": 1542073292000,
+      "atime": "2018-11-13T17:17:03.433Z",
+      "mtime": "2018-11-13T01:41:32.000Z",
+      "ctime": "2018-11-13T16:29:52.334Z",
+      "birthtime": "2018-11-13T01:41:32.000Z"
+    },
+    "39ad55a0-8d73-52c6-84f5-1a471160fa66": {
+      "id": "39ad55a0-8d73-52c6-84f5-1a471160fa66",
+      "children": [],
+      "parent": "8387e7d6-c001-5e87-81b1-647f31888a87",
+      "internal": {
+        "contentDigest": "dd801bffa8e4f7931daad4966f75f67a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d296f84f-351a-5d22-8622-424de993c405": {
+      "id": "d296f84f-351a-5d22-8622-424de993c405",
+      "children": [],
+      "parent": "ccf39244-7d1d-56e3-a81d-f7bb3d840032",
+      "internal": {
+        "contentDigest": "04b78b50def8210a98680ae2ca9c53a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "73f39843-9996-5268-bc23-b0ceb329bc11": {
+      "id": "73f39843-9996-5268-bc23-b0ceb329bc11",
+      "children": [],
+      "parent": "2b4a9039-c1d5-529c-8942-3c311264c621",
+      "internal": {
+        "contentDigest": "f95ab2ed5ca702fd261bd3ad8acc58fb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4ee2a4c2-36c0-5944-b6c6-e55dba128602": {
+      "id": "4ee2a4c2-36c0-5944-b6c6-e55dba128602",
+      "children": [],
+      "parent": "85ef5cde-baf8-5fc4-922d-4c20f4d7754f",
+      "internal": {
+        "contentDigest": "66adfdecf25581452024ddb5411cbadc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6121bee3-0a58-5a89-a0d5-d516076dc0be": {
+      "id": "6121bee3-0a58-5a89-a0d5-d516076dc0be",
+      "children": [],
+      "parent": "ed335406-c6b0-5656-ad0b-a7e3f5d58678",
+      "internal": {
+        "contentDigest": "23b67d26bcfdcf0f51573b96df4666d1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f18f9a7e-b68e-51a9-a058-596c52c2bc66": {
+      "id": "f18f9a7e-b68e-51a9-a058-596c52c2bc66",
+      "children": [],
+      "parent": "8b5e33ba-27a0-5ab8-baa0-853bf440dd62",
+      "internal": {
+        "contentDigest": "f1797b1203a246f6bf2920a5fd334f67",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b0efb867-3af8-5cbb-9cd2-7cbd6442e24d": {
+      "id": "b0efb867-3af8-5cbb-9cd2-7cbd6442e24d",
+      "children": [
+        "f9dcf709-07d1-59e0-a103-2891c6733482"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f39b34f039d2b4e66a640ae0a0eab514",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/clock-tower/northern-breakfast.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/northern-breakfast.jpg",
+      "relativePath": "clock-tower/northern-breakfast.jpg",
+      "extension": "jpg",
+      "size": 841493,
+      "prettySize": "841 kB",
+      "modifiedTime": "2018-11-13T01:16:39.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:26:22.008Z",
+      "birthTime": "2018-11-13T01:16:39.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "base": "northern-breakfast.jpg",
+      "ext": ".jpg",
+      "name": "northern-breakfast",
+      "relativeDirectory": "clock-tower",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651593,
+      "blocks": 1648,
+      "atimeMs": 1542129423431.7922,
+      "mtimeMs": 1542071799000,
+      "ctimeMs": 1542126382008.2551,
+      "birthtimeMs": 1542071799000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:16:39.000Z",
+      "ctime": "2018-11-13T16:26:22.008Z",
+      "birthtime": "2018-11-13T01:16:39.000Z"
+    },
+    "53ee1132-7857-5c86-b630-b15085f0cdaa": {
+      "id": "53ee1132-7857-5c86-b630-b15085f0cdaa",
+      "children": [
+        "62ba5058-900a-55ef-91e2-a5ca27b3c0b4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c1ba27bca0690d240f311376ef8cf325",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/doi-chang-sunrise.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/doi-chang-sunrise.jpg",
+      "relativePath": "doi-chang/doi-chang-sunrise.jpg",
+      "extension": "jpg",
+      "size": 803083,
+      "prettySize": "803 kB",
+      "modifiedTime": "2018-11-13T01:27:32.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:25:19.620Z",
+      "birthTime": "2018-11-13T01:27:32.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "doi-chang-sunrise.jpg",
+      "ext": ".jpg",
+      "name": "doi-chang-sunrise",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646696,
+      "blocks": 1576,
+      "atimeMs": 1542129423432.0352,
+      "mtimeMs": 1542072452000,
+      "ctimeMs": 1542119119619.531,
+      "birthtimeMs": 1542072452000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:27:32.000Z",
+      "ctime": "2018-11-13T14:25:19.620Z",
+      "birthtime": "2018-11-13T01:27:32.000Z"
+    },
+    "7d87b2b1-9737-5ea2-9848-6456192ae1c8": {
+      "id": "7d87b2b1-9737-5ea2-9848-6456192ae1c8",
+      "children": [
+        "5a491435-e9cf-5512-9f7a-e45cab1f97c4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5ef26337528ee75d11e7c12e8840af19",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg",
+      "relativePath": "old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg",
+      "extension": "jpg",
+      "size": 747933,
+      "prettySize": "748 kB",
+      "modifiedTime": "2018-11-13T16:53:12.000Z",
+      "accessTime": "2018-11-13T17:17:03.768Z",
+      "changeTime": "2018-11-13T16:54:11.320Z",
+      "birthTime": "2018-11-13T16:53:12.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
+      "base": "khantoke-hill-tribe-hmong-dancers.jpg",
+      "ext": ".jpg",
+      "name": "khantoke-hill-tribe-hmong-dancers",
+      "relativeDirectory": "old-chiangmai-khantoke",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653770,
+      "blocks": 1464,
+      "atimeMs": 1542129423767.5986,
+      "mtimeMs": 1542127992000,
+      "ctimeMs": 1542128051319.7278,
+      "birthtimeMs": 1542127992000,
+      "atime": "2018-11-13T17:17:03.768Z",
+      "mtime": "2018-11-13T16:53:12.000Z",
+      "ctime": "2018-11-13T16:54:11.320Z",
+      "birthtime": "2018-11-13T16:53:12.000Z"
+    },
+    "0e038c53-e8bc-5d29-89bd-df67f0a1f9f4": {
+      "id": "0e038c53-e8bc-5d29-89bd-df67f0a1f9f4",
+      "children": [],
+      "parent": "145efe90-b394-5d70-a099-24c103dcb2cc",
+      "internal": {
+        "contentDigest": "dfab4589c443852f1c06930e5642c910",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b12649a5-9a9d-558e-a764-dea89af83951": {
+      "id": "b12649a5-9a9d-558e-a764-dea89af83951",
+      "children": [],
+      "parent": "6ef1d11d-60ed-5543-b661-e65c63a86ed4",
+      "internal": {
+        "contentDigest": "69c3c249d146a05470d96d73a2ed4d4a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8be8ff73-a5b4-539a-a484-0860294427ef": {
+      "id": "8be8ff73-a5b4-539a-a484-0860294427ef",
+      "children": [
+        "0b26aa21-00bf-5224-b743-56f47c55305f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cfe590d3f8495a5c82690b10c6c65518",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/clock-tower/street-dog.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/street-dog.jpg",
+      "relativePath": "clock-tower/street-dog.jpg",
+      "extension": "jpg",
+      "size": 931909,
+      "prettySize": "932 kB",
+      "modifiedTime": "2018-11-13T01:15:01.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:26:22.002Z",
+      "birthTime": "2018-11-13T01:15:01.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "base": "street-dog.jpg",
+      "ext": ".jpg",
+      "name": "street-dog",
+      "relativeDirectory": "clock-tower",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651592,
+      "blocks": 1824,
+      "atimeMs": 1542129423431.88,
+      "mtimeMs": 1542071701000,
+      "ctimeMs": 1542126382001.5903,
+      "birthtimeMs": 1542071701000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:15:01.000Z",
+      "ctime": "2018-11-13T16:26:22.002Z",
+      "birthtime": "2018-11-13T01:15:01.000Z"
+    },
+    "d531ce36-8dff-5936-a460-9b9ec1b00740": {
+      "id": "d531ce36-8dff-5936-a460-9b9ec1b00740",
+      "children": [
+        "024cbb1d-bd35-59a4-ae93-a9fd8af16462"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e79879b5f593d481483b07ed64bf25a7",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/gong.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/gong.jpg",
+      "relativePath": "black-house/gong.jpg",
+      "extension": "jpg",
+      "size": 829355,
+      "prettySize": "829 kB",
+      "modifiedTime": "2018-11-13T01:26:30.577Z",
+      "accessTime": "2018-11-13T17:45:00.969Z",
+      "changeTime": "2018-11-13T01:26:30.577Z",
+      "birthTime": "2018-11-13T01:26:25.672Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "gong.jpg",
+      "ext": ".jpg",
+      "name": "gong",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16636079,
+      "blocks": 1664,
+      "atimeMs": 1542131100969.2493,
+      "mtimeMs": 1542072390577.4968,
+      "ctimeMs": 1542072390577.4968,
+      "birthtimeMs": 1542072385671.938,
+      "atime": "2018-11-13T17:45:00.969Z",
+      "mtime": "2018-11-13T01:26:30.577Z",
+      "ctime": "2018-11-13T01:26:30.577Z",
+      "birthtime": "2018-11-13T01:26:25.672Z"
+    },
+    "f9dcf709-07d1-59e0-a103-2891c6733482": {
+      "id": "f9dcf709-07d1-59e0-a103-2891c6733482",
+      "children": [],
+      "parent": "b0efb867-3af8-5cbb-9cd2-7cbd6442e24d",
+      "internal": {
+        "contentDigest": "f39b34f039d2b4e66a640ae0a0eab514",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "62ba5058-900a-55ef-91e2-a5ca27b3c0b4": {
+      "id": "62ba5058-900a-55ef-91e2-a5ca27b3c0b4",
+      "children": [],
+      "parent": "53ee1132-7857-5c86-b630-b15085f0cdaa",
+      "internal": {
+        "contentDigest": "c1ba27bca0690d240f311376ef8cf325",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5a491435-e9cf-5512-9f7a-e45cab1f97c4": {
+      "id": "5a491435-e9cf-5512-9f7a-e45cab1f97c4",
+      "children": [],
+      "parent": "7d87b2b1-9737-5ea2-9848-6456192ae1c8",
+      "internal": {
+        "contentDigest": "5ef26337528ee75d11e7c12e8840af19",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1980,7 +3224,7 @@
       "size": 1034086,
       "prettySize": "1.03 MB",
       "modifiedTime": "2018-11-10T03:58:07.000Z",
-      "accessTime": "2018-11-11T02:52:23.157Z",
+      "accessTime": "2018-11-13T17:10:59.500Z",
       "changeTime": "2018-11-10T03:58:33.794Z",
       "birthTime": "2018-11-10T03:58:07.000Z",
       "root": "/",
@@ -1998,44 +3242,299 @@
       "blksize": 4194304,
       "ino": 16567876,
       "blocks": 2024,
-      "atimeMs": 1541904743156.5242,
+      "atimeMs": 1542129059499.9282,
       "mtimeMs": 1541822287000,
       "ctimeMs": 1541822313793.9617,
       "birthtimeMs": 1541822287000,
-      "atime": "2018-11-11T02:52:23.157Z",
+      "atime": "2018-11-13T17:10:59.500Z",
       "mtime": "2018-11-10T03:58:07.000Z",
       "ctime": "2018-11-10T03:58:33.794Z",
       "birthtime": "2018-11-10T03:58:07.000Z"
     },
-    "d8a65131-2529-5031-b8c0-95ed1cef34f3": {
-      "id": "d8a65131-2529-5031-b8c0-95ed1cef34f3",
+    "c74e3187-5068-536a-96f6-0fb73d55f530": {
+      "id": "c74e3187-5068-536a-96f6-0fb73d55f530",
       "children": [
-        "8d1f925c-95ac-57fc-aed5-764dfbaaef81"
+        "c9fb5330-3d55-5fda-ae6c-d61d04417dd5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc7777c2e4290c7ae5ec229135d7263e",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/buns.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/buns.jpg",
+      "relativePath": "doi-chang/buns.jpg",
+      "extension": "jpg",
+      "size": 1024604,
+      "prettySize": "1.02 MB",
+      "modifiedTime": "2018-11-13T01:31:24.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:25:19.488Z",
+      "birthTime": "2018-11-13T01:31:24.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "buns.jpg",
+      "ext": ".jpg",
+      "name": "buns",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646688,
+      "blocks": 2008,
+      "atimeMs": 1542129423431.9292,
+      "mtimeMs": 1542072684000,
+      "ctimeMs": 1542119119487.8513,
+      "birthtimeMs": 1542072684000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:31:24.000Z",
+      "ctime": "2018-11-13T14:25:19.488Z",
+      "birthtime": "2018-11-13T01:31:24.000Z"
+    },
+    "0748ef84-496f-5b3f-ab56-bca2992a6c54": {
+      "id": "0748ef84-496f-5b3f-ab56-bca2992a6c54",
+      "children": [
+        "5d372211-25ba-5d8e-86d1-26457e1ef36e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "84cb9bdd8fcfd0cd841e15d6237bf1e5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/koh-lipe/koh-lipe-coral.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe/koh-lipe-coral.jpg",
+      "relativePath": "koh-lipe/koh-lipe-coral.jpg",
+      "extension": "jpg",
+      "size": 1000322,
+      "prettySize": "1 MB",
+      "modifiedTime": "2018-11-13T16:46:21.000Z",
+      "accessTime": "2018-11-13T17:17:03.767Z",
+      "changeTime": "2018-11-13T17:02:42.671Z",
+      "birthTime": "2018-11-13T16:46:21.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/koh-lipe",
+      "base": "koh-lipe-coral.jpg",
+      "ext": ".jpg",
+      "name": "koh-lipe-coral",
+      "relativeDirectory": "koh-lipe",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653797,
+      "blocks": 1960,
+      "atimeMs": 1542129423767.32,
+      "mtimeMs": 1542127581000,
+      "ctimeMs": 1542128562670.6343,
+      "birthtimeMs": 1542127581000,
+      "atime": "2018-11-13T17:17:03.767Z",
+      "mtime": "2018-11-13T16:46:21.000Z",
+      "ctime": "2018-11-13T17:02:42.671Z",
+      "birthtime": "2018-11-13T16:46:21.000Z"
+    },
+    "4dfea960-b20e-57ce-9071-a4072bfca60c": {
+      "id": "4dfea960-b20e-57ce-9071-a4072bfca60c",
+      "children": [
+        "22f3493f-dfce-53e1-91a7-4ab6aa12ce5d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ba5d24349d623e01b3e0509db6f036ac",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/white-temple/chalermchai-kositpipat.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple/chalermchai-kositpipat.jpg",
+      "relativePath": "white-temple/chalermchai-kositpipat.jpg",
+      "extension": "jpg",
+      "size": 892429,
+      "prettySize": "892 kB",
+      "modifiedTime": "2018-11-13T01:46:20.000Z",
+      "accessTime": "2018-11-13T17:17:03.768Z",
+      "changeTime": "2018-11-13T16:20:22.605Z",
+      "birthTime": "2018-11-13T01:46:20.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple",
+      "base": "chalermchai-kositpipat.jpg",
+      "ext": ".jpg",
+      "name": "chalermchai-kositpipat",
+      "relativeDirectory": "white-temple",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16650685,
+      "blocks": 1744,
+      "atimeMs": 1542129423768.0085,
+      "mtimeMs": 1542073580000,
+      "ctimeMs": 1542126022605.3025,
+      "birthtimeMs": 1542073580000,
+      "atime": "2018-11-13T17:17:03.768Z",
+      "mtime": "2018-11-13T01:46:20.000Z",
+      "ctime": "2018-11-13T16:20:22.605Z",
+      "birthtime": "2018-11-13T01:46:20.000Z"
+    },
+    "f520ef0e-2ad9-5d01-9f04-e4a8bca28690": {
+      "id": "f520ef0e-2ad9-5d01-9f04-e4a8bca28690",
+      "children": [
+        "71596db8-254f-5bc6-984d-4688cc5a7f8b"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0ca26209b2280920c662a3ecf935e2bc",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/decorated-dragon.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/decorated-dragon.jpg",
+      "relativePath": "golden-triangle/decorated-dragon.jpg",
+      "extension": "jpg",
+      "size": 1011731,
+      "prettySize": "1.01 MB",
+      "modifiedTime": "2018-11-13T01:43:19.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:29:52.116Z",
+      "birthTime": "2018-11-13T01:43:19.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "decorated-dragon.jpg",
+      "ext": ".jpg",
+      "name": "decorated-dragon",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651887,
+      "blocks": 1984,
+      "atimeMs": 1542129423432.4822,
+      "mtimeMs": 1542073399000,
+      "ctimeMs": 1542126592116.2344,
+      "birthtimeMs": 1542073399000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:43:19.000Z",
+      "ctime": "2018-11-13T16:29:52.116Z",
+      "birthtime": "2018-11-13T01:43:19.000Z"
+    },
+    "0b26aa21-00bf-5224-b743-56f47c55305f": {
+      "id": "0b26aa21-00bf-5224-b743-56f47c55305f",
+      "children": [],
+      "parent": "8be8ff73-a5b4-539a-a484-0860294427ef",
+      "internal": {
+        "contentDigest": "cfe590d3f8495a5c82690b10c6c65518",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "024cbb1d-bd35-59a4-ae93-a9fd8af16462": {
+      "id": "024cbb1d-bd35-59a4-ae93-a9fd8af16462",
+      "children": [],
+      "parent": "d531ce36-8dff-5936-a460-9b9ec1b00740",
+      "internal": {
+        "contentDigest": "e79879b5f593d481483b07ed64bf25a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9d61cb1e-20e7-58a7-a4e6-4b30758faba9": {
+      "id": "9d61cb1e-20e7-58a7-a4e6-4b30758faba9",
+      "children": [
+        "7b93dc0d-fc4f-5423-af33-8177afba3fda"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5cfafd84de4741b8f676587672caa6e5",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea-plantation.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-plantation.jpg",
+      "relativePath": "doi-mae-salong/tea-plantation.jpg",
+      "extension": "jpg",
+      "size": 1105961,
+      "prettySize": "1.11 MB",
+      "modifiedTime": "2018-11-13T01:34:15.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:41:39.894Z",
+      "birthTime": "2018-11-13T01:34:15.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea-plantation.jpg",
+      "ext": ".jpg",
+      "name": "tea-plantation",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16648054,
+      "blocks": 2168,
+      "atimeMs": 1542129423432.2058,
+      "mtimeMs": 1542072855000,
+      "ctimeMs": 1542120099893.9595,
+      "birthtimeMs": 1542072855000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:34:15.000Z",
+      "ctime": "2018-11-13T14:41:39.894Z",
+      "birthtime": "2018-11-13T01:34:15.000Z"
+    },
+    "d44e6487-919d-5186-a175-17c90875acea": {
+      "id": "d44e6487-919d-5186-a175-17c90875acea",
+      "children": [
+        "35f7e703-471a-59fb-a599-ffbae6b40f3b"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "e246d3d849c7f3ea27cc659046fb2bef",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/images/white-temple.jpg\"",
+        "description": "File \"src/images/white-temple/white-temple.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple.jpg",
-      "relativePath": "white-temple.jpg",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple/white-temple.jpg",
+      "relativePath": "white-temple/white-temple.jpg",
       "extension": "jpg",
       "size": 1070989,
       "prettySize": "1.07 MB",
       "modifiedTime": "2018-08-15T23:04:53.000Z",
-      "accessTime": "2018-11-11T02:46:58.086Z",
-      "changeTime": "2018-11-10T16:59:33.754Z",
+      "accessTime": "2018-11-13T17:12:54.137Z",
+      "changeTime": "2018-11-13T16:20:31.226Z",
       "birthTime": "2018-08-15T23:04:53.000Z",
       "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple",
       "base": "white-temple.jpg",
       "ext": ".jpg",
       "name": "white-temple",
-      "relativeDirectory": "",
+      "relativeDirectory": "white-temple",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2045,13 +3544,13 @@
       "blksize": 4194304,
       "ino": 16580164,
       "blocks": 2096,
-      "atimeMs": 1541904418085.5603,
+      "atimeMs": 1542129174136.941,
       "mtimeMs": 1534374293000,
-      "ctimeMs": 1541869173754.481,
+      "ctimeMs": 1542126031225.5942,
       "birthtimeMs": 1534374293000,
-      "atime": "2018-11-11T02:46:58.086Z",
+      "atime": "2018-11-13T17:12:54.137Z",
       "mtime": "2018-08-15T23:04:53.000Z",
-      "ctime": "2018-11-10T16:59:33.754Z",
+      "ctime": "2018-11-13T16:20:31.226Z",
       "birthtime": "2018-08-15T23:04:53.000Z"
     },
     "4c5e7cf7-eb59-55e5-b895-6a0171409b41": {
@@ -2064,230 +3563,189 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "8d1f925c-95ac-57fc-aed5-764dfbaaef81": {
-      "id": "8d1f925c-95ac-57fc-aed5-764dfbaaef81",
+    "c9fb5330-3d55-5fda-ae6c-d61d04417dd5": {
+      "id": "c9fb5330-3d55-5fda-ae6c-d61d04417dd5",
       "children": [],
-      "parent": "d8a65131-2529-5031-b8c0-95ed1cef34f3",
+      "parent": "c74e3187-5068-536a-96f6-0fb73d55f530",
+      "internal": {
+        "contentDigest": "bc7777c2e4290c7ae5ec229135d7263e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5d372211-25ba-5d8e-86d1-26457e1ef36e": {
+      "id": "5d372211-25ba-5d8e-86d1-26457e1ef36e",
+      "children": [],
+      "parent": "0748ef84-496f-5b3f-ab56-bca2992a6c54",
+      "internal": {
+        "contentDigest": "84cb9bdd8fcfd0cd841e15d6237bf1e5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "22f3493f-dfce-53e1-91a7-4ab6aa12ce5d": {
+      "id": "22f3493f-dfce-53e1-91a7-4ab6aa12ce5d",
+      "children": [],
+      "parent": "4dfea960-b20e-57ce-9071-a4072bfca60c",
+      "internal": {
+        "contentDigest": "ba5d24349d623e01b3e0509db6f036ac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "71596db8-254f-5bc6-984d-4688cc5a7f8b": {
+      "id": "71596db8-254f-5bc6-984d-4688cc5a7f8b",
+      "children": [],
+      "parent": "f520ef0e-2ad9-5d01-9f04-e4a8bca28690",
+      "internal": {
+        "contentDigest": "0ca26209b2280920c662a3ecf935e2bc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1ca92b85-ff24-5950-bcfb-364f4ceacacd": {
+      "id": "1ca92b85-ff24-5950-bcfb-364f4ceacacd",
+      "children": [
+        "707f38c3-f365-56c0-a9f2-62373d881f90"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c5d800bb2ab777767a1b319948aff86",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/water-dragon.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/water-dragon.jpg",
+      "relativePath": "golden-triangle/water-dragon.jpg",
+      "extension": "jpg",
+      "size": 1063251,
+      "prettySize": "1.06 MB",
+      "modifiedTime": "2018-11-13T01:37:33.000Z",
+      "accessTime": "2018-11-13T17:17:03.767Z",
+      "changeTime": "2018-11-13T16:29:51.963Z",
+      "birthTime": "2018-11-13T01:37:33.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "water-dragon.jpg",
+      "ext": ".jpg",
+      "name": "water-dragon",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651882,
+      "blocks": 2080,
+      "atimeMs": 1542129423767.0906,
+      "mtimeMs": 1542073053000,
+      "ctimeMs": 1542126591963.4639,
+      "birthtimeMs": 1542073053000,
+      "atime": "2018-11-13T17:17:03.767Z",
+      "mtime": "2018-11-13T01:37:33.000Z",
+      "ctime": "2018-11-13T16:29:51.963Z",
+      "birthtime": "2018-11-13T01:37:33.000Z"
+    },
+    "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48": {
+      "id": "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48",
+      "children": [
+        "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5e18757e78aa9b62a8da17db2f2f4d60",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/black-house.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/black-house.jpg",
+      "relativePath": "black-house/black-house.jpg",
+      "extension": "jpg",
+      "size": 1101715,
+      "prettySize": "1.1 MB",
+      "modifiedTime": "2018-11-13T01:24:26.672Z",
+      "accessTime": "2018-11-13T17:45:00.969Z",
+      "changeTime": "2018-11-13T01:24:26.672Z",
+      "birthTime": "2018-11-13T01:24:21.602Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "black-house.jpg",
+      "ext": ".jpg",
+      "name": "black-house",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16635922,
+      "blocks": 2176,
+      "atimeMs": 1542131100969.184,
+      "mtimeMs": 1542072266672.0588,
+      "ctimeMs": 1542072266672.0588,
+      "birthtimeMs": 1542072261602.0317,
+      "atime": "2018-11-13T17:45:00.969Z",
+      "mtime": "2018-11-13T01:24:26.672Z",
+      "ctime": "2018-11-13T01:24:26.672Z",
+      "birthtime": "2018-11-13T01:24:21.602Z"
+    },
+    "7b93dc0d-fc4f-5423-af33-8177afba3fda": {
+      "id": "7b93dc0d-fc4f-5423-af33-8177afba3fda",
+      "children": [],
+      "parent": "9d61cb1e-20e7-58a7-a4e6-4b30758faba9",
+      "internal": {
+        "contentDigest": "5cfafd84de4741b8f676587672caa6e5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "35f7e703-471a-59fb-a599-ffbae6b40f3b": {
+      "id": "35f7e703-471a-59fb-a599-ffbae6b40f3b",
+      "children": [],
+      "parent": "d44e6487-919d-5186-a175-17c90875acea",
       "internal": {
         "contentDigest": "e246d3d849c7f3ea27cc659046fb2bef",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "3b47f583-2d14-5f2f-81aa-99420c3ef3a6": {
-      "id": "3b47f583-2d14-5f2f-81aa-99420c3ef3a6",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "dae2bd1ca8acb54d71d761091dcc47de",
-        "type": "Directory",
-        "description": "Directory \"src/posts\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts",
-      "relativePath": "",
-      "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2018-11-12T02:53:27.803Z",
-      "accessTime": "2018-11-12T03:02:20.788Z",
-      "changeTime": "2018-11-12T02:53:27.803Z",
-      "birthTime": "2018-11-08T17:38:31.842Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src",
-      "base": "posts",
-      "ext": "",
-      "name": "posts",
-      "relativeDirectory": "..",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 5,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 16481319,
-      "blocks": 0,
-      "atimeMs": 1541991740788.4956,
-      "mtimeMs": 1541991207803.0525,
-      "ctimeMs": 1541991207803.0525,
-      "birthtimeMs": 1541698711842.228,
-      "atime": "2018-11-12T03:02:20.788Z",
-      "mtime": "2018-11-12T02:53:27.803Z",
-      "ctime": "2018-11-12T02:53:27.803Z",
-      "birthtime": "2018-11-08T17:38:31.842Z"
-    },
-    "81d35b1e-57da-53f5-9705-471f77f880bb": {
-      "id": "81d35b1e-57da-53f5-9705-471f77f880bb",
+    "3609b4ef-4ee8-5dad-a26b-455041704848": {
+      "id": "3609b4ef-4ee8-5dad-a26b-455041704848",
       "children": [
-        "66a66fc1-5c81-511e-bf90-d0d53b01a16b"
+        "634a2451-b8b0-5e7b-a575-e95e954a2696"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3778c7c67c03dec0aa3f8763871a6e8c",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/post1.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post1.md",
-      "relativePath": "post1.md",
-      "extension": "md",
-      "size": 1298,
-      "prettySize": "1.3 kB",
-      "modifiedTime": "2018-11-12T02:53:27.802Z",
-      "accessTime": "2018-11-12T02:53:27.802Z",
-      "changeTime": "2018-11-12T02:53:27.803Z",
-      "birthTime": "2018-11-12T02:53:27.802Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
-      "base": "post1.md",
-      "ext": ".md",
-      "name": "post1",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 16614304,
-      "blocks": 8,
-      "atimeMs": 1541991207802.152,
-      "mtimeMs": 1541991207802.2827,
-      "ctimeMs": 1541991207802.9924,
-      "birthtimeMs": 1541991207802.152,
-      "atime": "2018-11-12T02:53:27.802Z",
-      "mtime": "2018-11-12T02:53:27.802Z",
-      "ctime": "2018-11-12T02:53:27.803Z",
-      "birthtime": "2018-11-12T02:53:27.802Z"
-    },
-    "50394d1e-7c42-56d0-9384-e43bc6f1c6bc": {
-      "id": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc",
-      "children": [
-        "8d2bd18b-c2f1-5383-86c1-de558c38b4e6"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "107fff1bec8564ea49d652c081107d28",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/post2.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post2.md",
-      "relativePath": "post2.md",
-      "extension": "md",
-      "size": 1305,
-      "prettySize": "1.3 kB",
-      "modifiedTime": "2018-11-12T02:53:21.415Z",
-      "accessTime": "2018-11-12T02:53:21.414Z",
-      "changeTime": "2018-11-12T02:53:21.416Z",
-      "birthTime": "2018-11-12T02:53:21.414Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
-      "base": "post2.md",
-      "ext": ".md",
-      "name": "post2",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 16614299,
-      "blocks": 8,
-      "atimeMs": 1541991201414.4143,
-      "mtimeMs": 1541991201414.5432,
-      "ctimeMs": 1541991201416.2817,
-      "birthtimeMs": 1541991201414.4143,
-      "atime": "2018-11-12T02:53:21.414Z",
-      "mtime": "2018-11-12T02:53:21.415Z",
-      "ctime": "2018-11-12T02:53:21.416Z",
-      "birthtime": "2018-11-12T02:53:21.414Z"
-    },
-    "786b09b8-5357-5f37-beac-8acc3a047542": {
-      "id": "786b09b8-5357-5f37-beac-8acc3a047542",
-      "children": [
-        "100667e3-e76a-51b6-9a81-f7ffb75cfc74"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d725c1126f61414c945cb471a5c6d3d2",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/post3.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post3.md",
-      "relativePath": "post3.md",
-      "extension": "md",
-      "size": 1279,
-      "prettySize": "1.28 kB",
-      "modifiedTime": "2018-11-12T02:53:16.460Z",
-      "accessTime": "2018-11-12T02:53:16.460Z",
-      "changeTime": "2018-11-12T02:53:16.462Z",
-      "birthTime": "2018-11-12T02:53:16.460Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
-      "base": "post3.md",
-      "ext": ".md",
-      "name": "post3",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 16614286,
-      "blocks": 8,
-      "atimeMs": 1541991196459.6755,
-      "mtimeMs": 1541991196459.8108,
-      "ctimeMs": 1541991196461.8777,
-      "birthtimeMs": 1541991196459.6755,
-      "atime": "2018-11-12T02:53:16.460Z",
-      "mtime": "2018-11-12T02:53:16.460Z",
-      "ctime": "2018-11-12T02:53:16.462Z",
-      "birthtime": "2018-11-12T02:53:16.460Z"
-    },
-    "25ba0a69-1826-5bf1-9ea1-3468e47bda14": {
-      "id": "25ba0a69-1826-5bf1-9ea1-3468e47bda14",
-      "children": [
-        "cec93746-1c80-5817-b88e-0c4e010c1b8d"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "04b78b50def8210a98680ae2ca9c53a7",
+        "contentDigest": "144cbd1796488c618ae719d752e3d9ba",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/images/clock-tower.jpg\"",
+        "description": "File \"src/images/clock-tower/mike-cher.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower.jpg",
-      "relativePath": "clock-tower.jpg",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/mike-cher.jpg",
+      "relativePath": "clock-tower/mike-cher.jpg",
       "extension": "jpg",
-      "size": 701969,
-      "prettySize": "702 kB",
-      "modifiedTime": "2018-08-15T22:32:33.000Z",
-      "accessTime": "2018-11-11T08:03:55.000Z",
-      "changeTime": "2018-11-11T08:03:55.930Z",
-      "birthTime": "2018-08-15T22:32:33.000Z",
+      "size": 1141620,
+      "prettySize": "1.14 MB",
+      "modifiedTime": "2018-11-13T01:18:00.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:26:21.892Z",
+      "birthTime": "2018-11-13T01:18:00.000Z",
       "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
-      "base": "clock-tower.jpg",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "base": "mike-cher.jpg",
       "ext": ".jpg",
-      "name": "clock-tower",
-      "relativeDirectory": "",
+      "name": "mike-cher",
+      "relativeDirectory": "clock-tower",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2295,56 +3753,589 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 16601679,
-      "blocks": 1376,
-      "atimeMs": 1541923435000,
-      "mtimeMs": 1534372353000,
-      "ctimeMs": 1541923435930.481,
-      "birthtimeMs": 1534372353000,
-      "atime": "2018-11-11T08:03:55.000Z",
-      "mtime": "2018-08-15T22:32:33.000Z",
-      "ctime": "2018-11-11T08:03:55.930Z",
-      "birthtime": "2018-08-15T22:32:33.000Z"
+      "ino": 16651590,
+      "blocks": 2232,
+      "atimeMs": 1542129423431.7388,
+      "mtimeMs": 1542071880000,
+      "ctimeMs": 1542126381892.2114,
+      "birthtimeMs": 1542071880000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:18:00.000Z",
+      "ctime": "2018-11-13T16:26:21.892Z",
+      "birthtime": "2018-11-13T01:18:00.000Z"
     },
-    "cec93746-1c80-5817-b88e-0c4e010c1b8d": {
-      "id": "cec93746-1c80-5817-b88e-0c4e010c1b8d",
-      "children": [],
-      "parent": "25ba0a69-1826-5bf1-9ea1-3468e47bda14",
+    "3cabc813-27db-5b5e-aa9a-037c29692059": {
+      "id": "3cabc813-27db-5b5e-aa9a-037c29692059",
+      "children": [
+        "7897efa7-e7fd-5564-a492-237b3b0fd7a4"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "04b78b50def8210a98680ae2ca9c53a7",
+        "contentDigest": "38f5c46f8d58558c81916cea44b7cdab",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/clock-tower/nothern-thai-coffee.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/nothern-thai-coffee.jpg",
+      "relativePath": "clock-tower/nothern-thai-coffee.jpg",
+      "extension": "jpg",
+      "size": 1185920,
+      "prettySize": "1.19 MB",
+      "modifiedTime": "2018-11-13T01:01:45.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:26:22.070Z",
+      "birthTime": "2018-11-13T01:01:45.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "base": "nothern-thai-coffee.jpg",
+      "ext": ".jpg",
+      "name": "nothern-thai-coffee",
+      "relativeDirectory": "clock-tower",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651596,
+      "blocks": 2320,
+      "atimeMs": 1542129423431.8313,
+      "mtimeMs": 1542070905000,
+      "ctimeMs": 1542126382069.5293,
+      "birthtimeMs": 1542070905000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:01:45.000Z",
+      "ctime": "2018-11-13T16:26:22.070Z",
+      "birthtime": "2018-11-13T01:01:45.000Z"
+    },
+    "1257399a-6936-56f9-8603-a22dd50f9afa": {
+      "id": "1257399a-6936-56f9-8603-a22dd50f9afa",
+      "children": [
+        "4c45ebdb-daab-55d8-9522-06cb6cecfaa5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "becae9c0adbdede88aabab56e8eea960",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/dinner-table.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/dinner-table.jpg",
+      "relativePath": "black-house/dinner-table.jpg",
+      "extension": "jpg",
+      "size": 1224224,
+      "prettySize": "1.22 MB",
+      "modifiedTime": "2018-11-13T01:22:48.147Z",
+      "accessTime": "2018-11-13T17:45:00.969Z",
+      "changeTime": "2018-11-13T01:22:48.147Z",
+      "birthTime": "2018-11-13T01:22:44.145Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "dinner-table.jpg",
+      "ext": ".jpg",
+      "name": "dinner-table",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16635778,
+      "blocks": 4224,
+      "atimeMs": 1542131100969.233,
+      "mtimeMs": 1542072168146.8906,
+      "ctimeMs": 1542072168146.8906,
+      "birthtimeMs": 1542072164144.954,
+      "atime": "2018-11-13T17:45:00.969Z",
+      "mtime": "2018-11-13T01:22:48.147Z",
+      "ctime": "2018-11-13T01:22:48.147Z",
+      "birthtime": "2018-11-13T01:22:44.145Z"
+    },
+    "707f38c3-f365-56c0-a9f2-62373d881f90": {
+      "id": "707f38c3-f365-56c0-a9f2-62373d881f90",
+      "children": [],
+      "parent": "1ca92b85-ff24-5950-bcfb-364f4ceacacd",
+      "internal": {
+        "contentDigest": "4c5d800bb2ab777767a1b319948aff86",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "355b1b89-b06e-5610-aaac-7ab704eb9781": {
-      "id": "355b1b89-b06e-5610-aaac-7ab704eb9781",
+    "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0": {
+      "id": "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0",
+      "children": [],
+      "parent": "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48",
+      "internal": {
+        "contentDigest": "5e18757e78aa9b62a8da17db2f2f4d60",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4d252404-8ae3-55a1-b268-a0e8e5a933d9": {
+      "id": "4d252404-8ae3-55a1-b268-a0e8e5a933d9",
       "children": [
-        "dd78672d-de92-56e4-9178-fa84fff42bd6"
+        "bb2805bd-bcab-5a78-906b-411db024b3a7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "84d595c50fd77c39eb1a2b50adafcfe8",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/doi-chang.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/doi-chang.jpg",
+      "relativePath": "doi-chang/doi-chang.jpg",
+      "extension": "jpg",
+      "size": 1140883,
+      "prettySize": "1.14 MB",
+      "modifiedTime": "2018-11-13T01:28:21.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:25:19.495Z",
+      "birthTime": "2018-11-13T01:28:21.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "doi-chang.jpg",
+      "ext": ".jpg",
+      "name": "doi-chang",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646689,
+      "blocks": 2232,
+      "atimeMs": 1542129423432.0723,
+      "mtimeMs": 1542072501000,
+      "ctimeMs": 1542119119495.0593,
+      "birthtimeMs": 1542072501000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:28:21.000Z",
+      "ctime": "2018-11-13T14:25:19.495Z",
+      "birthtime": "2018-11-13T01:28:21.000Z"
+    },
+    "112985b4-2b8f-5708-a450-eab44dac67a1": {
+      "id": "112985b4-2b8f-5708-a450-eab44dac67a1",
+      "children": [
+        "d32d2d14-140d-5f32-a387-0837706a99eb"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3ad9cfeed4a075ab7988b6b3725f59e2",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/white-temple/white-temple-detail.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple/white-temple-detail.jpg",
+      "relativePath": "white-temple/white-temple-detail.jpg",
+      "extension": "jpg",
+      "size": 1213001,
+      "prettySize": "1.21 MB",
+      "modifiedTime": "2018-11-13T01:44:58.000Z",
+      "accessTime": "2018-11-13T17:17:03.768Z",
+      "changeTime": "2018-11-13T16:20:22.534Z",
+      "birthTime": "2018-11-13T01:44:58.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/white-temple",
+      "base": "white-temple-detail.jpg",
+      "ext": ".jpg",
+      "name": "white-temple-detail",
+      "relativeDirectory": "white-temple",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16650683,
+      "blocks": 2376,
+      "atimeMs": 1542129423768.102,
+      "mtimeMs": 1542073498000,
+      "ctimeMs": 1542126022534.054,
+      "birthtimeMs": 1542073498000,
+      "atime": "2018-11-13T17:17:03.768Z",
+      "mtime": "2018-11-13T01:44:58.000Z",
+      "ctime": "2018-11-13T16:20:22.534Z",
+      "birthtime": "2018-11-13T01:44:58.000Z"
+    },
+    "634a2451-b8b0-5e7b-a575-e95e954a2696": {
+      "id": "634a2451-b8b0-5e7b-a575-e95e954a2696",
+      "children": [],
+      "parent": "3609b4ef-4ee8-5dad-a26b-455041704848",
+      "internal": {
+        "contentDigest": "144cbd1796488c618ae719d752e3d9ba",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "7897efa7-e7fd-5564-a492-237b3b0fd7a4": {
+      "id": "7897efa7-e7fd-5564-a492-237b3b0fd7a4",
+      "children": [],
+      "parent": "3cabc813-27db-5b5e-aa9a-037c29692059",
+      "internal": {
+        "contentDigest": "38f5c46f8d58558c81916cea44b7cdab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4c45ebdb-daab-55d8-9522-06cb6cecfaa5": {
+      "id": "4c45ebdb-daab-55d8-9522-06cb6cecfaa5",
+      "children": [],
+      "parent": "1257399a-6936-56f9-8603-a22dd50f9afa",
+      "internal": {
+        "contentDigest": "becae9c0adbdede88aabab56e8eea960",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cdb6aa3e-fe88-58b8-9998-64ee8e8e994b": {
+      "id": "cdb6aa3e-fe88-58b8-9998-64ee8e8e994b",
+      "children": [
+        "1989c92a-655e-55c8-9c3f-4017877d0574"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "52f2c5f66b2aadfa50e00abea4c42bac",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/shiny-floor-temple.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/shiny-floor-temple.jpg",
+      "relativePath": "golden-triangle/shiny-floor-temple.jpg",
+      "extension": "jpg",
+      "size": 1290401,
+      "prettySize": "1.29 MB",
+      "modifiedTime": "2018-11-13T01:44:08.000Z",
+      "accessTime": "2018-11-13T17:17:03.433Z",
+      "changeTime": "2018-11-13T16:29:52.264Z",
+      "birthTime": "2018-11-13T01:44:08.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "shiny-floor-temple.jpg",
+      "ext": ".jpg",
+      "name": "shiny-floor-temple",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651892,
+      "blocks": 2528,
+      "atimeMs": 1542129423432.557,
+      "mtimeMs": 1542073448000,
+      "ctimeMs": 1542126592263.7627,
+      "birthtimeMs": 1542073448000,
+      "atime": "2018-11-13T17:17:03.433Z",
+      "mtime": "2018-11-13T01:44:08.000Z",
+      "ctime": "2018-11-13T16:29:52.264Z",
+      "birthtime": "2018-11-13T01:44:08.000Z"
+    },
+    "bb2805bd-bcab-5a78-906b-411db024b3a7": {
+      "id": "bb2805bd-bcab-5a78-906b-411db024b3a7",
+      "children": [],
+      "parent": "4d252404-8ae3-55a1-b268-a0e8e5a933d9",
+      "internal": {
+        "contentDigest": "84d595c50fd77c39eb1a2b50adafcfe8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d32d2d14-140d-5f32-a387-0837706a99eb": {
+      "id": "d32d2d14-140d-5f32-a387-0837706a99eb",
+      "children": [],
+      "parent": "112985b4-2b8f-5708-a450-eab44dac67a1",
+      "internal": {
+        "contentDigest": "3ad9cfeed4a075ab7988b6b3725f59e2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "57e50717-94f7-507d-8d45-0329c1fb2284": {
+      "id": "57e50717-94f7-507d-8d45-0329c1fb2284",
+      "children": [
+        "be1e1279-d827-5360-9119-23f326d2401b"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a05ee2df2f45c7beedc50cc10fd70308",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/ancient-stupa.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/ancient-stupa.jpg",
+      "relativePath": "golden-triangle/ancient-stupa.jpg",
+      "extension": "jpg",
+      "size": 1294281,
+      "prettySize": "1.29 MB",
+      "modifiedTime": "2018-11-13T01:40:42.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:29:52.039Z",
+      "birthTime": "2018-11-13T01:40:42.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "ancient-stupa.jpg",
+      "ext": ".jpg",
+      "name": "ancient-stupa",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651884,
+      "blocks": 2528,
+      "atimeMs": 1542129423432.3562,
+      "mtimeMs": 1542073242000,
+      "ctimeMs": 1542126592039.0356,
+      "birthtimeMs": 1542073242000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:40:42.000Z",
+      "ctime": "2018-11-13T16:29:52.039Z",
+      "birthtime": "2018-11-13T01:40:42.000Z"
+    },
+    "1989c92a-655e-55c8-9c3f-4017877d0574": {
+      "id": "1989c92a-655e-55c8-9c3f-4017877d0574",
+      "children": [],
+      "parent": "cdb6aa3e-fe88-58b8-9998-64ee8e8e994b",
+      "internal": {
+        "contentDigest": "52f2c5f66b2aadfa50e00abea4c42bac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "20410938-b6a3-5122-b992-0934abd31a15": {
+      "id": "20410938-b6a3-5122-b992-0934abd31a15",
+      "children": [
+        "ca251979-3ee2-55f7-9ed8-c7ee910f541b"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "566f8a277bbc177e1b8b9aeadcd56fae",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/golden-triangle/chiang-saen-temple.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/chiang-saen-temple.jpg",
+      "relativePath": "golden-triangle/chiang-saen-temple.jpg",
+      "extension": "jpg",
+      "size": 1429463,
+      "prettySize": "1.43 MB",
+      "modifiedTime": "2018-11-13T01:39:30.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T16:29:52.186Z",
+      "birthTime": "2018-11-13T01:39:30.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
+      "base": "chiang-saen-temple.jpg",
+      "ext": ".jpg",
+      "name": "chiang-saen-temple",
+      "relativeDirectory": "golden-triangle",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651890,
+      "blocks": 2792,
+      "atimeMs": 1542129423432.4321,
+      "mtimeMs": 1542073170000,
+      "ctimeMs": 1542126592186.1567,
+      "birthtimeMs": 1542073170000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:39:30.000Z",
+      "ctime": "2018-11-13T16:29:52.186Z",
+      "birthtime": "2018-11-13T01:39:30.000Z"
+    },
+    "be1e1279-d827-5360-9119-23f326d2401b": {
+      "id": "be1e1279-d827-5360-9119-23f326d2401b",
+      "children": [],
+      "parent": "57e50717-94f7-507d-8d45-0329c1fb2284",
+      "internal": {
+        "contentDigest": "a05ee2df2f45c7beedc50cc10fd70308",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8334443d-5e18-5c01-b6ad-6878d3fac933": {
+      "id": "8334443d-5e18-5c01-b6ad-6878d3fac933",
+      "children": [
+        "408f0f0b-925c-5330-bf13-2b1f403ab75f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1e534791ca6788a52f87df906aece54a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea-and-bananas.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-and-bananas.jpg",
+      "relativePath": "doi-mae-salong/tea-and-bananas.jpg",
+      "extension": "jpg",
+      "size": 1668607,
+      "prettySize": "1.67 MB",
+      "modifiedTime": "2018-11-13T01:35:35.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:41:39.969Z",
+      "birthTime": "2018-11-13T01:35:35.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea-and-bananas.jpg",
+      "ext": ".jpg",
+      "name": "tea-and-bananas",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16648057,
+      "blocks": 3264,
+      "atimeMs": 1542129423432.1482,
+      "mtimeMs": 1542072935000,
+      "ctimeMs": 1542120099968.9348,
+      "birthtimeMs": 1542072935000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:35:35.000Z",
+      "ctime": "2018-11-13T14:41:39.969Z",
+      "birthtime": "2018-11-13T01:35:35.000Z"
+    },
+    "ca251979-3ee2-55f7-9ed8-c7ee910f541b": {
+      "id": "ca251979-3ee2-55f7-9ed8-c7ee910f541b",
+      "children": [],
+      "parent": "20410938-b6a3-5122-b992-0934abd31a15",
+      "internal": {
+        "contentDigest": "566f8a277bbc177e1b8b9aeadcd56fae",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "408f0f0b-925c-5330-bf13-2b1f403ab75f": {
+      "id": "408f0f0b-925c-5330-bf13-2b1f403ab75f",
+      "children": [],
+      "parent": "8334443d-5e18-5c01-b6ad-6878d3fac933",
+      "internal": {
+        "contentDigest": "1e534791ca6788a52f87df906aece54a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "85ee43e9-266e-578f-ac2c-6716a4b62b43": {
+      "id": "85ee43e9-266e-578f-ac2c-6716a4b62b43",
+      "children": [
+        "241dd2b0-2853-5d83-9374-cb250d3e90d8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8123bd1d130f15546274ad687e78e2cd",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea.jpg",
+      "relativePath": "doi-mae-salong/tea.jpg",
+      "extension": "jpg",
+      "size": 1838638,
+      "prettySize": "1.84 MB",
+      "modifiedTime": "2018-11-13T01:33:29.000Z",
+      "accessTime": "2018-11-13T17:17:03.432Z",
+      "changeTime": "2018-11-13T14:41:39.740Z",
+      "birthTime": "2018-11-13T01:33:29.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea.jpg",
+      "ext": ".jpg",
+      "name": "tea",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16648051,
+      "blocks": 3592,
+      "atimeMs": 1542129423432.283,
+      "mtimeMs": 1542072809000,
+      "ctimeMs": 1542120099740.0986,
+      "birthtimeMs": 1542072809000,
+      "atime": "2018-11-13T17:17:03.432Z",
+      "mtime": "2018-11-13T01:33:29.000Z",
+      "ctime": "2018-11-13T14:41:39.740Z",
+      "birthtime": "2018-11-13T01:33:29.000Z"
+    },
+    "241dd2b0-2853-5d83-9374-cb250d3e90d8": {
+      "id": "241dd2b0-2853-5d83-9374-cb250d3e90d8",
+      "children": [],
+      "parent": "85ee43e9-266e-578f-ac2c-6716a4b62b43",
+      "internal": {
+        "contentDigest": "8123bd1d130f15546274ad687e78e2cd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6c071bb6-32fc-5058-8cd3-4dce7085ba51": {
+      "id": "6c071bb6-32fc-5058-8cd3-4dce7085ba51",
+      "children": [
+        "7c488682-e399-5c0e-b49f-fe59b1d0cac0"
       ],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "93728217ee34d52086a4b42d395a475d",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/images/statue.jpg\"",
+        "description": "File \"src/images/golden-triangle/statue.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/statue.jpg",
-      "relativePath": "statue.jpg",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle/statue.jpg",
+      "relativePath": "golden-triangle/statue.jpg",
       "extension": "jpg",
       "size": 10167296,
       "prettySize": "10.2 MB",
       "modifiedTime": "2018-04-03T15:12:52.000Z",
-      "accessTime": "2018-11-11T08:04:39.418Z",
-      "changeTime": "2018-11-11T08:04:49.871Z",
+      "accessTime": "2018-11-13T17:10:53.666Z",
+      "changeTime": "2018-11-13T16:30:09.767Z",
       "birthTime": "2018-04-03T15:12:52.000Z",
       "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/golden-triangle",
       "base": "statue.jpg",
       "ext": ".jpg",
       "name": "statue",
-      "relativeDirectory": "",
+      "relativeDirectory": "golden-triangle",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -2354,87 +4345,744 @@
       "blksize": 4194304,
       "ino": 16601690,
       "blocks": 19864,
-      "atimeMs": 1541923479417.9792,
+      "atimeMs": 1542129053665.9158,
       "mtimeMs": 1522768372000,
-      "ctimeMs": 1541923489871.2703,
+      "ctimeMs": 1542126609766.532,
       "birthtimeMs": 1522768372000,
-      "atime": "2018-11-11T08:04:39.418Z",
+      "atime": "2018-11-13T17:10:53.666Z",
       "mtime": "2018-04-03T15:12:52.000Z",
-      "ctime": "2018-11-11T08:04:49.871Z",
+      "ctime": "2018-11-13T16:30:09.767Z",
       "birthtime": "2018-04-03T15:12:52.000Z"
     },
-    "dd78672d-de92-56e4-9178-fa84fff42bd6": {
-      "id": "dd78672d-de92-56e4-9178-fa84fff42bd6",
+    "7c488682-e399-5c0e-b49f-fe59b1d0cac0": {
+      "id": "7c488682-e399-5c0e-b49f-fe59b1d0cac0",
       "children": [],
-      "parent": "355b1b89-b06e-5610-aaac-7ab704eb9781",
+      "parent": "6c071bb6-32fc-5058-8cd3-4dce7085ba51",
       "internal": {
         "contentDigest": "93728217ee34d52086a4b42d395a475d",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "100667e3-e76a-51b6-9a81-f7ffb75cfc74": {
-      "id": "100667e3-e76a-51b6-9a81-f7ffb75cfc74",
+    "3b47f583-2d14-5f2f-81aa-99420c3ef3a6": {
+      "id": "3b47f583-2d14-5f2f-81aa-99420c3ef3a6",
       "children": [],
-      "parent": "786b09b8-5357-5f37-beac-8acc3a047542",
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\n![statue](../images/statue.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+        "contentDigest": "d99be4750e18a8ff4419685487f8cf72",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-11-13T17:12:53.463Z",
+      "accessTime": "2018-11-13T17:57:27.688Z",
+      "changeTime": "2018-11-13T17:12:53.463Z",
+      "birthTime": "2018-11-08T17:38:31.842Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16481319,
+      "blocks": 0,
+      "atimeMs": 1542131847688.2969,
+      "mtimeMs": 1542129173462.822,
+      "ctimeMs": 1542129173462.822,
+      "birthtimeMs": 1541698711842.228,
+      "atime": "2018-11-13T17:57:27.688Z",
+      "mtime": "2018-11-13T17:12:53.463Z",
+      "ctime": "2018-11-13T17:12:53.463Z",
+      "birthtime": "2018-11-08T17:38:31.842Z"
+    },
+    "1ff20007-d397-525f-82d3-40e2a1ee36b9": {
+      "id": "1ff20007-d397-525f-82d3-40e2a1ee36b9",
+      "children": [
+        "6a882395-f708-5af1-8d58-6e08262708f4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "12937f63757bad429920ad959b94a978",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/black-house.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/black-house.md",
+      "relativePath": "black-house.md",
+      "extension": "md",
+      "size": 1460,
+      "prettySize": "1.46 kB",
+      "modifiedTime": "2018-11-13T14:22:19.857Z",
+      "accessTime": "2018-11-13T17:44:11.281Z",
+      "changeTime": "2018-11-13T14:22:19.858Z",
+      "birthTime": "2018-11-13T14:22:19.856Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "black-house.md",
+      "ext": ".md",
+      "name": "black-house",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16646454,
+      "blocks": 8,
+      "atimeMs": 1542131051280.782,
+      "mtimeMs": 1542118939856.8896,
+      "ctimeMs": 1542118939857.9482,
+      "birthtimeMs": 1542118939856.4502,
+      "atime": "2018-11-13T17:44:11.281Z",
+      "mtime": "2018-11-13T14:22:19.857Z",
+      "ctime": "2018-11-13T14:22:19.858Z",
+      "birthtime": "2018-11-13T14:22:19.856Z"
+    },
+    "63b7fedf-d6b9-5798-9d94-ce9d8799536e": {
+      "id": "63b7fedf-d6b9-5798-9d94-ce9d8799536e",
+      "children": [
+        "22849c10-8051-5a76-87a4-c4b194559587"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "46446131e48d89bd7a1dc4ec2a418bee",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/doi-chang.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md",
+      "relativePath": "doi-chang.md",
+      "extension": "md",
+      "size": 1604,
+      "prettySize": "1.6 kB",
+      "modifiedTime": "2018-11-13T14:35:46.221Z",
+      "accessTime": "2018-11-13T17:44:11.281Z",
+      "changeTime": "2018-11-13T14:35:46.221Z",
+      "birthTime": "2018-11-13T14:35:46.221Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "doi-chang.md",
+      "ext": ".md",
+      "name": "doi-chang",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16647480,
+      "blocks": 8,
+      "atimeMs": 1542131051280.794,
+      "mtimeMs": 1542119746220.6536,
+      "ctimeMs": 1542119746221.2197,
+      "birthtimeMs": 1542119746220.5078,
+      "atime": "2018-11-13T17:44:11.281Z",
+      "mtime": "2018-11-13T14:35:46.221Z",
+      "ctime": "2018-11-13T14:35:46.221Z",
+      "birthtime": "2018-11-13T14:35:46.221Z"
+    },
+    "4a6c7be5-0c71-5435-814b-5214e605824d": {
+      "id": "4a6c7be5-0c71-5435-814b-5214e605824d",
+      "children": [
+        "3faef22a-d6b5-55d1-9343-549692555c44"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b5b2fc051f22374284407c0c94100050",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/doi-mae-salong.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-mae-salong.md",
+      "relativePath": "doi-mae-salong.md",
+      "extension": "md",
+      "size": 1474,
+      "prettySize": "1.47 kB",
+      "modifiedTime": "2018-11-13T14:46:05.338Z",
+      "accessTime": "2018-11-13T17:44:11.281Z",
+      "changeTime": "2018-11-13T14:46:05.340Z",
+      "birthTime": "2018-11-13T14:46:05.338Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "doi-mae-salong.md",
+      "ext": ".md",
+      "name": "doi-mae-salong",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16648391,
+      "blocks": 8,
+      "atimeMs": 1542131051280.7988,
+      "mtimeMs": 1542120365337.705,
+      "ctimeMs": 1542120365339.854,
+      "birthtimeMs": 1542120365337.55,
+      "atime": "2018-11-13T17:44:11.281Z",
+      "mtime": "2018-11-13T14:46:05.338Z",
+      "ctime": "2018-11-13T14:46:05.340Z",
+      "birthtime": "2018-11-13T14:46:05.338Z"
+    },
+    "d02d6a1c-9c2d-5d10-a617-88f8de8357e8": {
+      "id": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
+      "children": [
+        "b9464a23-861b-5dd2-b75f-9b21df7b93ff"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4bbfb9b6f6da27bd6d7ac24d32c88012",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/khantoke.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md",
+      "relativePath": "khantoke.md",
+      "extension": "md",
+      "size": 1603,
+      "prettySize": "1.6 kB",
+      "modifiedTime": "2018-11-13T16:59:39.927Z",
+      "accessTime": "2018-11-13T17:44:11.281Z",
+      "changeTime": "2018-11-13T16:59:39.929Z",
+      "birthTime": "2018-11-13T16:59:39.927Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "khantoke.md",
+      "ext": ".md",
+      "name": "khantoke",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16653915,
+      "blocks": 8,
+      "atimeMs": 1542131051280.8076,
+      "mtimeMs": 1542128379926.9768,
+      "ctimeMs": 1542128379928.824,
+      "birthtimeMs": 1542128379926.7483,
+      "atime": "2018-11-13T17:44:11.281Z",
+      "mtime": "2018-11-13T16:59:39.927Z",
+      "ctime": "2018-11-13T16:59:39.929Z",
+      "birthtime": "2018-11-13T16:59:39.927Z"
+    },
+    "e70c618b-f0b1-5f8c-a28d-44a37e272f5f": {
+      "id": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f",
+      "children": [
+        "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c82082682f0f38f271da1d7b42a2d03",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/koh-lipe.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/koh-lipe.md",
+      "relativePath": "koh-lipe.md",
+      "extension": "md",
+      "size": 1466,
+      "prettySize": "1.47 kB",
+      "modifiedTime": "2018-11-13T17:12:53.460Z",
+      "accessTime": "2018-11-13T17:44:11.281Z",
+      "changeTime": "2018-11-13T17:12:53.463Z",
+      "birthTime": "2018-11-13T17:12:53.460Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "koh-lipe.md",
+      "ext": ".md",
+      "name": "koh-lipe",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16654962,
+      "blocks": 8,
+      "atimeMs": 1542131051280.812,
+      "mtimeMs": 1542129173460.0276,
+      "ctimeMs": 1542129173462.6675,
+      "birthtimeMs": 1542129173459.7322,
+      "atime": "2018-11-13T17:44:11.281Z",
+      "mtime": "2018-11-13T17:12:53.460Z",
+      "ctime": "2018-11-13T17:12:53.463Z",
+      "birthtime": "2018-11-13T17:12:53.460Z"
+    },
+    "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27": {
+      "id": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27",
+      "children": [
+        "7a1f4f59-657c-587c-991b-e2016c3f07bd"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc7293fcf2f993516f892ae508ff4266",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/white-temple.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/white-temple.md",
+      "relativePath": "white-temple.md",
+      "extension": "md",
+      "size": 1461,
+      "prettySize": "1.46 kB",
+      "modifiedTime": "2018-11-13T16:25:53.588Z",
+      "accessTime": "2018-11-13T17:10:53.667Z",
+      "changeTime": "2018-11-13T16:25:53.591Z",
+      "birthTime": "2018-11-13T16:25:53.588Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "white-temple.md",
+      "ext": ".md",
+      "name": "white-temple",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651538,
+      "blocks": 8,
+      "atimeMs": 1542129053666.8818,
+      "mtimeMs": 1542126353588.424,
+      "ctimeMs": 1542126353590.8948,
+      "birthtimeMs": 1542126353588.0825,
+      "atime": "2018-11-13T17:10:53.667Z",
+      "mtime": "2018-11-13T16:25:53.588Z",
+      "ctime": "2018-11-13T16:25:53.591Z",
+      "birthtime": "2018-11-13T16:25:53.588Z"
+    },
+    "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c": {
+      "id": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c",
+      "children": [
+        "5783c44b-f908-5240-8d10-7268e98564e4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a8dce5bb81856ae768baa77a6ef5ffbd",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/golden-triangle.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/golden-triangle.md",
+      "relativePath": "golden-triangle.md",
+      "extension": "md",
+      "size": 1519,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-13T16:33:44.856Z",
+      "accessTime": "2018-11-13T17:10:53.667Z",
+      "changeTime": "2018-11-13T16:33:44.859Z",
+      "birthTime": "2018-11-13T16:33:44.856Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "golden-triangle.md",
+      "ext": ".md",
+      "name": "golden-triangle",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16652173,
+      "blocks": 8,
+      "atimeMs": 1542129053666.828,
+      "mtimeMs": 1542126824856.3347,
+      "ctimeMs": 1542126824858.6506,
+      "birthtimeMs": 1542126824856.0776,
+      "atime": "2018-11-13T17:10:53.667Z",
+      "mtime": "2018-11-13T16:33:44.856Z",
+      "ctime": "2018-11-13T16:33:44.859Z",
+      "birthtime": "2018-11-13T16:33:44.856Z"
+    },
+    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
+      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
+      "children": [],
+      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
+      "internal": {
+        "content": "\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\n# Khantoke \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n  ![thai-musicians](../images/old-chiangmai-khantoke/khantoke-musicians.jpg)\n   \n   ![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n    ",
         "type": "MarkdownRemark",
-        "contentDigest": "3d7be1846b9b24c492de46d6d12c5adf",
+        "contentDigest": "fdb0539e7ebdb691c5e6f025b03fa179",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "Golden Triangle",
-        "slug": "/golden-triangle",
-        "date": "2018-11-08",
-        "cover": "../images/statue.jpg",
-        "_PARENT": "786b09b8-5357-5f37-beac-8acc3a047542"
+        "title": "Khantoke",
+        "slug": "/khantoke",
+        "date": "2016-12-28",
+        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
+        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![statue](../images/statue.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post3.md"
+      "rawMarkdownBody": "\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\n# Khantoke \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n  ![thai-musicians](../images/old-chiangmai-khantoke/khantoke-musicians.jpg)\n   \n   ![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n    ",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
     },
-    "8d2bd18b-c2f1-5383-86c1-de558c38b4e6": {
-      "id": "8d2bd18b-c2f1-5383-86c1-de558c38b4e6",
+    "3faef22a-d6b5-55d1-9343-549692555c44": {
+      "id": "3faef22a-d6b5-55d1-9343-549692555c44",
       "children": [],
-      "parent": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc",
+      "parent": "4a6c7be5-0c71-5435-814b-5214e605824d",
       "internal": {
-        "content": "\n![clock-tower](../images/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+        "content": "\n![tea](../images/doi-mae-salong/tea.jpg)\n\n# Doi Mae Salong Tea \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\n\n![tea-and-bananas](../images/doi-mae-salong/tea-and-bananas.jpg)",
         "type": "MarkdownRemark",
-        "contentDigest": "b47b87aad89bda0eeb263bd0969b8a93",
+        "contentDigest": "3661ed7b4fd0885b6c9099cb0b81b278",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "Chiang Rai Clock Tower",
-        "slug": "/chiang-rai",
-        "date": "2018-11-07",
-        "cover": "../images/clock-tower.jpg",
-        "_PARENT": "50394d1e-7c42-56d0-9384-e43bc6f1c6bc"
+        "title": "Mae Salong Tea",
+        "slug": "/doi-mae-salong",
+        "date": "2016-12-27",
+        "cover": "../images/doi-mae-salong/tea.jpg",
+        "_PARENT": "4a6c7be5-0c71-5435-814b-5214e605824d"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![clock-tower](../images/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post2.md"
+      "rawMarkdownBody": "\n![tea](../images/doi-mae-salong/tea.jpg)\n\n# Doi Mae Salong Tea \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\n\n![tea-and-bananas](../images/doi-mae-salong/tea-and-bananas.jpg)",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-mae-salong.md"
     },
-    "66a66fc1-5c81-511e-bf90-d0d53b01a16b": {
-      "id": "66a66fc1-5c81-511e-bf90-d0d53b01a16b",
+    "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0": {
+      "id": "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0",
       "children": [],
-      "parent": "81d35b1e-57da-53f5-9705-471f77f880bb",
+      "parent": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f",
       "internal": {
-        "content": "\n![white-temple](../images/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
+        "content": "\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\n# Koh Lipe\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n   ![speed-boat](../images/koh-lipe/koh-lipe-speed-boat.jpg)\n   \n   ![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n   ",
         "type": "MarkdownRemark",
-        "contentDigest": "d61836bcf497be45d9f432aff1742363",
+        "contentDigest": "8e9b9c782c1913fcb6e1516323435321",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Koh Lipe",
+        "slug": "/koh-lipe",
+        "date": "2016-12-29",
+        "cover": "../images/koh-lipe/koh-lipe-boat.jpg",
+        "_PARENT": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\n# Koh Lipe\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n   ![speed-boat](../images/koh-lipe/koh-lipe-speed-boat.jpg)\n   \n   ![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n   ",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/koh-lipe.md"
+    },
+    "6a882395-f708-5af1-8d58-6e08262708f4": {
+      "id": "6a882395-f708-5af1-8d58-6e08262708f4",
+      "children": [],
+      "parent": "1ff20007-d397-525f-82d3-40e2a1ee36b9",
+      "internal": {
+        "content": "\n![black-house](../images/black-house/black-house.jpg)\n\n# The Black House\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![black-house](../images/black-house/dinner-table.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![black-house](../images/black-house/crocodile.jpg)\n ![black-house](../images/black-house/gong.jpg)\n ",
+        "type": "MarkdownRemark",
+        "contentDigest": "2baf0e70b480346bbb74826147a6d5c3",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "The Black House",
+        "slug": "/black-house",
+        "date": "2016-12-26",
+        "cover": "../images/black-house/black-house.jpg",
+        "_PARENT": "1ff20007-d397-525f-82d3-40e2a1ee36b9"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![black-house](../images/black-house/black-house.jpg)\n\n# The Black House\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![black-house](../images/black-house/dinner-table.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![black-house](../images/black-house/crocodile.jpg)\n ![black-house](../images/black-house/gong.jpg)\n ",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/black-house.md"
+    },
+    "22849c10-8051-5a76-87a4-c4b194559587": {
+      "id": "22849c10-8051-5a76-87a4-c4b194559587",
+      "children": [],
+      "parent": "63b7fedf-d6b9-5798-9d94-ce9d8799536e",
+      "internal": {
+        "content": "\n![doi-chang-coffee](../images/doi-chang/doi-chang-coffee.jpg)\n\n# Doi Chang Coffee\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![doi-chang-coffee](../images/doi-chang/coffee-map.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![doi-chang-coffee](../images/doi-chang/buns.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang.jpg)\n\n![doi-chang-coffee](../images/doi-chang/more-doi-chang-coffee.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang-sunrise.jpg)\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "7358ebe380cd24efeaad61b742d7de7b",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Doi Chang Coffee",
+        "slug": "/doi-chang",
+        "date": "2016-12-28",
+        "cover": "../images/doi-chang/doi-chang-coffee.jpg",
+        "_PARENT": "63b7fedf-d6b9-5798-9d94-ce9d8799536e"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![doi-chang-coffee](../images/doi-chang/doi-chang-coffee.jpg)\n\n# Doi Chang Coffee\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![doi-chang-coffee](../images/doi-chang/coffee-map.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![doi-chang-coffee](../images/doi-chang/buns.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang.jpg)\n\n![doi-chang-coffee](../images/doi-chang/more-doi-chang-coffee.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang-sunrise.jpg)\n\n",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md"
+    },
+    "7a1f4f59-657c-587c-991b-e2016c3f07bd": {
+      "id": "7a1f4f59-657c-587c-991b-e2016c3f07bd",
+      "children": [],
+      "parent": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27",
+      "internal": {
+        "content": "\n![white-temple](../images/white-temple/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![white-temple](../images/white-temple/white-temple-detail.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![white-temple](../images/white-temple/chalermchai-kositpipat.jpg)",
+        "type": "MarkdownRemark",
+        "contentDigest": "e79e2b7ce14645a043bc450b7c832e0c",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "Visiting the White Temple",
         "slug": "/white-temple",
         "date": "2018-11-06",
-        "cover": "../images/white-temple.jpg",
-        "_PARENT": "81d35b1e-57da-53f5-9705-471f77f880bb"
+        "cover": "../images/white-temple/white-temple.jpg",
+        "_PARENT": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![white-temple](../images/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/post1.md"
+      "rawMarkdownBody": "\n![white-temple](../images/white-temple/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![white-temple](../images/white-temple/white-temple-detail.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![white-temple](../images/white-temple/chalermchai-kositpipat.jpg)",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/white-temple.md"
+    },
+    "5783c44b-f908-5240-8d10-7268e98564e4": {
+      "id": "5783c44b-f908-5240-8d10-7268e98564e4",
+      "children": [],
+      "parent": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c",
+      "internal": {
+        "content": "\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![golden-triangle-sign](../images/golden-triangle/golden-triangle-sign.jpg)\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\n![statue](../images/golden-triangle/statue.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1b142a08b973b62f45057589c17facdb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Golden Triangle",
+        "slug": "/golden-triangle",
+        "date": "2018-11-08",
+        "cover": "../images/golden-triangle/decorated-dragon.jpg",
+        "_PARENT": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![golden-triangle-sign](../images/golden-triangle/golden-triangle-sign.jpg)\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\n![statue](../images/golden-triangle/statue.jpg)\n",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/golden-triangle.md"
+    },
+    "9410eb17-79b4-5548-ba52-ef80034b16a2": {
+      "id": "9410eb17-79b4-5548-ba52-ef80034b16a2",
+      "children": [
+        "085f5cfc-948f-53d4-9a1a-d3be64549537"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3bd6898656ecbbb719fc15fec0050108",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/clock-tower.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/clock-tower.md",
+      "relativePath": "clock-tower.md",
+      "extension": "md",
+      "size": 1517,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-13T16:28:22.033Z",
+      "accessTime": "2018-11-13T17:10:53.667Z",
+      "changeTime": "2018-11-13T16:28:22.036Z",
+      "birthTime": "2018-11-13T16:28:22.033Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
+      "base": "clock-tower.md",
+      "ext": ".md",
+      "name": "clock-tower",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16651661,
+      "blocks": 8,
+      "atimeMs": 1542129053666.773,
+      "mtimeMs": 1542126502032.9363,
+      "ctimeMs": 1542126502035.5085,
+      "birthtimeMs": 1542126502032.6487,
+      "atime": "2018-11-13T17:10:53.667Z",
+      "mtime": "2018-11-13T16:28:22.033Z",
+      "ctime": "2018-11-13T16:28:22.036Z",
+      "birthtime": "2018-11-13T16:28:22.033Z"
+    },
+    "085f5cfc-948f-53d4-9a1a-d3be64549537": {
+      "id": "085f5cfc-948f-53d4-9a1a-d3be64549537",
+      "children": [],
+      "parent": "9410eb17-79b4-5548-ba52-ef80034b16a2",
+      "internal": {
+        "content": "\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![coffee](../images/clock-tower/nothern-thai-coffee.jpg)\n \n ![street-dog](../images/clock-tower/street-dog.jpg)\n ",
+        "type": "MarkdownRemark",
+        "contentDigest": "872eac11128f449f6f5c3889234147a4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Chiang Rai Clock Tower",
+        "slug": "/chiang-rai",
+        "date": "2018-11-07",
+        "cover": "../images/clock-tower/clock-tower.jpg",
+        "_PARENT": "9410eb17-79b4-5548-ba52-ef80034b16a2"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![coffee](../images/clock-tower/nothern-thai-coffee.jpg)\n \n ![street-dog](../images/clock-tower/street-dog.jpg)\n ",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/clock-tower.md"
+    },
+    "SitePage /posts/khantoke": {
+      "jsonName": "posts-khantoke-b3a",
+      "internalComponentName": "ComponentPostsKhantoke",
+      "path": "/posts/khantoke",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/khantoke"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/khantoke",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f14e53213919e72d88ad8fe51a53618d",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/doi-mae-salong": {
+      "jsonName": "posts-doi-mae-salong-f47",
+      "internalComponentName": "ComponentPostsDoiMaeSalong",
+      "path": "/posts/doi-mae-salong",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/doi-mae-salong"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/doi-mae-salong",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "29fca319a5c7339b24d3021bc2ca38c3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/koh-lipe": {
+      "jsonName": "posts-koh-lipe-7d3",
+      "internalComponentName": "ComponentPostsKohLipe",
+      "path": "/posts/koh-lipe",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/koh-lipe"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/koh-lipe",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c1ee93ccdfe33c25e1cfb2fb8ffd806e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/black-house": {
+      "jsonName": "posts-black-house-eac",
+      "internalComponentName": "ComponentPostsBlackHouse",
+      "path": "/posts/black-house",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/black-house"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/black-house",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d282e6b1aa1a4545a16019179da5a8e6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/doi-chang": {
+      "jsonName": "posts-doi-chang-f9f",
+      "internalComponentName": "ComponentPostsDoiChang",
+      "path": "/posts/doi-chang",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/doi-chang"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/doi-chang",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f25a245228da0d9f6cfc713e4c6fbe41",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/white-temple": {
+      "jsonName": "posts-white-temple-126",
+      "internalComponentName": "ComponentPostsWhiteTemple",
+      "path": "/posts/white-temple",
+      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "componentChunkName": "component---src-components-post-layout-js",
+      "context": {
+        "slug": "/white-temple"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
+      "id": "SitePage /posts/white-temple",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2f58f9e4b6226ee52fbe5dbecef831dc",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /posts/golden-triangle": {
       "jsonName": "posts-golden-triangle-c96",
@@ -2476,28 +5124,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "4a230a22d509e7b933cb670cbee33d56",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /posts/white-temple": {
-      "jsonName": "posts-white-temple-126",
-      "internalComponentName": "ComponentPostsWhiteTemple",
-      "path": "/posts/white-temple",
-      "component": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
-      "componentChunkName": "component---src-components-post-layout-js",
-      "context": {
-        "slug": "/white-temple"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js",
-      "id": "SitePage /posts/white-temple",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2f58f9e4b6226ee52fbe5dbecef831dc",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2627,57 +5253,90 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "99c128e203e30fdcac479869a59d65d9"
+    "PLUGINS_HASH": "c39b2173ceaa447542c85e839dddc228"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "5e26d1f7-f709-5d97-9df5-a47b4a760c6c": [
-        "sq--src-components-image-js"
-      ],
       "c84e61f5-46b7-5a41-87b6-2f6350e96599": [
         "sq--src-components-layout-js"
       ],
-      "96537a49-7f1c-54e0-ac3f-1cb48a538fbd": [
-        "sq--src-components-image-js"
+      "f520ef0e-2ad9-5d01-9f04-e4a8bca28690": [
+        "sq--src-components-listing-js"
+      ],
+      "71596db8-254f-5bc6-984d-4688cc5a7f8b": [
+        "sq--src-components-listing-js"
+      ],
+      "ccf39244-7d1d-56e3-a81d-f7bb3d840032": [
+        "sq--src-components-listing-js"
+      ],
+      "d296f84f-351a-5d22-8622-424de993c405": [
+        "sq--src-components-listing-js"
+      ],
+      "d44e6487-919d-5186-a175-17c90875acea": [
+        "sq--src-components-listing-js"
+      ],
+      "35f7e703-471a-59fb-a599-ffbae6b40f3b": [
+        "sq--src-components-listing-js"
+      ],
+      "a6a4290f-96a1-5815-a25b-33b66ead145c": [
+        "sq--src-components-listing-js"
+      ],
+      "00b75750-f4a0-5b95-874b-ee2f0c71a4b5": [
+        "sq--src-components-listing-js"
+      ],
+      "fa2b3cab-39a4-528f-97e1-7633fcb87cef": [
+        "sq--src-components-listing-js"
+      ],
+      "65122004-fbe5-5026-8e79-82c1e405836f": [
+        "sq--src-components-listing-js"
+      ],
+      "c8640557-84e5-5183-a009-3d294a234fb2": [
+        "sq--src-components-listing-js"
+      ],
+      "4d4fc9f7-5e28-53c8-869e-95679c8790be": [
+        "sq--src-components-listing-js"
+      ],
+      "85ee43e9-266e-578f-ac2c-6716a4b62b43": [
+        "sq--src-components-listing-js"
+      ],
+      "241dd2b0-2853-5d83-9374-cb250d3e90d8": [
+        "sq--src-components-listing-js"
+      ],
+      "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48": [
+        "sq--src-components-listing-js"
+      ],
+      "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0": [
+        "sq--src-components-listing-js"
       ],
       "4c5e7cf7-eb59-55e5-b895-6a0171409b41": [
         "sq--src-components-layout-js"
       ],
-      "66a66fc1-5c81-511e-bf90-d0d53b01a16b": [
+      "b9464a23-861b-5dd2-b75f-9b21df7b93ff": [
+        "/posts/khantoke"
+      ],
+      "3faef22a-d6b5-55d1-9343-549692555c44": [
+        "/posts/doi-mae-salong"
+      ],
+      "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0": [
+        "/posts/koh-lipe"
+      ],
+      "6a882395-f708-5af1-8d58-6e08262708f4": [
+        "/posts/black-house"
+      ],
+      "22849c10-8051-5a76-87a4-c4b194559587": [
+        "/posts/doi-chang"
+      ],
+      "7a1f4f59-657c-587c-991b-e2016c3f07bd": [
         "/posts/white-temple"
       ],
-      "8d2bd18b-c2f1-5383-86c1-de558c38b4e6": [
-        "/posts/chiang-rai"
-      ],
-      "100667e3-e76a-51b6-9a81-f7ffb75cfc74": [
+      "5783c44b-f908-5240-8d10-7268e98564e4": [
         "/posts/golden-triangle"
       ],
-      "d8a65131-2529-5031-b8c0-95ed1cef34f3": [
-        "/",
-        "sq--src-components-listing-js"
-      ],
-      "25ba0a69-1826-5bf1-9ea1-3468e47bda14": [
-        "/",
-        "sq--src-components-listing-js"
-      ],
-      "355b1b89-b06e-5610-aaac-7ab704eb9781": [
-        "/",
-        "sq--src-components-listing-js"
-      ],
-      "8d1f925c-95ac-57fc-aed5-764dfbaaef81": [
-        "/",
-        "sq--src-components-listing-js"
-      ],
-      "cec93746-1c80-5817-b88e-0c4e010c1b8d": [
-        "/",
-        "sq--src-components-listing-js"
-      ],
-      "dd78672d-de92-56e4-9178-fa84fff42bd6": [
-        "/",
-        "sq--src-components-listing-js"
+      "085f5cfc-948f-53d4-9a1a-d3be64549537": [
+        "/posts/chiang-rai"
       ]
     },
     "connections": {
@@ -2691,19 +5350,24 @@
   },
   "jsonDataPaths": {
     "sq--src-components-archive-js": 1967351310,
-    "posts-chiang-rai-71d": "231/path---posts-chiang-rai-71-d-860-znYdgRC2bmReRRfHvVIHXwwH6NE",
     "sq--src-components-image-js": 2011440971,
-    "posts-white-temple-126": "352/path---posts-white-temple-126-dcc-BjwwXlS326jvWDkhVOooGaYY",
-    "sq--src-components-listing-js": 72632339,
-    "posts-golden-triangle-c96": "926/path---posts-golden-triangle-c-96-85f-SGHyWRcpcEIsc4vSpwy3kIlSkCQ",
+    "posts-doi-chang-f9f": "679/path---posts-doi-chang-f-9-f-f39-1SMYpf7KCgLxfpxHkiEaEM4xE8w",
+    "posts-black-house-eac": "75/path---posts-black-house-eac-fda-hQuuyAODodCIRt73VXbinPX49w",
+    "sq--src-components-layout-js": 973632614,
+    "sq--src-components-listing-js": 2024664925,
+    "posts-doi-mae-salong-f47": "262/path---posts-doi-mae-salong-f-47-f69-QnmVlcumjkK1ReipimGEb1pdpA",
+    "posts-chiang-rai-71d": "560/path---posts-chiang-rai-71-d-860-kNBpKJ4HFR3AXHQisWSKZOdLU",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "company-team-a16": "654/path---company-team-a-16-046-NZuapzHg3X9TaN1iIixfv1W23E",
+    "posts-white-temple-126": "622/path---posts-white-temple-126-dcc-TGZD9OJ4WyWANGmuKqkvSABYVg",
+    "posts-golden-triangle-c96": "158/path---posts-golden-triangle-c-96-85f-rBlkYXFBlrJ2x79VHuTuZv0gkUA",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "company-team-a16": "654/path---company-team-a-16-046-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 973632614
+    "posts-khantoke-b3a": "964/path---posts-khantoke-b-3-a-c22-CHodsfBb2goOjnPYd5gTKl7lk",
+    "posts-koh-lipe-7d3": "142/path---posts-koh-lipe-7-d-3-c98-T0gTn7LhbmoIVYZfuszpkWC9kQ"
   },
   "components": {
     "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js": {
@@ -2765,8 +5429,8 @@
       "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/listing.js",
       "id": "sq--src-components-listing-js",
       "jsonName": "sq--src-components-listing-js",
-      "query": "query BlogPostListing {\n  allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          slug\n          cover {\n            id\n            childImageSharp {\n              fluid(maxWidth: 300) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 72632339
+      "query": "query BlogPostListing {\n  allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          slug\n          cover {\n            id\n            childImageSharp {\n              fluid(maxWidth: 1000) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2024664925
     }
   }
 }

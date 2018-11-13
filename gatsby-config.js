@@ -28,7 +28,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/white-temple.jpg',
+        icon: 'src/images/white-temple/white-temple.jpg',
       },
     },
     {
@@ -46,7 +46,6 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
