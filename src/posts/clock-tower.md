@@ -2,10 +2,10 @@
 slug: "/chiang-rai"
 date: "2018-11-07"
 title: "Chiang Rai Clock Tower"
-cover: "../images/clock-tower.jpg"
+cover: "../images/clock-tower/clock-tower.jpg"
 ---
 
-![clock-tower](../images/clock-tower.jpg)
+![clock-tower](../images/clock-tower/clock-tower.jpg)
 
 # Visiting Chiang Rai's Famous Clock Tower
  
