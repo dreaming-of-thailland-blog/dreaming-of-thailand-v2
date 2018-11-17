@@ -71,18 +71,22 @@ const Layout = ({ children, location }) => (
           {/**/}
         {/*}*/}
         <MainLayout>
+          {location.pathname === '/' ?
           <div className='grid-container'>
           {children}
           </div>
-        </MainLayout>
+            : <div className='post-container'>
+              {children}
+            </div> }
+            </MainLayout>
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
 Layout.defaultProps = {
   location: {},

@@ -17,26 +17,32 @@ const HeaderContainer = styled.div`
   padding: 1rem;
 `;
 
+const NavContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+`;
+
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <HeaderContainer>
-      <h1 style={{ margin: 0 }}>
+      <NavContainer>
         <Link
           to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {/*<img*/}
-            {/*style={{*/}
-              {/*width: '100px',*/}
-            {/*}}*/}
-            {/*src={riceField}*/}
-            {/*alt="Rice Field"*/}
-          {/*/>*/}
+        >home
         </Link>
-      </h1>
+        <Link
+          to="/about"
+        >
+          about
+        </Link>
+        <Link
+          to="/about"
+        >
+          third
+        </Link>
+
+      </NavContainer>
     </HeaderContainer>
   </HeaderWrapper>
 );

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { graphql } from 'gatsby';
 import Layout from './layout.js';
+import styled from 'styled-components';
+
+
 
 export default class postLayout extends Component {
   render() {
@@ -10,7 +13,7 @@ export default class postLayout extends Component {
     return (
       <Layout location={location}>
         <h1>{markdownRemark.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{
+        <div className='post-body' dangerouslySetInnerHTML={{
           __html: markdownRemark.html
         }} />
       </Layout>
