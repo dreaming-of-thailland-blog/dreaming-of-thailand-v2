@@ -12,16 +12,46 @@ import Header from './header'
 import 'normalize.css/normalize.css';
 
 const MainLayout = styled.main`
-  max-width: 90%;
+  max-width: 100%;
   margin: 1rem auto;
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px 10px;
-    }
+    }  
   }
+
+  @media (min-width: 500px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px 10px;
+      }
+  }
+
+  @media (min-width: 600px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px 10px;
+      }
+  }
+
+  @media (min-width: 700px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px 10px;
+      }
+  }
+  
 `;
 
+const PostContainer = styled.div`
+  background: #e6e6e6;
+`;
+
+// do you need to pass in children and location here???
 const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
@@ -48,10 +78,11 @@ const Layout = ({ children, location }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description',
+            {
+              name: data.site.siteMetadata.title,
               content: data.site.siteMetadata.description,
             },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'Thailand, Photography, Travel', content: 'Travel Photography' },
           ]}
         >
           <html lang="en" />
@@ -68,22 +99,27 @@ const Layout = ({ children, location }) => (
           )}
         </Spring>
         {/*{location.pathname === '/' &&*/}
-          {/**/}
+        {/**/}
         {/*}*/}
         <MainLayout>
-          <div className='grid-container'>
-          {children}
-          </div>
+          {location.pathname === '/' ?
+            <div className='grid-container'>
+              {children}
+            </div>
+            : <PostContainer className='post-container'>
+              {children}
+            </PostContainer>}
         </MainLayout>
       </>
     )}
   />
-)
+);
 
+// do you need this???
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
-
+};
+// do you need this???
 Layout.defaultProps = {
   location: {},
 };

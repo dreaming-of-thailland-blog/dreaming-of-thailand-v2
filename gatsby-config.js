@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Dreaming of Thailand',
-    description: 'Travels in the Land of Smiles',
+    description: 'Travel Photography in the Land of Smiles',
     siteUrl: 'https://dreaming-of-thailand-v2.netlify.com/',
   },
   plugins: [
@@ -25,8 +25,8 @@ module.exports = {
         name: 'Dreaming of Thailand',
         short_name: 'Thailand Travel Blog',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#ffffff',
+        theme_color: '#000000',
         display: 'minimal-ui',
         icon: 'src/images/white-temple/white-temple.jpg',
       },

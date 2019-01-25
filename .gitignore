@@ -1,10 +1,11 @@
 # Project dependencies
-.cache
+.cache/
 node_modules
 yarn-error.log
 
 # Build directory
 /public
+public/
 .DS_Store
 
 # Created by https://www.gitignore.io/api/linux,macos,visualstudio,webstorm+all,visualstudiocode

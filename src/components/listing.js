@@ -3,6 +3,30 @@ import styled from 'styled-components';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+const Post = styled.article`
+  box-shadow: 0px 3px 10px rgba(25, 16, 34, 0.05);
+  padding: 1rem;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .read-more {
+    font-family: helvetica;
+    font-size: 0.75rem;
+    text-decoration: underline;
+    color: #000000;
+  }
+`;
+
 const LISTING_QUERY = graphql`
     query BlogPostListing {
         allMarkdownRemark(limit: 10, sort: {
@@ -31,47 +55,24 @@ const LISTING_QUERY = graphql`
     }
 `;
 
-const Post = styled.article`
-  box-shadow: 0px 3px 10px rgba(25, 16, 34, 0.05);
-  padding: 1rem;
-  border-radius: 7px;
-  margin-bottom: 1rem;
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  h2 {
-    margin-bottom: 0;
-  }
-  p {
-    font-size: 0.8rem;
-  }
-  .read-more {
-    font-family: helvetica;
-    font-size: 0.8rem;
-    text-decoration: underline;
-    color: #524763;
-  }
-`;
-
 const Listing = (data) => (
   <StaticQuery
     query={LISTING_QUERY}
-    render={({allMarkdownRemark}) => (
-      allMarkdownRemark.edges.map(({node}) => (
+    render={({ allMarkdownRemark }) => (
+      allMarkdownRemark.edges.map(({ node }) => (
         <Post key={node.frontmatter.slug}>
           <Link to={`/posts${node.frontmatter.slug}`}>
             <div>
-            <Img
-              fluid={node.frontmatter.cover.childImageSharp.fluid}
-            />
+              <Img
+                fluid={node.frontmatter.cover.childImageSharp.fluid}
+              />
             </div>
             <h2>{node.frontmatter.title}</h2>
           </Link>
-          <p>{node.frontmatter.date}</p>
+          {/*<p>{node.frontmatter.date}</p>*/}
 
-          <p>{node.excerpt}</p>
-          <Link class='read-more' to={`/posts${node.frontmatter.slug}`}>Read More</Link>
+          {/*<p>{node.excerpt}</p>*/}
+          <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More...</Link>
         </Post>
       ))
     )}
