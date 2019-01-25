@@ -1,8 +1,7 @@
 import React from 'react';
-
 import Layout from '../components/layout';
 
-const About = ({location}) => (
+const About = ({ location }) => (
   <Layout location={location}>
     <div>
       <h1>

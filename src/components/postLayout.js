@@ -17,8 +17,8 @@ export default class postLayout extends Component {
           __html: markdownRemark.html
         }} />
       </Layout>
-    )
-  }
+    );
+  };
 };
 
 // !requires a slug argument which comes in as a string...

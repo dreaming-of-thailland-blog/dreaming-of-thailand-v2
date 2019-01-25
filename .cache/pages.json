@@ -20,6 +20,11 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-archive-page-js",
+        "jsonName": "archive-page-73b",
+        "path": "/archivePage/"
+    },
+    {
         "componentChunkName": "component---src-pages-company-team-js",
         "jsonName": "company-team-a16",
         "path": "/company/team/"
