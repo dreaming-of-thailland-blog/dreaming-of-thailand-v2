@@ -4,7 +4,7 @@ import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 const Post = styled.article`
-  box-shadow: 0px 3px 10px rgba(25, 16, 34, 0.05);
+  box-shadow: 0px 8px 15px rgba(25, 16, 34, 0.05);
   padding: 1rem;
   border-radius: 7px;
   margin-bottom: 1rem;

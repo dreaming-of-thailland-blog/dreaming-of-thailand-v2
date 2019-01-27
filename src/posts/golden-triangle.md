@@ -2,19 +2,27 @@
 slug: "/golden-triangle"
 date: "2018-11-08"
 title: "Golden Triangle"
+subtitle: "Visiting Thailand's Golden Triangle"
 cover: "../images/golden-triangle/decorated-dragon.jpg"
 ---
+<div>
 
 ![dragon](../images/golden-triangle/decorated-dragon.jpg)
 
-# Visiting Thailand's Golden Triangle
+This ornate water dragon or "naga" guards the entrance to a temple complex on a bluff overlooking the Mekong river.
 
-Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->
-
-![golden-triangle-sign](../images/golden-triangle/golden-triangle-sign.jpg)
-
-Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.
+</div>
+<div>
 
 ![temple](../images/golden-triangle/shiny-floor-temple.jpg)
 
+This amazing temple was closed on arrival but we still got this lucky shot of the polished luminescent marble floor glowing as the sun went down.
+
+</div>
+<div>
+
 ![statue](../images/golden-triangle/statue.jpg)
+
+It's common for the the monks to adorn the statues that surround the chedi's of the older temple complexes.  This statue is possibly well over 500 years old.
+
+</div>

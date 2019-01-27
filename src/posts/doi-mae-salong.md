@@ -2,20 +2,27 @@
 slug: "/doi-mae-salong"
 date: "2016-12-27"
 title: "Mae Salong Tea"
+subtitle: "Visiting a Tea Plantation"
 cover:  "../images/doi-mae-salong/tea.jpg"
 ---
+<div>
 
 ![tea](../images/doi-mae-salong/tea.jpg)
 
-# Doi Mae Salong Tea 
+Way up on the border with Myanmar is the small village of Doi Mae Salong which is famous for growing excellent quality oolong tea. 
 
- Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->
+</div>
+<div>
 
 ![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)
 
- Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.
+We sat down for a tea tasting in a building that also housed tea processing and storage facilities.
+
+</div>
+<div>
 
 ![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)
 
+Walk amongst the rows of tea shrubs and take in the beauty of the mountains of Northern Thailand.
 
-![tea-and-bananas](../images/doi-mae-salong/tea-and-bananas.jpg)
+</div>

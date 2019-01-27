@@ -1,20 +1,28 @@
 ---
 slug: "/black-house"
 date: "2016-12-26"
-title: "The Black House"
+title: "Baan Dam - The Black House"
+subtitle: "Baan Dam - The Black House"
 cover: "../images/black-house/black-house.jpg"
 ---
+<div>
 
 ![black-house](../images/black-house/black-house.jpg)
 
-# The Black House
+The Black House looks like a temple but it's really a bizarre art installation created by one of Thailand's most famous visual artists, Thawan Duchanee. 
 
- Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->
+</div>
+<div>
+
+ ![dinner-table](../images/black-house/dinner-table.jpg)
  
- ![black-house](../images/black-house/dinner-table.jpg)
- 
- Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.
- 
- ![black-house](../images/black-house/crocodile.jpg)
- ![black-house](../images/black-house/gong.jpg)
- 
+The interior of each house presents a collection of oddities as well as a shrine to the artist who passed away in 2014.
+
+ </div>
+<div>
+
+ ![crocodile-skin](../images/black-house/crocodile.jpg)
+
+This crocodile skin displayed in a dome shaped hut was super strange. 
+
+ </div>

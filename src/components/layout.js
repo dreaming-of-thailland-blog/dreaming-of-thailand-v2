@@ -48,7 +48,59 @@ const MainLayout = styled.main`
 `;
 
 const PostContainer = styled.div`
-  background: #e6e6e6;
+  border: 1px dashed red;
+  padding: 1vh;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .post-body {
+    border: 1px dashed blue;
+    box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
+    padding: auto 10vh auto 10vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vh 5vh;
+  }
+
+  .post-links {
+    border: 1px dashed green;
+    display: flex;
+    justify-content: space-between;
+
+    .icon {
+      font-size: 5rem;
+    }
+
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+
+  @media screen and (min-width: 599px) {
+    .post-body {
+      border: 1px dashed blue;
+      box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
+      padding: auto 10vh auto 10vh;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5vh 5vh;
+    }
+
+    @media screen and (min-width: 699px) {
+      .post-body {
+        border: 1px dashed blue;
+        box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
+        padding: auto 10vh auto 10vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5vh 5vh;
+      }
+  }
+
 `;
 
 // do you need to pass in children and location here???

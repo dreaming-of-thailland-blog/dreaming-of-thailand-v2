@@ -1682,12 +1682,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-27T00:02:09.751Z",
+      "buildTime": "2019-01-27T01:24:40.197Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f6a904981d1f8befb69ac7189f743ff4",
+        "contentDigest": "3c386b5c4e366b775f574d55e85fb3c6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1697,7 +1697,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8a834d0d4fa1ca7a2b0b744410cbaa86",
+        "contentDigest": "6662fb680a2456bb4f952c4aa0a9686d",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1709,7 +1709,7 @@
       "size": 416,
       "prettySize": "416 B",
       "modifiedTime": "2019-01-25T18:46:57.801Z",
-      "accessTime": "2019-01-27T00:02:12.452Z",
+      "accessTime": "2019-01-27T01:24:47.187Z",
       "changeTime": "2019-01-25T18:46:57.801Z",
       "birthTime": "2018-11-07T18:47:20.714Z",
       "root": "/",
@@ -1727,11 +1727,11 @@
       "blksize": 4194304,
       "ino": 15850176,
       "blocks": 0,
-      "atimeMs": 1548547332452.4133,
+      "atimeMs": 1548552287187.0505,
       "mtimeMs": 1548442017800.9727,
       "ctimeMs": 1548442017800.9727,
       "birthtimeMs": 1541616440713.688,
-      "atime": "2019-01-27T00:02:12.452Z",
+      "atime": "2019-01-27T01:24:47.187Z",
       "mtime": "2019-01-25T18:46:57.801Z",
       "ctime": "2019-01-25T18:46:57.801Z",
       "birthtime": "2018-11-07T18:47:20.714Z"
@@ -1741,7 +1741,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c11d86e7831d91fbd4cd5e1052fa4793",
+        "contentDigest": "1760c56c38a9c0e1be1b9d893dd7009b",
         "type": "Directory",
         "description": "Directory \"src/images/black-house\"",
         "owner": "gatsby-source-filesystem"
@@ -1753,7 +1753,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-25T18:46:57.772Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.772Z",
       "birthTime": "2018-11-13T00:42:59.000Z",
       "root": "/",
@@ -1771,11 +1771,11 @@
       "blksize": 4194304,
       "ino": 16633973,
       "blocks": 0,
-      "atimeMs": 1548547332459.566,
+      "atimeMs": 1548552287190.328,
       "mtimeMs": 1548442017771.614,
       "ctimeMs": 1548442017771.614,
       "birthtimeMs": 1542069779000,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.772Z",
       "ctime": "2019-01-25T18:46:57.772Z",
       "birthtime": "2018-11-13T00:42:59.000Z"
@@ -1785,7 +1785,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2ae44672806d19de8835719304e99118",
+        "contentDigest": "eb46fb6e80def042898e63674e62d974",
         "type": "Directory",
         "description": "Directory \"src/images/clock-tower\"",
         "owner": "gatsby-source-filesystem"
@@ -1797,7 +1797,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-25T18:46:57.776Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.776Z",
       "birthTime": "2019-01-25T18:46:57.772Z",
       "root": "/",
@@ -1815,11 +1815,11 @@
       "blksize": 4194304,
       "ino": 19164189,
       "blocks": 0,
-      "atimeMs": 1548547332459.584,
+      "atimeMs": 1548552287190.364,
       "mtimeMs": 1548442017775.6418,
       "ctimeMs": 1548442017775.6418,
       "birthtimeMs": 1548442017772.166,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.776Z",
       "ctime": "2019-01-25T18:46:57.776Z",
       "birthtime": "2019-01-25T18:46:57.772Z"
@@ -1829,7 +1829,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9c485a072d4e384ce31b43871c3be902",
+        "contentDigest": "7311c1ea27da4697a867a57f27176da6",
         "type": "Directory",
         "description": "Directory \"src/images/doi-chang\"",
         "owner": "gatsby-source-filesystem"
@@ -1841,7 +1841,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-01-25T18:46:57.781Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.781Z",
       "birthTime": "2019-01-25T18:46:57.776Z",
       "root": "/",
@@ -1859,11 +1859,11 @@
       "blksize": 4194304,
       "ino": 19164195,
       "blocks": 0,
-      "atimeMs": 1548547332459.6013,
+      "atimeMs": 1548552287190.2815,
       "mtimeMs": 1548442017780.6863,
       "ctimeMs": 1548442017780.6863,
       "birthtimeMs": 1548442017776.2964,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.781Z",
       "ctime": "2019-01-25T18:46:57.781Z",
       "birthtime": "2019-01-25T18:46:57.776Z"
@@ -1873,7 +1873,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8cadfc770535eaf25b3cb9b8f0ddcf7d",
+        "contentDigest": "9429a4fa8998fe0433c5b67d3fc5ad59",
         "type": "Directory",
         "description": "Directory \"src/images/doi-mae-salong\"",
         "owner": "gatsby-source-filesystem"
@@ -1885,7 +1885,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.784Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.784Z",
       "birthTime": "2019-01-25T18:46:57.781Z",
       "root": "/",
@@ -1903,11 +1903,11 @@
       "blksize": 4194304,
       "ino": 19164202,
       "blocks": 0,
-      "atimeMs": 1548547332459.6184,
+      "atimeMs": 1548552287190.2764,
       "mtimeMs": 1548442017783.6938,
       "ctimeMs": 1548442017783.6938,
       "birthtimeMs": 1548442017781.4946,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.784Z",
       "ctime": "2019-01-25T18:46:57.784Z",
       "birthtime": "2019-01-25T18:46:57.781Z"
@@ -1917,7 +1917,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fdac728609e7719e69f1ceae2d374064",
+        "contentDigest": "ab497e02c096fa2d004c4853c5c2ba80",
         "type": "Directory",
         "description": "Directory \"src/images/golden-triangle\"",
         "owner": "gatsby-source-filesystem"
@@ -1929,7 +1929,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2019-01-25T18:46:57.794Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.794Z",
       "birthTime": "2019-01-25T18:46:57.785Z",
       "root": "/",
@@ -1947,11 +1947,11 @@
       "blksize": 4194304,
       "ino": 19164207,
       "blocks": 0,
-      "atimeMs": 1548547332459.6357,
+      "atimeMs": 1548552287190.3855,
       "mtimeMs": 1548442017794.076,
       "ctimeMs": 1548442017794.076,
       "birthtimeMs": 1548442017784.5337,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.794Z",
       "ctime": "2019-01-25T18:46:57.794Z",
       "birthtime": "2019-01-25T18:46:57.785Z"
@@ -1961,7 +1961,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "11949145d594412f7defce11c0db1d54",
+        "contentDigest": "aa99c8f6e491d86ba489050f2081be92",
         "type": "Directory",
         "description": "Directory \"src/images/koh-lipe\"",
         "owner": "gatsby-source-filesystem"
@@ -1973,7 +1973,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.797Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.797Z",
       "birthTime": "2019-01-25T18:46:57.795Z",
       "root": "/",
@@ -1991,11 +1991,11 @@
       "blksize": 4194304,
       "ino": 19164216,
       "blocks": 0,
-      "atimeMs": 1548547332459.6565,
+      "atimeMs": 1548552287190.4058,
       "mtimeMs": 1548442017797.302,
       "ctimeMs": 1548442017797.302,
       "birthtimeMs": 1548442017794.995,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.797Z",
       "ctime": "2019-01-25T18:46:57.797Z",
       "birthtime": "2019-01-25T18:46:57.795Z"
@@ -2005,7 +2005,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "683cd1a2301fd2d7c157eff79bdc1f9d",
+        "contentDigest": "bde72ffc232a16f130c7c5c16dde7d12",
         "type": "Directory",
         "description": "Directory \"src/images/old-chiangmai-khantoke\"",
         "owner": "gatsby-source-filesystem"
@@ -2017,7 +2017,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.800Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.800Z",
       "birthTime": "2019-01-25T18:46:57.798Z",
       "root": "/",
@@ -2035,11 +2035,11 @@
       "blksize": 4194304,
       "ino": 19164221,
       "blocks": 0,
-      "atimeMs": 1548547332459.6738,
+      "atimeMs": 1548552287190.4756,
       "mtimeMs": 1548442017800.2485,
       "ctimeMs": 1548442017800.2485,
       "birthtimeMs": 1548442017797.8564,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.800Z",
       "ctime": "2019-01-25T18:46:57.800Z",
       "birthtime": "2019-01-25T18:46:57.798Z"
@@ -2049,7 +2049,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "063edfb4e186c5ddde063184820e7a87",
+        "contentDigest": "17b1a2f6f7a0d0e8ddfc1f2dd0734a47",
         "type": "Directory",
         "description": "Directory \"src/images/white-temple\"",
         "owner": "gatsby-source-filesystem"
@@ -2061,7 +2061,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-01-25T18:46:57.803Z",
-      "accessTime": "2019-01-27T00:02:12.460Z",
+      "accessTime": "2019-01-27T01:24:47.190Z",
       "changeTime": "2019-01-25T18:46:57.803Z",
       "birthTime": "2019-01-25T18:46:57.801Z",
       "root": "/",
@@ -2079,11 +2079,11 @@
       "blksize": 4194304,
       "ino": 19164226,
       "blocks": 0,
-      "atimeMs": 1548547332459.6907,
+      "atimeMs": 1548552287190.445,
       "mtimeMs": 1548442017802.8772,
       "ctimeMs": 1548442017802.8772,
       "birthtimeMs": 1548442017800.964,
-      "atime": "2019-01-27T00:02:12.460Z",
+      "atime": "2019-01-27T01:24:47.190Z",
       "mtime": "2019-01-25T18:46:57.803Z",
       "ctime": "2019-01-25T18:46:57.803Z",
       "birthtime": "2019-01-25T18:46:57.801Z"
@@ -4373,7 +4373,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "365b517c37f39400136e7cf7a8b02ce4",
+        "contentDigest": "56b32603bc5d5f350fcb861ce168af98",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -4385,7 +4385,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2019-01-25T18:46:57.806Z",
-      "accessTime": "2019-01-27T00:02:12.512Z",
+      "accessTime": "2019-01-27T01:24:47.252Z",
       "changeTime": "2019-01-25T18:46:57.806Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
@@ -4403,11 +4403,11 @@
       "blksize": 4194304,
       "ino": 19164233,
       "blocks": 0,
-      "atimeMs": 1548547332512.0835,
+      "atimeMs": 1548552287252.1616,
       "mtimeMs": 1548442017806.3628,
       "ctimeMs": 1548442017806.3628,
       "birthtimeMs": 1548442017804.714,
-      "atime": "2019-01-27T00:02:12.512Z",
+      "atime": "2019-01-27T01:24:47.252Z",
       "mtime": "2019-01-25T18:46:57.806Z",
       "ctime": "2019-01-25T18:46:57.806Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
@@ -4419,7 +4419,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "12937f63757bad429920ad959b94a978",
+        "contentDigest": "a12b26ba91e4755107a1e6441590a510",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/black-house.md\"",
@@ -4429,11 +4429,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/black-house.md",
       "relativePath": "black-house.md",
       "extension": "md",
-      "size": 1460,
-      "prettySize": "1.46 kB",
-      "modifiedTime": "2019-01-25T18:46:57.805Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.805Z",
+      "size": 732,
+      "prettySize": "732 B",
+      "modifiedTime": "2019-01-27T07:31:53.940Z",
+      "accessTime": "2019-01-27T07:31:53.940Z",
+      "changeTime": "2019-01-27T07:31:53.940Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4450,13 +4450,13 @@
       "blksize": 4194304,
       "ino": 19164234,
       "blocks": 8,
-      "atimeMs": 1548546237567.7456,
-      "mtimeMs": 1548442017804.8906,
-      "ctimeMs": 1548442017804.8906,
+      "atimeMs": 1548574313940.0898,
+      "mtimeMs": 1548574313940.4526,
+      "ctimeMs": 1548574313940.4526,
       "birthtimeMs": 1548442017804.7764,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.805Z",
-      "ctime": "2019-01-25T18:46:57.805Z",
+      "atime": "2019-01-27T07:31:53.940Z",
+      "mtime": "2019-01-27T07:31:53.940Z",
+      "ctime": "2019-01-27T07:31:53.940Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
     },
     "9410eb17-79b4-5548-ba52-ef80034b16a2": {
@@ -4466,7 +4466,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3bd6898656ecbbb719fc15fec0050108",
+        "contentDigest": "442add01d23dab8257a4667a758f11b5",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/clock-tower.md\"",
@@ -4476,11 +4476,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/clock-tower.md",
       "relativePath": "clock-tower.md",
       "extension": "md",
-      "size": 1517,
-      "prettySize": "1.52 kB",
-      "modifiedTime": "2019-01-25T18:46:57.805Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.805Z",
+      "size": 701,
+      "prettySize": "701 B",
+      "modifiedTime": "2019-01-27T08:04:59.175Z",
+      "accessTime": "2019-01-27T08:04:59.174Z",
+      "changeTime": "2019-01-27T08:04:59.175Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4497,13 +4497,13 @@
       "blksize": 4194304,
       "ino": 19164235,
       "blocks": 8,
-      "atimeMs": 1548546237567.7632,
-      "mtimeMs": 1548442017805.1018,
-      "ctimeMs": 1548442017805.1018,
+      "atimeMs": 1548576299173.741,
+      "mtimeMs": 1548576299174.6106,
+      "ctimeMs": 1548576299174.6106,
       "birthtimeMs": 1548442017804.9917,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.805Z",
-      "ctime": "2019-01-25T18:46:57.805Z",
+      "atime": "2019-01-27T08:04:59.174Z",
+      "mtime": "2019-01-27T08:04:59.175Z",
+      "ctime": "2019-01-27T08:04:59.175Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
     },
     "63b7fedf-d6b9-5798-9d94-ce9d8799536e": {
@@ -4513,7 +4513,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "46446131e48d89bd7a1dc4ec2a418bee",
+        "contentDigest": "682fa86c9c5f164cc78c9844827fc8a0",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/doi-chang.md\"",
@@ -4523,11 +4523,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md",
       "relativePath": "doi-chang.md",
       "extension": "md",
-      "size": 1604,
-      "prettySize": "1.6 kB",
-      "modifiedTime": "2019-01-25T18:46:57.805Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.805Z",
+      "size": 805,
+      "prettySize": "805 B",
+      "modifiedTime": "2019-01-27T07:45:12.189Z",
+      "accessTime": "2019-01-27T07:45:12.188Z",
+      "changeTime": "2019-01-27T07:45:12.189Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4544,13 +4544,13 @@
       "blksize": 4194304,
       "ino": 19164236,
       "blocks": 8,
-      "atimeMs": 1548546237567.7808,
-      "mtimeMs": 1548442017805.3464,
-      "ctimeMs": 1548442017805.3464,
+      "atimeMs": 1548575112188.0088,
+      "mtimeMs": 1548575112188.667,
+      "ctimeMs": 1548575112188.667,
       "birthtimeMs": 1548442017805.2197,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.805Z",
-      "ctime": "2019-01-25T18:46:57.805Z",
+      "atime": "2019-01-27T07:45:12.188Z",
+      "mtime": "2019-01-27T07:45:12.189Z",
+      "ctime": "2019-01-27T07:45:12.189Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
     },
     "4a6c7be5-0c71-5435-814b-5214e605824d": {
@@ -4560,7 +4560,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b5b2fc051f22374284407c0c94100050",
+        "contentDigest": "e703946f2dc64d7d0052ef465c8745b3",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/doi-mae-salong.md\"",
@@ -4570,11 +4570,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-mae-salong.md",
       "relativePath": "doi-mae-salong.md",
       "extension": "md",
-      "size": 1474,
-      "prettySize": "1.47 kB",
-      "modifiedTime": "2019-01-25T18:46:57.806Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.806Z",
+      "size": 694,
+      "prettySize": "694 B",
+      "modifiedTime": "2019-01-27T07:38:22.145Z",
+      "accessTime": "2019-01-27T07:38:22.144Z",
+      "changeTime": "2019-01-27T07:38:22.145Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4591,13 +4591,13 @@
       "blksize": 4194304,
       "ino": 19164237,
       "blocks": 8,
-      "atimeMs": 1548546237567.7974,
-      "mtimeMs": 1548442017805.5698,
-      "ctimeMs": 1548442017805.5698,
+      "atimeMs": 1548574702144.3245,
+      "mtimeMs": 1548574702145.058,
+      "ctimeMs": 1548574702145.058,
       "birthtimeMs": 1548442017805.456,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.806Z",
-      "ctime": "2019-01-25T18:46:57.806Z",
+      "atime": "2019-01-27T07:38:22.144Z",
+      "mtime": "2019-01-27T07:38:22.145Z",
+      "ctime": "2019-01-27T07:38:22.145Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
     },
     "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c": {
@@ -4607,7 +4607,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a8dce5bb81856ae768baa77a6ef5ffbd",
+        "contentDigest": "0731797f226cd1eef79ce04e3c92ff35",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/golden-triangle.md\"",
@@ -4617,11 +4617,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/golden-triangle.md",
       "relativePath": "golden-triangle.md",
       "extension": "md",
-      "size": 1519,
-      "prettySize": "1.52 kB",
-      "modifiedTime": "2019-01-25T18:46:57.806Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.806Z",
+      "size": 814,
+      "prettySize": "814 B",
+      "modifiedTime": "2019-01-27T02:52:40.975Z",
+      "accessTime": "2019-01-27T02:52:40.975Z",
+      "changeTime": "2019-01-27T02:52:40.975Z",
       "birthTime": "2019-01-25T18:46:57.806Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4638,13 +4638,13 @@
       "blksize": 4194304,
       "ino": 19164238,
       "blocks": 8,
-      "atimeMs": 1548546237567.8145,
-      "mtimeMs": 1548442017805.8052,
-      "ctimeMs": 1548442017805.8052,
+      "atimeMs": 1548557560974.5476,
+      "mtimeMs": 1548557560974.944,
+      "ctimeMs": 1548557560974.944,
       "birthtimeMs": 1548442017805.6833,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.806Z",
-      "ctime": "2019-01-25T18:46:57.806Z",
+      "atime": "2019-01-27T02:52:40.975Z",
+      "mtime": "2019-01-27T02:52:40.975Z",
+      "ctime": "2019-01-27T02:52:40.975Z",
       "birthtime": "2019-01-25T18:46:57.806Z"
     },
     "d02d6a1c-9c2d-5d10-a617-88f8de8357e8": {
@@ -4654,7 +4654,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4bbfb9b6f6da27bd6d7ac24d32c88012",
+        "contentDigest": "59978fa727ffea1e58121f7655f561ea",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/khantoke.md\"",
@@ -4664,11 +4664,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md",
       "relativePath": "khantoke.md",
       "extension": "md",
-      "size": 1603,
-      "prettySize": "1.6 kB",
-      "modifiedTime": "2019-01-25T18:46:57.806Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.806Z",
+      "size": 752,
+      "prettySize": "752 B",
+      "modifiedTime": "2019-01-27T08:11:09.531Z",
+      "accessTime": "2019-01-27T08:11:09.531Z",
+      "changeTime": "2019-01-27T08:11:09.531Z",
       "birthTime": "2019-01-25T18:46:57.806Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4685,13 +4685,13 @@
       "blksize": 4194304,
       "ino": 19164239,
       "blocks": 8,
-      "atimeMs": 1548546237567.8315,
-      "mtimeMs": 1548442017806.0273,
-      "ctimeMs": 1548442017806.0273,
+      "atimeMs": 1548576669531.0232,
+      "mtimeMs": 1548576669531.3662,
+      "ctimeMs": 1548576669531.3662,
       "birthtimeMs": 1548442017805.9165,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.806Z",
-      "ctime": "2019-01-25T18:46:57.806Z",
+      "atime": "2019-01-27T08:11:09.531Z",
+      "mtime": "2019-01-27T08:11:09.531Z",
+      "ctime": "2019-01-27T08:11:09.531Z",
       "birthtime": "2019-01-25T18:46:57.806Z"
     },
     "e70c618b-f0b1-5f8c-a28d-44a37e272f5f": {
@@ -4701,7 +4701,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6c82082682f0f38f271da1d7b42a2d03",
+        "contentDigest": "e0c167afcf8bd2d79f8c884fe8739037",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/koh-lipe.md\"",
@@ -4711,11 +4711,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/koh-lipe.md",
       "relativePath": "koh-lipe.md",
       "extension": "md",
-      "size": 1466,
-      "prettySize": "1.47 kB",
-      "modifiedTime": "2019-01-25T18:46:57.806Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.806Z",
+      "size": 747,
+      "prettySize": "747 B",
+      "modifiedTime": "2019-01-27T07:52:41.226Z",
+      "accessTime": "2019-01-27T07:52:41.226Z",
+      "changeTime": "2019-01-27T07:52:41.226Z",
       "birthTime": "2019-01-25T18:46:57.806Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4732,13 +4732,13 @@
       "blksize": 4194304,
       "ino": 19164240,
       "blocks": 8,
-      "atimeMs": 1548546237567.848,
-      "mtimeMs": 1548442017806.2498,
-      "ctimeMs": 1548442017806.2498,
+      "atimeMs": 1548575561225.692,
+      "mtimeMs": 1548575561226.0017,
+      "ctimeMs": 1548575561226.0017,
       "birthtimeMs": 1548442017806.1343,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.806Z",
-      "ctime": "2019-01-25T18:46:57.806Z",
+      "atime": "2019-01-27T07:52:41.226Z",
+      "mtime": "2019-01-27T07:52:41.226Z",
+      "ctime": "2019-01-27T07:52:41.226Z",
       "birthtime": "2019-01-25T18:46:57.806Z"
     },
     "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27": {
@@ -4748,7 +4748,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dc7293fcf2f993516f892ae508ff4266",
+        "contentDigest": "c4bda44d089016a0c3df1596aae43c5d",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/white-temple.md\"",
@@ -4758,11 +4758,11 @@
       "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/white-temple.md",
       "relativePath": "white-temple.md",
       "extension": "md",
-      "size": 1461,
-      "prettySize": "1.46 kB",
-      "modifiedTime": "2019-01-25T18:46:57.806Z",
-      "accessTime": "2019-01-26T23:43:57.568Z",
-      "changeTime": "2019-01-25T18:46:57.806Z",
+      "size": 749,
+      "prettySize": "749 B",
+      "modifiedTime": "2019-01-27T07:59:35.520Z",
+      "accessTime": "2019-01-27T07:59:35.520Z",
+      "changeTime": "2019-01-27T07:59:35.520Z",
       "birthTime": "2019-01-25T18:46:57.806Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
@@ -4779,182 +4779,14 @@
       "blksize": 4194304,
       "ino": 19164241,
       "blocks": 8,
-      "atimeMs": 1548546237567.8645,
-      "mtimeMs": 1548442017806.4734,
-      "ctimeMs": 1548442017806.4734,
+      "atimeMs": 1548575975519.9165,
+      "mtimeMs": 1548575975520.3176,
+      "ctimeMs": 1548575975520.3176,
       "birthtimeMs": 1548442017806.3552,
-      "atime": "2019-01-26T23:43:57.568Z",
-      "mtime": "2019-01-25T18:46:57.806Z",
-      "ctime": "2019-01-25T18:46:57.806Z",
+      "atime": "2019-01-27T07:59:35.520Z",
+      "mtime": "2019-01-27T07:59:35.520Z",
+      "ctime": "2019-01-27T07:59:35.520Z",
       "birthtime": "2019-01-25T18:46:57.806Z"
-    },
-    "6a882395-f708-5af1-8d58-6e08262708f4": {
-      "id": "6a882395-f708-5af1-8d58-6e08262708f4",
-      "children": [],
-      "parent": "1ff20007-d397-525f-82d3-40e2a1ee36b9",
-      "internal": {
-        "content": "\n![black-house](../images/black-house/black-house.jpg)\n\n# The Black House\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![black-house](../images/black-house/dinner-table.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![black-house](../images/black-house/crocodile.jpg)\n ![black-house](../images/black-house/gong.jpg)\n ",
-        "type": "MarkdownRemark",
-        "contentDigest": "2baf0e70b480346bbb74826147a6d5c3",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "The Black House",
-        "slug": "/black-house",
-        "date": "2016-12-26",
-        "cover": "../images/black-house/black-house.jpg",
-        "_PARENT": "1ff20007-d397-525f-82d3-40e2a1ee36b9"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![black-house](../images/black-house/black-house.jpg)\n\n# The Black House\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![black-house](../images/black-house/dinner-table.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![black-house](../images/black-house/crocodile.jpg)\n ![black-house](../images/black-house/gong.jpg)\n ",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/black-house.md"
-    },
-    "085f5cfc-948f-53d4-9a1a-d3be64549537": {
-      "id": "085f5cfc-948f-53d4-9a1a-d3be64549537",
-      "children": [],
-      "parent": "9410eb17-79b4-5548-ba52-ef80034b16a2",
-      "internal": {
-        "content": "\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![coffee](../images/clock-tower/nothern-thai-coffee.jpg)\n \n ![street-dog](../images/clock-tower/street-dog.jpg)\n ",
-        "type": "MarkdownRemark",
-        "contentDigest": "872eac11128f449f6f5c3889234147a4",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Chiang Rai Clock Tower",
-        "slug": "/chiang-rai",
-        "date": "2018-11-07",
-        "cover": "../images/clock-tower/clock-tower.jpg",
-        "_PARENT": "9410eb17-79b4-5548-ba52-ef80034b16a2"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\n# Visiting Chiang Rai's Famous Clock Tower\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![coffee](../images/clock-tower/nothern-thai-coffee.jpg)\n \n ![street-dog](../images/clock-tower/street-dog.jpg)\n ",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/clock-tower.md"
-    },
-    "22849c10-8051-5a76-87a4-c4b194559587": {
-      "id": "22849c10-8051-5a76-87a4-c4b194559587",
-      "children": [],
-      "parent": "63b7fedf-d6b9-5798-9d94-ce9d8799536e",
-      "internal": {
-        "content": "\n![doi-chang-coffee](../images/doi-chang/doi-chang-coffee.jpg)\n\n# Doi Chang Coffee\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![doi-chang-coffee](../images/doi-chang/coffee-map.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![doi-chang-coffee](../images/doi-chang/buns.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang.jpg)\n\n![doi-chang-coffee](../images/doi-chang/more-doi-chang-coffee.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang-sunrise.jpg)\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "7358ebe380cd24efeaad61b742d7de7b",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Doi Chang Coffee",
-        "slug": "/doi-chang",
-        "date": "2016-12-28",
-        "cover": "../images/doi-chang/doi-chang-coffee.jpg",
-        "_PARENT": "63b7fedf-d6b9-5798-9d94-ce9d8799536e"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![doi-chang-coffee](../images/doi-chang/doi-chang-coffee.jpg)\n\n# Doi Chang Coffee\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![doi-chang-coffee](../images/doi-chang/coffee-map.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![doi-chang-coffee](../images/doi-chang/buns.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang.jpg)\n\n![doi-chang-coffee](../images/doi-chang/more-doi-chang-coffee.jpg)\n\n![doi-chang-coffee](../images/doi-chang/doi-chang-sunrise.jpg)\n\n",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md"
-    },
-    "3faef22a-d6b5-55d1-9343-549692555c44": {
-      "id": "3faef22a-d6b5-55d1-9343-549692555c44",
-      "children": [],
-      "parent": "4a6c7be5-0c71-5435-814b-5214e605824d",
-      "internal": {
-        "content": "\n![tea](../images/doi-mae-salong/tea.jpg)\n\n# Doi Mae Salong Tea \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\n\n![tea-and-bananas](../images/doi-mae-salong/tea-and-bananas.jpg)",
-        "type": "MarkdownRemark",
-        "contentDigest": "3661ed7b4fd0885b6c9099cb0b81b278",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Mae Salong Tea",
-        "slug": "/doi-mae-salong",
-        "date": "2016-12-27",
-        "cover": "../images/doi-mae-salong/tea.jpg",
-        "_PARENT": "4a6c7be5-0c71-5435-814b-5214e605824d"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![tea](../images/doi-mae-salong/tea.jpg)\n\n# Doi Mae Salong Tea \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\n\n![tea-and-bananas](../images/doi-mae-salong/tea-and-bananas.jpg)",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-mae-salong.md"
-    },
-    "5783c44b-f908-5240-8d10-7268e98564e4": {
-      "id": "5783c44b-f908-5240-8d10-7268e98564e4",
-      "children": [],
-      "parent": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c",
-      "internal": {
-        "content": "\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![golden-triangle-sign](../images/golden-triangle/golden-triangle-sign.jpg)\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\n![statue](../images/golden-triangle/statue.jpg)\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "1b142a08b973b62f45057589c17facdb",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Golden Triangle",
-        "slug": "/golden-triangle",
-        "date": "2018-11-08",
-        "cover": "../images/golden-triangle/decorated-dragon.jpg",
-        "_PARENT": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\n# Visiting Thailand's Golden Triangle\n\nLiterally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n\n![golden-triangle-sign](../images/golden-triangle/golden-triangle-sign.jpg)\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\n![statue](../images/golden-triangle/statue.jpg)\n",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/golden-triangle.md"
-    },
-    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
-      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
-      "children": [],
-      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
-      "internal": {
-        "content": "\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\n# Khantoke \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n  ![thai-musicians](../images/old-chiangmai-khantoke/khantoke-musicians.jpg)\n   \n   ![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n    ",
-        "type": "MarkdownRemark",
-        "contentDigest": "fdb0539e7ebdb691c5e6f025b03fa179",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Khantoke",
-        "slug": "/khantoke",
-        "date": "2016-12-28",
-        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
-        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\n# Khantoke \n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n  ![thai-musicians](../images/old-chiangmai-khantoke/khantoke-musicians.jpg)\n   \n   ![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n    ",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
-    },
-    "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0": {
-      "id": "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0",
-      "children": [],
-      "parent": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f",
-      "internal": {
-        "content": "\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\n# Koh Lipe\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n   ![speed-boat](../images/koh-lipe/koh-lipe-speed-boat.jpg)\n   \n   ![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n   ",
-        "type": "MarkdownRemark",
-        "contentDigest": "8e9b9c782c1913fcb6e1516323435321",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Koh Lipe",
-        "slug": "/koh-lipe",
-        "date": "2016-12-29",
-        "cover": "../images/koh-lipe/koh-lipe-boat.jpg",
-        "_PARENT": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\n# Koh Lipe\n\n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n \n  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n  \n   ![speed-boat](../images/koh-lipe/koh-lipe-speed-boat.jpg)\n   \n   ![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n   ",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/koh-lipe.md"
-    },
-    "7a1f4f59-657c-587c-991b-e2016c3f07bd": {
-      "id": "7a1f4f59-657c-587c-991b-e2016c3f07bd",
-      "children": [],
-      "parent": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27",
-      "internal": {
-        "content": "\n![white-temple](../images/white-temple/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![white-temple](../images/white-temple/white-temple-detail.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![white-temple](../images/white-temple/chalermchai-kositpipat.jpg)",
-        "type": "MarkdownRemark",
-        "contentDigest": "e79e2b7ce14645a043bc450b7c832e0c",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Visiting the White Temple",
-        "slug": "/white-temple",
-        "date": "2018-11-06",
-        "cover": "../images/white-temple/white-temple.jpg",
-        "_PARENT": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![white-temple](../images/white-temple/white-temple.jpg)\n\n# Visiting the White Temple\n \n Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->\n \n ![white-temple](../images/white-temple/white-temple-detail.jpg)\n \n Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n \n ![white-temple](../images/white-temple/chalermchai-kositpipat.jpg)",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/white-temple.md"
     },
     "SitePage /posts/black-house": {
       "jsonName": "posts-black-house-eac",
@@ -5025,7 +4857,9 @@
       "context": {
         "slug": "/doi-chang",
         "prev": {
-          "$ref": "$[\"nodes\"][\"SitePage /posts/black-house\"][\"context\"][\"next\"]"
+          "frontmatter": {
+            "slug": "/doi-mae-salong"
+          }
         },
         "next": {
           "frontmatter": {
@@ -5115,7 +4949,9 @@
       "context": {
         "slug": "/white-temple",
         "prev": {
-          "$ref": "$[\"nodes\"][\"SitePage /posts/khantoke\"][\"context\"][\"next\"]"
+          "frontmatter": {
+            "slug": "/koh-lipe"
+          }
         },
         "next": {
           "frontmatter": {
@@ -5145,7 +4981,9 @@
       "context": {
         "slug": "/chiang-rai",
         "prev": {
-          "$ref": "$[\"nodes\"][\"SitePage /posts/koh-lipe\"][\"context\"][\"next\"]"
+          "frontmatter": {
+            "slug": "/white-temple"
+          }
         },
         "next": {
           "frontmatter": {
@@ -5333,6 +5171,182 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "5783c44b-f908-5240-8d10-7268e98564e4": {
+      "id": "5783c44b-f908-5240-8d10-7268e98564e4",
+      "children": [],
+      "parent": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c",
+      "internal": {
+        "content": "<div>\n\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\nThis ornate water dragon or \"naga\" guards the entrance to a temple complex on a bluff overlooking the Mekong river.\n\n</div>\n<div>\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\nThis amazing temple was closed on arrival but we still got this lucky shot of the polished luminescent marble floor glowing as the sun went down.\n\n</div>\n<div>\n\n![statue](../images/golden-triangle/statue.jpg)\n\nIt's common for the the monks to adorn the statues that surround the chedi's of the older temple complexes.  This statue is possibly well over 500 years old.\n\n</div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "1d8e56978f4c07fd0700edf0b2893f60",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Golden Triangle",
+        "slug": "/golden-triangle",
+        "date": "2018-11-08",
+        "subtitle": "Visiting Thailand's Golden Triangle",
+        "cover": "../images/golden-triangle/decorated-dragon.jpg",
+        "_PARENT": "f398aab2-8648-5dc1-ab51-a52ad0a7aa8c"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\nThis ornate water dragon or \"naga\" guards the entrance to a temple complex on a bluff overlooking the Mekong river.\n\n</div>\n<div>\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\nThis amazing temple was closed on arrival but we still got this lucky shot of the polished luminescent marble floor glowing as the sun went down.\n\n</div>\n<div>\n\n![statue](../images/golden-triangle/statue.jpg)\n\nIt's common for the the monks to adorn the statues that surround the chedi's of the older temple complexes.  This statue is possibly well over 500 years old.\n\n</div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/golden-triangle.md"
+    },
+    "6a882395-f708-5af1-8d58-6e08262708f4": {
+      "id": "6a882395-f708-5af1-8d58-6e08262708f4",
+      "children": [],
+      "parent": "1ff20007-d397-525f-82d3-40e2a1ee36b9",
+      "internal": {
+        "content": "<div>\n\n![black-house](../images/black-house/black-house.jpg)\n\nThe Black House looks like a temple but it's really a bizarre art installation created by one of Thailand's most famous visual artists, Thawan Duchanee. \n\n</div>\n<div>\n\n ![dinner-table](../images/black-house/dinner-table.jpg)\n \nThe interior of each house presents a collection of oddities as well as a shrine to the artist who passed away in 2014.\n\n </div>\n<div>\n\n ![crocodile-skin](../images/black-house/crocodile.jpg)\n\nThis crocodile skin displayed in a dome shaped hut was super strange. \n\n </div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "eab8ce883c907aa7f9c221ae84787c36",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Baan Dam - The Black House",
+        "slug": "/black-house",
+        "date": "2016-12-26",
+        "subtitle": "Baan Dam - The Black House",
+        "cover": "../images/black-house/black-house.jpg",
+        "_PARENT": "1ff20007-d397-525f-82d3-40e2a1ee36b9"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![black-house](../images/black-house/black-house.jpg)\n\nThe Black House looks like a temple but it's really a bizarre art installation created by one of Thailand's most famous visual artists, Thawan Duchanee. \n\n</div>\n<div>\n\n ![dinner-table](../images/black-house/dinner-table.jpg)\n \nThe interior of each house presents a collection of oddities as well as a shrine to the artist who passed away in 2014.\n\n </div>\n<div>\n\n ![crocodile-skin](../images/black-house/crocodile.jpg)\n\nThis crocodile skin displayed in a dome shaped hut was super strange. \n\n </div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/black-house.md"
+    },
+    "3faef22a-d6b5-55d1-9343-549692555c44": {
+      "id": "3faef22a-d6b5-55d1-9343-549692555c44",
+      "children": [],
+      "parent": "4a6c7be5-0c71-5435-814b-5214e605824d",
+      "internal": {
+        "content": "<div>\n\n![tea](../images/doi-mae-salong/tea.jpg)\n\nWay up on the border with Myanmar is the small village of Doi Mae Salong which is famous for growing excellent quality oolong tea. \n\n</div>\n<div>\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\nWe sat down for a tea tasting in a building that also housed tea processing and storage facilities.\n\n</div>\n<div>\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\nWalk amongst the rows of tea shrubs and take in the beauty of the mountains of Northern Thailand.\n\n</div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "d012cbcedb48bf75572c5e0d6c6cd839",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Mae Salong Tea",
+        "slug": "/doi-mae-salong",
+        "date": "2016-12-27",
+        "subtitle": "Visiting a Tea Plantation",
+        "cover": "../images/doi-mae-salong/tea.jpg",
+        "_PARENT": "4a6c7be5-0c71-5435-814b-5214e605824d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![tea](../images/doi-mae-salong/tea.jpg)\n\nWay up on the border with Myanmar is the small village of Doi Mae Salong which is famous for growing excellent quality oolong tea. \n\n</div>\n<div>\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\nWe sat down for a tea tasting in a building that also housed tea processing and storage facilities.\n\n</div>\n<div>\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\nWalk amongst the rows of tea shrubs and take in the beauty of the mountains of Northern Thailand.\n\n</div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-mae-salong.md"
+    },
+    "22849c10-8051-5a76-87a4-c4b194559587": {
+      "id": "22849c10-8051-5a76-87a4-c4b194559587",
+      "children": [],
+      "parent": "63b7fedf-d6b9-5798-9d94-ce9d8799536e",
+      "internal": {
+        "content": "<div>\n\n![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)\n\nThere are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.\n\n</div>\n<div>\n\n![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)\n\nWe were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  \n\n</div>\n<div>\n\n![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)\n\nBack at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  \n\n</div>\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5fc4557402492aa5b856fcb855d556cb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Doi Chang Coffee",
+        "slug": "/doi-chang",
+        "date": "2016-12-28",
+        "subtitle": "Visiting Thailand's Boutique Coffee Growing Region ",
+        "cover": "../images/doi-chang/doi-chang-coffee.jpg",
+        "_PARENT": "63b7fedf-d6b9-5798-9d94-ce9d8799536e"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)\n\nThere are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.\n\n</div>\n<div>\n\n![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)\n\nWe were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  \n\n</div>\n<div>\n\n![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)\n\nBack at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  \n\n</div>\n\n\n",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md"
+    },
+    "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0": {
+      "id": "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0",
+      "children": [],
+      "parent": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f",
+      "internal": {
+        "content": "<div>\n\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\nKoh Lipe is located on the Andaman Sea in Thailand's deep south on the border with Malaysia. \n\n</div>\n<div>\n\n![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n\nWe stayed in this beach bungalow on the northern side of the island at the Mountain Report which is know mostly to Thai's on holiday.\n\n</div>\n<div>\n\n![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n\nThe snorkeling was incredible.  We rented our on long-tail boat and local guide for a day of island hopping and snorkeling over coral forests like this.\n\n</div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "a8da18327cf88b2d8366083c3cebb8b8",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Koh Lipe",
+        "slug": "/koh-lipe",
+        "date": "2016-12-29",
+        "subtitle": "Koh Lipe - The Maldives of Thailand",
+        "cover": "../images/koh-lipe/koh-lipe-boat.jpg",
+        "_PARENT": "e70c618b-f0b1-5f8c-a28d-44a37e272f5f"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\nKoh Lipe is located on the Andaman Sea in Thailand's deep south on the border with Malaysia. \n\n</div>\n<div>\n\n![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n\nWe stayed in this beach bungalow on the northern side of the island at the Mountain Report which is know mostly to Thai's on holiday.\n\n</div>\n<div>\n\n![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n\nThe snorkeling was incredible.  We rented our on long-tail boat and local guide for a day of island hopping and snorkeling over coral forests like this.\n\n</div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/koh-lipe.md"
+    },
+    "7a1f4f59-657c-587c-991b-e2016c3f07bd": {
+      "id": "7a1f4f59-657c-587c-991b-e2016c3f07bd",
+      "children": [],
+      "parent": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27",
+      "internal": {
+        "content": "\n<div>\n\n![white-temple](../images/white-temple/white-temple.jpg)\n\nWat Rong Khun is a stunning piece of art as well as a functioning Buddhist temple located in Chiang Rai, Thailand.\n\n</div>\n<div>\n\n\n![white-temple](../images/white-temple/white-temple-detail.jpg)\n\nThese silver amulets hung in the thousands underneath the awnings of the temple buildings.\n\n</div>\n<div>\n \n\n![white-temple](../images/white-temple/chalermchai-kositpipat.jpg)\n\nCher posing with the artist who created the temple, Chalermchai Kositpipatm who just happened to be having a cup of coffee. \n\n </div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "49d9fa57e62952c9645340c495f48643",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Visiting the White Temple",
+        "slug": "/white-temple",
+        "date": "2018-11-06",
+        "subtitle": "Wat Rong Khun - The While Temple",
+        "cover": "../images/white-temple/white-temple.jpg",
+        "_PARENT": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n<div>\n\n![white-temple](../images/white-temple/white-temple.jpg)\n\nWat Rong Khun is a stunning piece of art as well as a functioning Buddhist temple located in Chiang Rai, Thailand.\n\n</div>\n<div>\n\n\n![white-temple](../images/white-temple/white-temple-detail.jpg)\n\nThese silver amulets hung in the thousands underneath the awnings of the temple buildings.\n\n</div>\n<div>\n \n\n![white-temple](../images/white-temple/chalermchai-kositpipat.jpg)\n\nCher posing with the artist who created the temple, Chalermchai Kositpipatm who just happened to be having a cup of coffee. \n\n </div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/white-temple.md"
+    },
+    "085f5cfc-948f-53d4-9a1a-d3be64549537": {
+      "id": "085f5cfc-948f-53d4-9a1a-d3be64549537",
+      "children": [],
+      "parent": "9410eb17-79b4-5548-ba52-ef80034b16a2",
+      "internal": {
+        "content": "<div>\n\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\nThe ornate clock tower presides over a roundabout in downtown Chiang Rai city.\n\n</div>\n<div>\n\n\n![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n\nThis area is great for food and inexpensive lodgings.  You can get coffee or grab breakfast and watch the traffic zoom around the clock tower from the small street cafes.\n\n</div>\n<div>\n\n![street-dog](../images/clock-tower/street-dog.jpg)\n\nLucky shot of a street dog and this cyclist passing by. \n\n</div>\n ",
+        "type": "MarkdownRemark",
+        "contentDigest": "eebc973636a0b80f5d654e26f7405413",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Chiang Rai Clock Tower",
+        "slug": "/chiang-rai",
+        "date": "2018-11-07",
+        "subtitle": "Chiang Rai's Famous Clock Tower",
+        "cover": "../images/clock-tower/clock-tower.jpg",
+        "_PARENT": "9410eb17-79b4-5548-ba52-ef80034b16a2"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\nThe ornate clock tower presides over a roundabout in downtown Chiang Rai city.\n\n</div>\n<div>\n\n\n![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n\nThis area is great for food and inexpensive lodgings.  You can get coffee or grab breakfast and watch the traffic zoom around the clock tower from the small street cafes.\n\n</div>\n<div>\n\n![street-dog](../images/clock-tower/street-dog.jpg)\n\nLucky shot of a street dog and this cyclist passing by. \n\n</div>\n ",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/clock-tower.md"
+    },
+    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
+      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
+      "children": [],
+      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
+      "internal": {
+        "content": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "cf5242aeb3e7e39d9617da4bb3b7a244",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Khantoke",
+        "slug": "/khantoke",
+        "date": "2016-12-28",
+        "subtitle": "Olc Chiang Mai Village Khantoke",
+        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
+        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
     }
   },
   "status": {
@@ -5450,19 +5464,19 @@
   },
   "jsonDataPaths": {
     "sq--src-components-image-js": 2011440971,
-    "posts-black-house-eac": "484/path---posts-black-house-eac-fda-gT0KpEfTHw3lOM6VEGRRsfLLRI",
+    "posts-black-house-eac": "20/path---posts-black-house-eac-fda-vYbrS6Etj4sezaDgP5etDCVfSs",
     "sq--src-components-listing-js": 2024664925,
     "sq--src-components-archive-js": 1307838448,
     "sq--src-components-layout-js": 973632614,
-    "posts-chiang-rai-71d": "335/path---posts-chiang-rai-71-d-860-heoO59BSwVHikAabhnLl9DokYzk",
-    "posts-doi-mae-salong-f47": "592/path---posts-doi-mae-salong-f-47-f69-H1tXCAT7qEuG5Fws72fJy2VI",
-    "posts-golden-triangle-c96": "660/path---posts-golden-triangle-c-96-85f-62FF5FCPTBqrc9toXbUclZRMc1g",
-    "posts-khantoke-b3a": "707/path---posts-khantoke-b-3-a-c22-iMjdmxdafucpFXh9q1VqQfGVvk",
-    "posts-koh-lipe-7d3": "912/path---posts-koh-lipe-7-d-3-c98-kVA3mGpxytdfAI8Z0tbiRTfwuU",
+    "posts-chiang-rai-71d": "665/path---posts-chiang-rai-71-d-860-9UKh3syNUi5dPhZNeVGXIYLXb4",
+    "posts-doi-mae-salong-f47": "702/path---posts-doi-mae-salong-f-47-f69-Kkoh41c5eWHGkcsx7Fa00qXMng",
+    "posts-golden-triangle-c96": "380/path---posts-golden-triangle-c-96-85f-bP5NfIWepamfM8HOea4FfOWr9c",
+    "posts-khantoke-b3a": "501/path---posts-khantoke-b-3-a-c22-Qg2BDdvBQOQmEpFLNvAy2gvt7w",
+    "posts-koh-lipe-7d3": "42/path---posts-koh-lipe-7-d-3-c98-YDrijSmUcb2SACfKrzyz9JGrpg",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "posts-white-temple-126": "917/path---posts-white-temple-126-dcc-oTFguZqS0fAy8f0sQ20xL2gjM",
-    "posts-doi-chang-f9f": "424/path---posts-doi-chang-f-9-f-f39-c1ENGgXTwuhedxiqsuNqJfe3QQ",
+    "posts-white-temple-126": "828/path---posts-white-temple-126-dcc-sf5h4UXuYCw4NI00jVhPEIXEo",
+    "posts-doi-chang-f9f": "97/path---posts-doi-chang-f-9-f-f39-Lr6E9m9HEQVW1vJg9T4VmxcRHI",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "archive-page-73b": "251/path---archive-page-73-b-4f4-NZuapzHg3X9TaN1iIixfv1W23E",
     "company-team-a16": "654/path---company-team-a-16-046-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -5472,7 +5486,7 @@
   },
   "components": {
     "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js": {
-      "query": "query PostQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      date\n      slug\n    }\n  }\n}\n",
+      "query": "query PostQuery(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      subtitle\n      date\n      slug\n    }\n  }\n}\n",
       "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/postLayout.js"
     },
     "/Users/michaelcastor/projects/thailand-blog/.cache/dev-404-page.js": {

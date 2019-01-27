@@ -2,20 +2,27 @@
 slug: "/koh-lipe"
 date: "2016-12-29"
 title: "Koh Lipe"
+subtitle: "Koh Lipe - The Maldives of Thailand"
 cover: "../images/koh-lipe/koh-lipe-boat.jpg"
 ---
+<div>
 
 ![boat](../images/koh-lipe/koh-lipe-boat.jpg)
 
-# Koh Lipe
+Koh Lipe is located on the Andaman Sea in Thailand's deep south on the border with Malaysia. 
 
- Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->
- 
- ![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)
- 
-  Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.
-  
-   ![speed-boat](../images/koh-lipe/koh-lipe-speed-boat.jpg)
-   
-   ![coral](../images/koh-lipe/koh-lipe-coral.jpg)
-   
+</div>
+<div>
+
+![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)
+
+We stayed in this beach bungalow on the northern side of the island at the Mountain Report which is know mostly to Thai's on holiday.
+
+</div>
+<div>
+
+![coral](../images/koh-lipe/koh-lipe-coral.jpg)
+
+The snorkeling was incredible.  We rented our on long-tail boat and local guide for a day of island hopping and snorkeling over coral forests like this.
+
+</div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { graphql, Link } from 'gatsby';
+import { ChevronsLeft, ChevronsRight } from 'react-feather';
 import Layout from './layout.js';
 // import styled from 'styled-components';
 
@@ -14,16 +15,22 @@ export default class postLayout extends Component {
 
     return (
       <Layout location={location}>
-        <h1>{markdownRemark.frontmatter.title}</h1>
+        <h1>{markdownRemark.frontmatter.subtitle}</h1>
         <div className='post-body' dangerouslySetInnerHTML={{
           __html: markdownRemark.html
         }} />
-        {
-          next && <Link to={`/posts${next.frontmatter.slug}`}>Next</Link>
-        }
-        {
-          prev && <Link to={`/posts${prev.frontmatter.slug}`}>Prev</Link>
-        }
+        <div className='post-links'>
+          <div>
+            {
+              next && <Link to={`/posts${next.frontmatter.slug}`}><ChevronsLeft className='icon' size={48} /></Link>
+            }
+          </div>
+          <div>
+            {
+              prev && <Link to={`/posts${prev.frontmatter.slug}`}><ChevronsRight className='icon' size={48} /></Link>
+            }
+          </div>
+        </div>
       </Layout>
     );
   };
@@ -40,6 +47,7 @@ export const query = graphql`
           html
             frontmatter {
               title
+              subtitle
               date
               slug
             }
