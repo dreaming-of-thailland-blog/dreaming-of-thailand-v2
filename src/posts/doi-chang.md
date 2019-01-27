@@ -2,24 +2,29 @@
 slug: "/doi-chang"
 date: "2016-12-28"
 title: "Doi Chang Coffee"
+subtitle: "Visiting Thailand's Boutique Coffee Growing Region "
 cover: "../images/doi-chang/doi-chang-coffee.jpg"
 ---
+<div>
 
-![doi-chang-coffee](../images/doi-chang/doi-chang-coffee.jpg)
+![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)
 
-# Doi Chang Coffee
+There are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.
 
-Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia. <-- end -->
+</div>
+<div>
 
-![doi-chang-coffee](../images/doi-chang/coffee-map.jpg)
+![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)
 
- Lorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.
+We were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  
 
-![doi-chang-coffee](../images/doi-chang/buns.jpg)
+</div>
+<div>
 
-![doi-chang-coffee](../images/doi-chang/doi-chang.jpg)
+![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)
 
-![doi-chang-coffee](../images/doi-chang/more-doi-chang-coffee.jpg)
+Back at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  
 
-![doi-chang-coffee](../images/doi-chang/doi-chang-sunrise.jpg)
+</div>
+
 
