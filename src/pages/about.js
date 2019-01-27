@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 
+// location is for React Spring
 const About = ({ location }) => (
   <Layout location={location}>
     <div>

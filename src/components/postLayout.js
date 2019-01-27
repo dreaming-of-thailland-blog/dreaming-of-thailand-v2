@@ -8,6 +8,7 @@ export default class postLayout extends Component {
 
   render() {
     const { markdownRemark } = this.props.data;
+    // location for React Spring
     const { location } = this.props;
     const { next, prev } = this.props.pageContext;
     console.log('next', next);

@@ -13,7 +13,7 @@ import 'normalize.css/normalize.css';
 
 const MainLayout = styled.main`
   max-width: 100%;
-  margin: 1rem auto;
+  margin: .1rem auto;
   .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -98,7 +98,7 @@ const PostContainer = styled.div`
 
 `;
 
-// do you need to pass in children and location here???
+// passing in location for React Spring Animation
 const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
@@ -137,7 +137,7 @@ const Layout = ({ children, location }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Spring
           from={{ height: location.pathname === '/' ? 100 : 350 }}
-          to={{ height: location.pathname === '/' ? 350 : 100 }}
+          to={{ height: location.pathname === '/' ? 350 : 200 }}
         >
           {styles => (
             <div style={{ overflow: 'hidden', ...styles }}>
@@ -145,9 +145,6 @@ const Layout = ({ children, location }) => (
             </div>
           )}
         </Spring>
-        {/*{location.pathname === '/' &&*/}
-        {/**/}
-        {/*}*/}
         <MainLayout>
           {location.pathname === '/' ?
             <div className='grid-container'>
