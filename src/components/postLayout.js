@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from './layout.js';
-import styled from 'styled-components';
-
-
+// import styled from 'styled-components';
 
 export default class postLayout extends Component {
+
   render() {
     const { markdownRemark } = this.props.data;
     const { location } = this.props;
+    const { next, prev } = this.props.pageContext;
+    console.log('next', next);
+    console.log('prev', prev);
 
     return (
       <Layout location={location}>
@@ -16,6 +18,12 @@ export default class postLayout extends Component {
         <div className='post-body' dangerouslySetInnerHTML={{
           __html: markdownRemark.html
         }} />
+        {
+          next && <Link to={`/posts${next.frontmatter.slug}`}>Next</Link>
+        }
+        {
+          prev && <Link to={`/posts${prev.frontmatter.slug}`}>Prev</Link>
+        }
       </Layout>
     );
   };
@@ -23,18 +31,18 @@ export default class postLayout extends Component {
 
 // !requires a slug argument which comes in as a string...
 export const query = graphql`
-    query PostQuery($slug: String!) {
+  query PostQuery($slug: String!) {
         markdownRemark(frontmatter:
         {slug: {
-            eq: $slug
+          eq: $slug
         }
         }) {
-            html
+          html
             frontmatter {
-                title
-                date
-                slug
+              title
+              date
+              slug
             }
-        }
-    }
+          }
+  }
 `;
