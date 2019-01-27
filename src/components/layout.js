@@ -48,7 +48,6 @@ const MainLayout = styled.main`
 `;
 
 const PostContainer = styled.div`
-  border: 1px dashed red;
   padding: 1vh;
 
   h1 {
@@ -56,7 +55,6 @@ const PostContainer = styled.div`
   }
 
   .post-body {
-    border: 1px dashed blue;
     box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
     padding: auto 10vh auto 10vh;
     display: grid;
@@ -65,7 +63,6 @@ const PostContainer = styled.div`
   }
 
   .post-links {
-    border: 1px dashed green;
     display: flex;
     justify-content: space-between;
 
@@ -82,7 +79,6 @@ const PostContainer = styled.div`
 
   @media screen and (min-width: 599px) {
     .post-body {
-      border: 1px dashed blue;
       box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
       padding: auto 10vh auto 10vh;
       display: grid;
@@ -92,7 +88,6 @@ const PostContainer = styled.div`
 
     @media screen and (min-width: 699px) {
       .post-body {
-        border: 1px dashed blue;
         box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
         padding: auto 10vh auto 10vh;
         display: grid;
