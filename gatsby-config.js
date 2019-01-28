@@ -20,14 +20,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`, // TODO:  Complete manifest...
+      resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Dreaming of Thailand',
-        short_name: 'Thailand Travel Blog',
+        short_name: 'Dreaming of Thailand',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#000000',
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/white-temple/white-temple.jpg',
       },
     },
