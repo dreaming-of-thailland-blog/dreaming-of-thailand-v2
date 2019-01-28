@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dreaming of Thailand',
     description: 'Travel Photography in the Land of Smiles',
-    siteUrl: 'https://dreaming-of-thailand-v2.netlify.com/',
+    siteUrl: 'https://dreamingofthailand.com',
   },
   plugins: [
     {
