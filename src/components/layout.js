@@ -159,11 +159,10 @@ const Layout = ({ children, location }) => (
   />
 );
 
-// do you need this???
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 };
-// do you need this???
+// Providing a default prop for location during the build process
 Layout.defaultProps = {
   location: {},
 };
