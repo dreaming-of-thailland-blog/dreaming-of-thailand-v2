@@ -76,6 +76,16 @@
     },
     {
         "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-monks-cf2",
+        "path": "/posts/monks"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
+        "jsonName": "posts-wat-phra-d46",
+        "path": "/posts/wat-phra"
+    },
+    {
+        "componentChunkName": "component---src-components-post-layout-js",
         "jsonName": "posts-white-temple-126",
         "path": "/posts/white-temple"
     }

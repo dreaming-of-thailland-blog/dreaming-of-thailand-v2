@@ -28,55 +28,100 @@ const Post = styled.article`
 `;
 
 const LISTING_QUERY = graphql`
-    query BlogPostListing {
-        allMarkdownRemark(limit: 10, sort: {
-            order: DESC,
-            fields: [frontmatter___date]
-        }) {
-            edges {
-                node {
-                    excerpt
-                    frontmatter {
-                        date(formatString: "MMMM DD, YYYY")
-                        title
-                        slug
-                        cover {
-                            id
-                            childImageSharp {
-                                fluid(maxWidth: 1000) {
-                                    ...GatsbyImageSharpFluid_tracedSVG
-                                }
-                            }
-                        }
-                    }
+  query BlogPostListing {
+    firstLine: allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {
+      edges {
+        node {
+          excerpt
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            slug
+            cover {
+              id
+              childImageSharp {
+                fluid(maxWidth: 1000) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
+              }
             }
+          }
         }
+      }
     }
+    secondLine: allMarkdownRemark(skip: 4, limit: 4, sort: {order: DESC, fields: [frontmatter___date]}) {
+      edges {
+        node {
+          excerpt
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            slug
+            cover {
+              id
+              childImageSharp {
+                fluid(maxWidth: 1000) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 `;
 
-const Listing = (data) => (
-  <StaticQuery
-    query={LISTING_QUERY}
-    render={({ allMarkdownRemark }) => (
-      allMarkdownRemark.edges.map(({ node }) => (
-        <Post key={node.frontmatter.slug}>
-          <Link to={`/posts${node.frontmatter.slug}`}>
-            <div>
-              <Img
-                fluid={node.frontmatter.cover.childImageSharp.fluid}
-              />
-            </div>
-            <h2>{node.frontmatter.title}</h2>
-          </Link>
-          {/*<p>{node.frontmatter.date}</p>*/}
+export default class Listing extends React.Component {
+  state = { showMore: false };
 
-          {/*<p>{node.excerpt}</p>*/}
-          <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More...</Link>
-        </Post>
-      ))
-    )}
-  />
-);
+  handlePaginate = (e) => {
+    this.setState({ showMore: true });
+  };
 
-export default Listing;
+  render() {
+    return (
+      //<>
+      <StaticQuery
+        query={LISTING_QUERY}
+        render={({ firstLine }) => (
+          firstLine.edges.map(({ node }) => (
+            <Post key={node.frontmatter.slug}>
+              <Link to={`/posts${node.frontmatter.slug}`}>
+                <div>
+                  <Img
+                    fluid={node.frontmatter.cover.childImageSharp.fluid}
+                  />
+                </div>
+                <h2>{node.frontmatter.title}</h2>
+              </Link>
+              <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More...</Link>
+            </Post>
+          ))
+        )}
+      />
+      // <StaticQuery
+      //   query={LISTING_QUERY}
+      //   render={({ secondLine }) => (
+      //     secondLine.edges.map(({ node }) => (
+      //       <Post key={node.frontmatter.slug}>
+      //         <Link to={`/posts${node.frontmatter.slug}`}>
+      //           <div>
+      //             <Img
+      //               fluid={node.frontmatter.cover.childImageSharp.fluid}
+      //             />
+      //           </div>
+      //           <h2>{node.frontmatter.title}</h2>
+      //         </Link>
+      //         <Link className='read-more' to={`/posts${node.frontmatter.slug}`}>Read More...</Link>
+      //       </Post>
+      //     ))
+      //   )}
+      // />
+      // <button onClick={this.handlePaginate}>View More Posts</button>
+      //</>
+    );
+  }
+}
+
+// export { Listing as default };
