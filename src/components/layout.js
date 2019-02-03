@@ -16,36 +16,36 @@ const MainLayout = styled.main`
   margin: .1rem auto;
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 12px 12px;
     }  
   }
-
-  @media (min-width: 500px) {
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px 10px;
-      }
-  }
-
-  @media (min-width: 600px) {
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 10px 10px;
-      }
-  }
-
-  @media (min-width: 700px) {
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 10px 10px;
-      }
-  }
-  
+}
 `;
+
+
+// @media (min-width: 500px) {
+//   .grid-container {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-gap: 10px 10px;
+//     }
+// }
+
+// @media (min-width: 600px) {
+//   .grid-container {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 10px 10px;
+//     }
+// }
+
+// @media (min-width: 700px) {
+//   .grid-container {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);
+//     grid-gap: 10px 10px;
+//     }
 
 const PostContainer = styled.div`
   padding: 1vh;

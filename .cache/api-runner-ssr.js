@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-133339457-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"optimizeId":"YOUR_GOOGLE_OPTIMIZE_TRACKING_ID","experimentId":"YOUR_GOOGLE_EXPERIMENT_ID","variationId":"YOUR_GOOGLE_OPTIMIZE_VARIATION_ID","sampleRate":5,"siteSpeedSampleRate":10},
+    },{
       plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Dreaming of Thailand","short_name":"Dreaming of Thailand","start_url":"/","background_color":"#ffffff","theme_color":"#000000","display":"standalone","icon":"src/images/white-temple/white-temple.jpg"},
     },{
