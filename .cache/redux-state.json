@@ -1771,12 +1771,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-03T23:54:54.206Z",
+      "buildTime": "2019-02-04T20:49:57.993Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bb29638f4ae1ec27795889dbc9268ad7",
+        "contentDigest": "faea79d8a65311f7428ca49ccd7f32ca",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1786,7 +1786,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2e93f9080f41ad8fb09d3775259ed6e7",
+        "contentDigest": "c5c992b0671025e771d71fb1e7af73a8",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1798,7 +1798,7 @@
       "size": 480,
       "prettySize": "480 B",
       "modifiedTime": "2019-02-03T23:54:14.808Z",
-      "accessTime": "2019-02-03T23:54:56.872Z",
+      "accessTime": "2019-02-04T20:50:03.331Z",
       "changeTime": "2019-02-03T23:54:14.808Z",
       "birthTime": "2018-11-07T18:47:20.714Z",
       "root": "/",
@@ -1816,11 +1816,11 @@
       "blksize": 4194304,
       "ino": 15850176,
       "blocks": 0,
-      "atimeMs": 1549238096871.595,
+      "atimeMs": 1549313403331.4,
       "mtimeMs": 1549238054808.261,
       "ctimeMs": 1549238054808.261,
       "birthtimeMs": 1541616440713.688,
-      "atime": "2019-02-03T23:54:56.872Z",
+      "atime": "2019-02-04T20:50:03.331Z",
       "mtime": "2019-02-03T23:54:14.808Z",
       "ctime": "2019-02-03T23:54:14.808Z",
       "birthtime": "2018-11-07T18:47:20.714Z"
@@ -1830,7 +1830,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9a36ed28fa35af14cdfa73a7ec789d5f",
+        "contentDigest": "15ae3fe562a308bdb8b0795495ba237d",
         "type": "Directory",
         "description": "Directory \"src/images/black-house\"",
         "owner": "gatsby-source-filesystem"
@@ -1842,7 +1842,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-25T18:46:57.772Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.772Z",
       "birthTime": "2018-11-13T00:42:59.000Z",
       "root": "/",
@@ -1860,11 +1860,11 @@
       "blksize": 4194304,
       "ino": 16633973,
       "blocks": 0,
-      "atimeMs": 1549238096875.9822,
+      "atimeMs": 1549313403336.8748,
       "mtimeMs": 1548442017771.614,
       "ctimeMs": 1548442017771.614,
       "birthtimeMs": 1542069779000,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.772Z",
       "ctime": "2019-01-25T18:46:57.772Z",
       "birthtime": "2018-11-13T00:42:59.000Z"
@@ -1874,7 +1874,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "89768dd7f7ed7bbfdce7b8f95d22cbd0",
+        "contentDigest": "a4fba9ba01facb4be5fbef54529e9904",
         "type": "Directory",
         "description": "Directory \"src/images/clock-tower\"",
         "owner": "gatsby-source-filesystem"
@@ -1886,7 +1886,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-25T18:46:57.776Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.776Z",
       "birthTime": "2019-01-25T18:46:57.772Z",
       "root": "/",
@@ -1904,11 +1904,11 @@
       "blksize": 4194304,
       "ino": 19164189,
       "blocks": 0,
-      "atimeMs": 1549238096876.01,
+      "atimeMs": 1549313403336.8384,
       "mtimeMs": 1548442017775.6418,
       "ctimeMs": 1548442017775.6418,
       "birthtimeMs": 1548442017772.166,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.776Z",
       "ctime": "2019-01-25T18:46:57.776Z",
       "birthtime": "2019-01-25T18:46:57.772Z"
@@ -1918,7 +1918,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "21385f985521407497a2e27091352835",
+        "contentDigest": "612353b236e2bf6eda639f46b7e2c275",
         "type": "Directory",
         "description": "Directory \"src/images/doi-chang\"",
         "owner": "gatsby-source-filesystem"
@@ -1930,7 +1930,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-01-25T18:46:57.781Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.781Z",
       "birthTime": "2019-01-25T18:46:57.776Z",
       "root": "/",
@@ -1948,11 +1948,11 @@
       "blksize": 4194304,
       "ino": 19164195,
       "blocks": 0,
-      "atimeMs": 1549238096876.0247,
+      "atimeMs": 1549313403336.9084,
       "mtimeMs": 1548442017780.6863,
       "ctimeMs": 1548442017780.6863,
       "birthtimeMs": 1548442017776.2964,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.781Z",
       "ctime": "2019-01-25T18:46:57.781Z",
       "birthtime": "2019-01-25T18:46:57.776Z"
@@ -1962,7 +1962,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "77c8558aa67b9815c72c78d406cc6156",
+        "contentDigest": "07711bebeb35f0a3e877070189d32993",
         "type": "Directory",
         "description": "Directory \"src/images/doi-mae-salong\"",
         "owner": "gatsby-source-filesystem"
@@ -1974,7 +1974,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.784Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.784Z",
       "birthTime": "2019-01-25T18:46:57.781Z",
       "root": "/",
@@ -1992,11 +1992,11 @@
       "blksize": 4194304,
       "ino": 19164202,
       "blocks": 0,
-      "atimeMs": 1549238096876.0754,
+      "atimeMs": 1549313403336.9412,
       "mtimeMs": 1548442017783.6938,
       "ctimeMs": 1548442017783.6938,
       "birthtimeMs": 1548442017781.4946,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.784Z",
       "ctime": "2019-01-25T18:46:57.784Z",
       "birthtime": "2019-01-25T18:46:57.781Z"
@@ -2006,7 +2006,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a9df78833a617b23460e28548dba6727",
+        "contentDigest": "af311cb80c77a0c53a7f9ad053ef16b9",
         "type": "Directory",
         "description": "Directory \"src/images/golden-triangle\"",
         "owner": "gatsby-source-filesystem"
@@ -2018,7 +2018,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2019-01-25T18:46:57.794Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.794Z",
       "birthTime": "2019-01-25T18:46:57.785Z",
       "root": "/",
@@ -2036,11 +2036,11 @@
       "blksize": 4194304,
       "ino": 19164207,
       "blocks": 0,
-      "atimeMs": 1549238096876.0796,
+      "atimeMs": 1549313403336.9734,
       "mtimeMs": 1548442017794.076,
       "ctimeMs": 1548442017794.076,
       "birthtimeMs": 1548442017784.5337,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.794Z",
       "ctime": "2019-01-25T18:46:57.794Z",
       "birthtime": "2019-01-25T18:46:57.785Z"
@@ -2050,7 +2050,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "263debf091e00023c73b52988412faa2",
+        "contentDigest": "1003d6aa54ae67c58e3d5b758757bef8",
         "type": "Directory",
         "description": "Directory \"src/images/koh-lipe\"",
         "owner": "gatsby-source-filesystem"
@@ -2062,7 +2062,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.797Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.797Z",
       "birthTime": "2019-01-25T18:46:57.795Z",
       "root": "/",
@@ -2080,11 +2080,11 @@
       "blksize": 4194304,
       "ino": 19164216,
       "blocks": 0,
-      "atimeMs": 1549238096876.09,
+      "atimeMs": 1549313403337.006,
       "mtimeMs": 1548442017797.302,
       "ctimeMs": 1548442017797.302,
       "birthtimeMs": 1548442017794.995,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.797Z",
       "ctime": "2019-01-25T18:46:57.797Z",
       "birthtime": "2019-01-25T18:46:57.795Z"
@@ -2094,7 +2094,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a56e4c19427a88b92a84a689fb613d33",
+        "contentDigest": "c07db82c49f9fd3144f6e50c2b7850b8",
         "type": "Directory",
         "description": "Directory \"src/images/old-chiangmai-khantoke\"",
         "owner": "gatsby-source-filesystem"
@@ -2106,7 +2106,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.800Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.800Z",
       "birthTime": "2019-01-25T18:46:57.798Z",
       "root": "/",
@@ -2124,11 +2124,11 @@
       "blksize": 4194304,
       "ino": 19164221,
       "blocks": 0,
-      "atimeMs": 1549238096876.1375,
+      "atimeMs": 1549313403337.071,
       "mtimeMs": 1548442017800.2485,
       "ctimeMs": 1548442017800.2485,
       "birthtimeMs": 1548442017797.8564,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.800Z",
       "ctime": "2019-01-25T18:46:57.800Z",
       "birthtime": "2019-01-25T18:46:57.798Z"
@@ -2138,7 +2138,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "84c174aed44ef34c7e36f39f9b18b3ed",
+        "contentDigest": "69bedb1f53189217d462ffb8989588b1",
         "type": "Directory",
         "description": "Directory \"src/images/white-temple\"",
         "owner": "gatsby-source-filesystem"
@@ -2150,7 +2150,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-01-25T18:46:57.803Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-01-25T18:46:57.803Z",
       "birthTime": "2019-01-25T18:46:57.801Z",
       "root": "/",
@@ -2168,11 +2168,11 @@
       "blksize": 4194304,
       "ino": 19164226,
       "blocks": 0,
-      "atimeMs": 1549238096876.1868,
+      "atimeMs": 1549313403337.1357,
       "mtimeMs": 1548442017802.8772,
       "ctimeMs": 1548442017802.8772,
       "birthtimeMs": 1548442017800.964,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-01-25T18:46:57.803Z",
       "ctime": "2019-01-25T18:46:57.803Z",
       "birthtime": "2019-01-25T18:46:57.801Z"
@@ -4462,7 +4462,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8792f004f5e7245be952a6f7fac2e32a",
+        "contentDigest": "de7f8e61efb136e93c56d2f5e4954e1a",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -4473,9 +4473,9 @@
       "extension": "",
       "size": 384,
       "prettySize": "384 B",
-      "modifiedTime": "2019-02-03T23:54:14.836Z",
-      "accessTime": "2019-02-03T23:54:56.958Z",
-      "changeTime": "2019-02-03T23:54:14.836Z",
+      "modifiedTime": "2019-02-04T19:48:43.775Z",
+      "accessTime": "2019-02-04T20:50:03.435Z",
+      "changeTime": "2019-02-04T19:48:43.775Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src",
@@ -4492,13 +4492,13 @@
       "blksize": 4194304,
       "ino": 19164233,
       "blocks": 0,
-      "atimeMs": 1549238096957.6719,
-      "mtimeMs": 1549238054836.4353,
-      "ctimeMs": 1549238054836.4353,
+      "atimeMs": 1549313403434.6665,
+      "mtimeMs": 1549309723774.9426,
+      "ctimeMs": 1549309723774.9426,
       "birthtimeMs": 1548442017804.714,
-      "atime": "2019-02-03T23:54:56.958Z",
-      "mtime": "2019-02-03T23:54:14.836Z",
-      "ctime": "2019-02-03T23:54:14.836Z",
+      "atime": "2019-02-04T20:50:03.435Z",
+      "mtime": "2019-02-04T19:48:43.775Z",
+      "ctime": "2019-02-04T19:48:43.775Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
     },
     "63b7fedf-d6b9-5798-9d94-ce9d8799536e": {
@@ -4755,10 +4755,10 @@
       "extension": "md",
       "size": 752,
       "prettySize": "752 B",
-      "modifiedTime": "2019-02-04T05:33:25.870Z",
-      "accessTime": "2019-02-04T05:33:25.868Z",
-      "changeTime": "2019-02-04T05:33:25.870Z",
-      "birthTime": "2019-01-27T08:36:44.089Z",
+      "modifiedTime": "2019-02-04T19:48:43.775Z",
+      "accessTime": "2019-02-04T19:48:43.787Z",
+      "changeTime": "2019-02-04T19:48:43.775Z",
+      "birthTime": "2019-02-04T19:48:43.775Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/thailand-blog/src/posts",
       "base": "khantoke.md",
@@ -4772,16 +4772,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 19233941,
+      "ino": 19543210,
       "blocks": 8,
-      "atimeMs": 1549258405867.7664,
-      "mtimeMs": 1549258405869.5984,
-      "ctimeMs": 1549258405869.5984,
-      "birthtimeMs": 1548578204088.589,
-      "atime": "2019-02-04T05:33:25.868Z",
-      "mtime": "2019-02-04T05:33:25.870Z",
-      "ctime": "2019-02-04T05:33:25.870Z",
-      "birthtime": "2019-01-27T08:36:44.089Z"
+      "atimeMs": 1549309723786.8657,
+      "mtimeMs": 1549309723775.0737,
+      "ctimeMs": 1549309723775.0737,
+      "birthtimeMs": 1549309723774.9348,
+      "atime": "2019-02-04T19:48:43.787Z",
+      "mtime": "2019-02-04T19:48:43.775Z",
+      "ctime": "2019-02-04T19:48:43.775Z",
+      "birthtime": "2019-02-04T19:48:43.775Z"
     },
     "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27": {
       "id": "1e0adb2c-d1b1-53c3-9847-1c1ebf60dd27",
@@ -5083,7 +5083,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ef7aee56d22853269729378a9fbf6e9b",
+        "contentDigest": "34611d0f7e68cb03d03578e87c0f6804",
         "type": "Directory",
         "description": "Directory \"src/images/monks\"",
         "owner": "gatsby-source-filesystem"
@@ -5095,7 +5095,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-03T23:54:14.807Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-02-03T23:54:14.807Z",
       "birthTime": "2019-02-03T23:54:14.805Z",
       "root": "/",
@@ -5113,11 +5113,11 @@
       "blksize": 4194304,
       "ino": 19532669,
       "blocks": 0,
-      "atimeMs": 1549238096876.1218,
+      "atimeMs": 1549313403337.0386,
       "mtimeMs": 1549238054807.478,
       "ctimeMs": 1549238054807.478,
       "birthtimeMs": 1549238054805.2139,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-02-03T23:54:14.807Z",
       "ctime": "2019-02-03T23:54:14.807Z",
       "birthtime": "2019-02-03T23:54:14.805Z"
@@ -5345,7 +5345,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0ec52aead97a1a52279e20c2866f49cf",
+        "contentDigest": "9a0155bf73a514b93cfd1a11be4e1116",
         "type": "Directory",
         "description": "Directory \"src/images/wat-phra\"",
         "owner": "gatsby-source-filesystem"
@@ -5357,7 +5357,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-03T23:54:14.834Z",
-      "accessTime": "2019-02-03T23:54:56.876Z",
+      "accessTime": "2019-02-04T20:50:03.337Z",
       "changeTime": "2019-02-03T23:54:14.834Z",
       "birthTime": "2019-02-03T23:54:14.808Z",
       "root": "/",
@@ -5375,11 +5375,11 @@
       "blksize": 4194304,
       "ino": 19532673,
       "blocks": 0,
-      "atimeMs": 1549238096876.182,
+      "atimeMs": 1549313403337.1035,
       "mtimeMs": 1549238054834.002,
       "ctimeMs": 1549238054834.002,
       "birthtimeMs": 1549238054808.2554,
-      "atime": "2019-02-03T23:54:56.876Z",
+      "atime": "2019-02-04T20:50:03.337Z",
       "mtime": "2019-02-03T23:54:14.834Z",
       "ctime": "2019-02-03T23:54:14.834Z",
       "birthtime": "2019-02-03T23:54:14.808Z"
@@ -5598,6 +5598,28 @@
       "excerpt": "",
       "rawMarkdownBody": "<div>\n\n![monk-and-school-girl](../images/monks/monk-and-school-girl.jpg)\n\nA very young monk novice receiving alms from a local school girl at the morning market in Nan province.\n\n</div>\n<div>\n\n![monk-chanting](../images/monks/monk-chanting.jpg)\n\nWhen you offer alms to monks in Thailand, they will often give you a blessing in the form of a chant. This morning market in Nan was amazing for seeing how regular Thais go about their days.\n\n</div>\n<div>\n\n![young-monks](../images/monks/young-monks.jpg)\n\nTwo young monks receiving alms from a couple in the morning market.  This scene is common throughout Thailand but it's become commercialized in the more touristy parts of the country.\n\n</div>",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/monks.md"
+    },
+    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
+      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
+      "children": [],
+      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
+      "internal": {
+        "content": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "cf55eae148947e5349213a41dc9d846d",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Khantoke",
+        "slug": "/khantoke",
+        "date": "2016-12-28",
+        "subtitle": "Old Chiang Mai Village Khantoke",
+        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
+        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
     },
     "SitePage /posts/black-house": {
       "jsonName": "posts-black-house-eac",
@@ -6036,28 +6058,6 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
-      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
-      "children": [],
-      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
-      "internal": {
-        "content": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
-        "type": "MarkdownRemark",
-        "contentDigest": "cf55eae148947e5349213a41dc9d846d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Khantoke",
-        "slug": "/khantoke",
-        "date": "2016-12-28",
-        "subtitle": "Old Chiang Mai Village Khantoke",
-        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
-        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
     }
   },
   "status": {
