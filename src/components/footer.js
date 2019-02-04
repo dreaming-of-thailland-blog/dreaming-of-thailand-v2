@@ -24,7 +24,7 @@ grid-template-columns: repeat(3, 1fr);
 const footer = (props) => {
   return (
     <FooterWrapper>
-      <div></div>
+      <div>dreaming of thailand</div>
       <div></div>
       <div className='grid-links'>
         <a href='https://github.com/vibecastor'><GitHub /></a>
