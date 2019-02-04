@@ -2,7 +2,7 @@
 slug: "/khantoke"
 date: "2016-12-28"
 title: "Khantoke"
-subtitle: "Olc Chiang Mai Village Khantoke"
+subtitle: "Old Chiang Mai Village Khantoke"
 cover: "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg"
 ---
 <div>

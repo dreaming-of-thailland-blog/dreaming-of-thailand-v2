@@ -4,7 +4,8 @@ import { Menu } from 'react-feather';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
-  background: #000000;
+  //max-height: 15vh;
+  background: #212121;
   color: #ffffff;
   img {
     margin-bottom: 0;

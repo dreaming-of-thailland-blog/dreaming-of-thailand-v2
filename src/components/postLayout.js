@@ -16,11 +16,23 @@ export default class postLayout extends Component {
 
     return (
       <Layout location={location}>
-        <h1>{markdownRemark.frontmatter.subtitle}</h1>
+        <div className='post-links'>
+          <div>
+            {
+              next && <Link to={`/posts${next.frontmatter.slug}`}><ChevronsLeft className='icon' size={48} /></Link>
+            }
+          </div>
+          <h1>{markdownRemark.frontmatter.subtitle}</h1>
+          <div>
+            {
+              prev && <Link to={`/posts${prev.frontmatter.slug}`}><ChevronsRight className='icon' size={48} /></Link>
+            }
+          </div>
+        </div>
         <div className='post-body' dangerouslySetInnerHTML={{
           __html: markdownRemark.html
         }} />
-        <div className='post-links'>
+        <div className='post-links-bottom'>
           <div>
             {
               next && <Link to={`/posts${next.frontmatter.slug}`}><ChevronsLeft className='icon' size={48} /></Link>
@@ -40,18 +52,18 @@ export default class postLayout extends Component {
 // !requires a slug argument which comes in as a string...
 export const query = graphql`
   query PostQuery($slug: String!) {
-        markdownRemark(frontmatter:
+          markdownRemark(frontmatter:
         {slug: {
           eq: $slug
-        }
+      }
         }) {
           html
             frontmatter {
-              title
+          title
               subtitle
-              date
-              slug
-            }
-          }
-  }
+        date
+        slug
+      }
+    }
+}
 `;
