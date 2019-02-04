@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Menu } from 'react-feather';
+import { Camera, Menu } from 'react-feather';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
-  //max-height: 15vh;
   background: #212121;
   color: #ffffff;
   img {
@@ -24,21 +23,37 @@ const HeaderContainer = styled.div`
 
   h1 {
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   h2 {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     font-size: 1rem;
   }
 
-  .icon {
+  .icon-camera {
+    padding-top: .6rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
   }
 
-  .mobileNav {
-    padding-left: 2rem;
+  .icon-menu {
+    padding-top: .6rem;
+    padding-left: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .link-grid {
+    display: grid;
+    grid-template-columns: 2rem auto;
+  }
+
+  .mobileNav {
+    max-height: 10vh;
+    padding-left: 2rem;
+    a {
+      display: inline;
+      vertical-align: top;
+    }
   } 
 
   .desktopNav {
@@ -46,7 +61,7 @@ const HeaderContainer = styled.div`
   }
 
   @media screen and (min-width: 599px) {
-    .icon {
+    .icon-menu {
       display: none;
     }
     
@@ -99,14 +114,17 @@ class Header extends React.Component {
             <Link to='/'>
               <h1>{this.props.siteTitle}</h1>
             </Link>
-            <h2>travel photography in the land of smiles</h2>
+            <div className='link-grid'>
+              <Camera size={24} className='icon-camera' />
+              <h2>travel photography in the land of smiles</h2>
+            </div>
+            <Menu className='icon-menu' onClick={this.ToggleNav} />
           </div>
           {/* mobile navBar */}
-          <Menu className='icon' onClick={this.ToggleNav} />
           <div className='mobileNav'>
             {
               this.state.toggle &&
-              <NavContainer>
+              <NavContainer className='mobileNav'>
                 <Link
                   to="/"
                 >home
