@@ -4,6 +4,10 @@ import Img from 'gatsby-image';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 
+const AboutTitle = styled.h1`
+  margin-left: .5rem;
+`;
+
 const AboutWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -16,7 +20,7 @@ const AboutWrapper = styled.div`
   }
 `;
 
-const GridItem = styled.div`
+const GridItem = styled.article`
   display: grid;
 
   max-width: 400px;
@@ -40,6 +44,7 @@ class About extends Component {
     const { data } = this.props;
     return (
       <Layout>
+        <AboutTitle>...Sawatdee Krap</AboutTitle>
         <AboutWrapper>
           <GridItem>
             <h2>Mike Castor</h2>
