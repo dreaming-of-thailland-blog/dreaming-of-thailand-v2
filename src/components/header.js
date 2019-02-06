@@ -24,22 +24,34 @@ const HeaderContainer = styled.div`
   h1 {
     padding-left: 1rem;
     font-size: 1.8rem;
+    color: #ffffff;
   }
+
+  h1:hover {
+    color: #b30000;
+  }
+
   h2 {
     padding-left: 1rem;
     font-size: 1rem;
+    color: #ffffff;
   }
 
   .icon-camera {
     padding-top: .6rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    color: #ffffff;
   }
 
   .icon-menu {
     padding-top: .6rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .icon-menu:hover {
+    color: #b30000;
   }
 
   .link-grid {
@@ -84,7 +96,7 @@ const NavContainer = styled.div`
     text-align: center;
     a {
       color: #ffffff;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       padding-top: 2rem;
     }
 
