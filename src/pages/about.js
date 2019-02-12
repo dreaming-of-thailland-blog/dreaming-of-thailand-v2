@@ -6,6 +6,7 @@ import Layout from '../components/layout';
 
 const AboutTitle = styled.h1`
   margin-left: .5rem;
+  font-family: Lora;
 `;
 
 const AboutWrapper = styled.div`
@@ -22,7 +23,7 @@ const AboutWrapper = styled.div`
 
 const GridItem = styled.article`
   display: grid;
-
+  font-family: Lora;
   max-width: 400px;
   padding: 1rem;
   margin-top: .1rem;
@@ -35,6 +36,9 @@ const GridItem = styled.article`
 const GridText = styled.p`
   margin-left: .5rem;
   margin-right: .5rem;
+  font-family: Karma;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 `;
 
 // took out location is for React Spring

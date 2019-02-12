@@ -6,6 +6,22 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Slab`, // Header font
+          },
+          {
+            family: `Lora`, // Article title font
+          },
+          {
+            family: `Karma`, // read more font
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

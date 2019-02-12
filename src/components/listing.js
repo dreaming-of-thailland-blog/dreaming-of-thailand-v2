@@ -13,17 +13,22 @@ const Post = styled.article`
     text-decoration: none;
   }
   h2 {
-    font-size: 1rem;
+    font-family: Lora;
+    font-size: 1.1rem;
     margin-bottom: 0;
   }
   p {
     font-size: 0.8rem;
   }
   .read-more {
-    font-family: helvetica;
-    font-size: 0.75rem;
+    font-family: Karma;
+    font-size: 0.85rem;
     text-decoration: underline;
     color: #000000;
+  }
+
+  a:hover{
+    color: #b30000;
   }
 `;
 
