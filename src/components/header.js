@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
   background: #212121;
+  font-family: Roboto Slab;
   color: #ffffff;
   img {
     margin-bottom: 0;

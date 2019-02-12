@@ -196,6 +196,348 @@
         "owner": "internal-data-bridge"
       }
     },
+    "08405d0c-93ba-5495-9b6d-ff267be0610a": {
+      "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-prefetch-google-fonts",
+      "id": "08405d0c-93ba-5495-9b6d-ff267be0610a",
+      "name": "gatsby-plugin-prefetch-google-fonts",
+      "version": "1.4.0",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          {
+            "family": "Merriweather"
+          },
+          {
+            "family": "Karma"
+          },
+          {
+            "family": "PT Serif"
+          },
+          {
+            "family": "Lora"
+          },
+          {
+            "family": "Roboto Slab"
+          },
+          {
+            "family": "Roboto",
+            "variants": [
+              "400",
+              "400i",
+              "700",
+              "700i"
+            ]
+          },
+          {
+            "family": "Open Sans",
+            "variants": [
+              "400",
+              "700"
+            ]
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-prefetch-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-prefetch-google-fonts",
+        "description": "A Gatsby plugin to download and prefetch [Google Fonts](https://fonts.google.com/). Can increase performance as opposed to loading webfonts from Google's external stylesheet.",
+        "version": "1.4.0",
+        "main": "gatsby-ssr.js",
+        "keywords": [
+          "gatsby-plugin",
+          "gatsby",
+          "plugin",
+          "web",
+          "font",
+          "loader",
+          "google",
+          "webfont",
+          "webfontloader",
+          "prefetch",
+          "download",
+          "downloader",
+          "local"
+        ],
+        "author": {
+          "name": "Kennedy Rose",
+          "email": "krose@escaladesports.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "clean-css",
+            "version": "^4.2.1"
+          },
+          {
+            "name": "download",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "get-urls",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "globby",
+            "version": "^8.0.1"
+          },
+          {
+            "name": "google-fonts-plugin",
+            "version": "2.0.2"
+          },
+          {
+            "name": "object-hash",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/plugin-proposal-class-properties",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-decorators",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/plugin-proposal-do-expressions",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-export-default-from",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-export-namespace-from",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-function-bind",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-function-sent",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-json-strings",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-logical-assignment-operators",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-numeric-separator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-optional-chaining",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-pipeline-operator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-throw-expressions",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-dynamic-import",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-meta",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-jsx",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/preset-react",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "child-process-async",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "child-process-promise",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "emotion",
+            "version": "^9.2.6"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.6"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.3.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "eslint-config-escalade-sports",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "2.0.5"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "identity-obj-proxy",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "isomorphic-fetch",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "jest",
+            "version": "^23.4.2"
+          },
+          {
+            "name": "jest-dom",
+            "version": "^1.12.0"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.9.3"
+          },
+          {
+            "name": "netlify-lambda",
+            "version": "^0.4.0"
+          },
+          {
+            "name": "npm-run-all",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "opn-cli",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-netlify-form",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "react-no-ssr",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "react-test-renderer",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-testing-library",
+            "version": "^4.1.7"
+          },
+          {
+            "name": "request",
+            "version": "^2.87.0"
+          },
+          {
+            "name": "statable",
+            "version": "^0.3.2"
+          },
+          {
+            "name": "static-server",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "strip-html-comments",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "toml",
+            "version": "^2.3.3"
+          },
+          {
+            "name": "wt-cli",
+            "version": "^10.0.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0e944a2d60f2064fe4be8aaa9970e730",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "b622a8b9-2980-5114-b622-faac8f2a4326": {
       "resolve": "/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-source-filesystem",
       "id": "b622a8b9-2980-5114-b622-faac8f2a4326",
@@ -1648,7 +1990,7 @@
       "resolve": "/Users/michaelcastor/projects/thailand-blog",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4703d504240d28ea464b5104890fba4d",
+      "version": "c6d1dc5a4e84e85bd658239f9b1e88f5",
       "pluginOptions": {
         "plugins": []
       },
@@ -1699,6 +2041,10 @@
           {
             "name": "gatsby-plugin-offline",
             "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-prefetch-google-fonts",
+            "version": "^1.4.0"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -1778,7 +2124,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a4b3842d5cf5726d6d65b66a80dec4df",
+        "contentDigest": "2dcb05a8b6a49473753de29b7ddd6477",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1894,14 +2240,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-02-06T22:56:45.917Z",
+      "buildTime": "2019-02-12T21:00:35.411Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "26015303b6fdeacf970fe8d9cfd5756a",
+        "contentDigest": "2f732024db7bf6285fb47dd42fb4db72",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1911,7 +2255,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c167224dd983b8089c4140c5c9eaeef0",
+        "contentDigest": "48183012974d1d2e1b23161b58f0f521",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1923,7 +2267,7 @@
       "size": 512,
       "prettySize": "512 B",
       "modifiedTime": "2019-02-05T23:36:27.593Z",
-      "accessTime": "2019-02-06T22:56:48.395Z",
+      "accessTime": "2019-02-12T21:00:40.420Z",
       "changeTime": "2019-02-05T23:36:27.593Z",
       "birthTime": "2018-11-07T18:47:20.714Z",
       "root": "/",
@@ -1932,7 +2276,7 @@
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 16,
       "uid": 501,
@@ -1941,11 +2285,11 @@
       "blksize": 4194304,
       "ino": 15850176,
       "blocks": 0,
-      "atimeMs": 1549493808394.8591,
+      "atimeMs": 1550005240419.6772,
       "mtimeMs": 1549409787593.1067,
       "ctimeMs": 1549409787593.1067,
       "birthtimeMs": 1541616440713.688,
-      "atime": "2019-02-06T22:56:48.395Z",
+      "atime": "2019-02-12T21:00:40.420Z",
       "mtime": "2019-02-05T23:36:27.593Z",
       "ctime": "2019-02-05T23:36:27.593Z",
       "birthtime": "2018-11-07T18:47:20.714Z"
@@ -1955,7 +2299,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a61298dcc3a7551b5b8d47ba4b9ffcd3",
+        "contentDigest": "dff9b89471da66fbab4a87bfc86e25c7",
         "type": "Directory",
         "description": "Directory \"src/images/about\"",
         "owner": "gatsby-source-filesystem"
@@ -1967,7 +2311,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-05T23:36:27.595Z",
-      "accessTime": "2019-02-06T22:56:48.484Z",
+      "accessTime": "2019-02-12T21:00:40.545Z",
       "changeTime": "2019-02-05T23:36:27.595Z",
       "birthTime": "2019-02-05T23:36:27.593Z",
       "root": "/",
@@ -1976,7 +2320,7 @@
       "ext": "",
       "name": "about",
       "relativeDirectory": "..",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
@@ -1985,11 +2329,11 @@
       "blksize": 4194304,
       "ino": 19576986,
       "blocks": 0,
-      "atimeMs": 1549493808483.5588,
+      "atimeMs": 1550005240544.992,
       "mtimeMs": 1549409787594.9297,
       "ctimeMs": 1549409787594.9297,
       "birthtimeMs": 1549409787593.088,
-      "atime": "2019-02-06T22:56:48.484Z",
+      "atime": "2019-02-12T21:00:40.545Z",
       "mtime": "2019-02-05T23:36:27.595Z",
       "ctime": "2019-02-05T23:36:27.595Z",
       "birthtime": "2019-02-05T23:36:27.593Z"
@@ -1999,7 +2343,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2078407354b8445b454058098fcd417b",
+        "contentDigest": "59a736b71c5981861024c452adebabf6",
         "type": "Directory",
         "description": "Directory \"src/images/black-house\"",
         "owner": "gatsby-source-filesystem"
@@ -2011,7 +2355,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-25T18:46:57.772Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.772Z",
       "birthTime": "2018-11-13T00:42:59.000Z",
       "root": "/",
@@ -2020,7 +2364,7 @@
       "ext": "",
       "name": "black-house",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 7,
       "uid": 501,
@@ -2029,11 +2373,11 @@
       "blksize": 4194304,
       "ino": 16633973,
       "blocks": 0,
-      "atimeMs": 1549493808398.3083,
+      "atimeMs": 1550005240423.2622,
       "mtimeMs": 1548442017771.614,
       "ctimeMs": 1548442017771.614,
       "birthtimeMs": 1542069779000,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.772Z",
       "ctime": "2019-01-25T18:46:57.772Z",
       "birthtime": "2018-11-13T00:42:59.000Z"
@@ -2043,7 +2387,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7da98b7c7e734c0693a856b737962030",
+        "contentDigest": "2b9fdf13be215c2aedceb361b41be5fb",
         "type": "Directory",
         "description": "Directory \"src/images/clock-tower\"",
         "owner": "gatsby-source-filesystem"
@@ -2055,7 +2399,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-25T18:46:57.776Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.776Z",
       "birthTime": "2019-01-25T18:46:57.772Z",
       "root": "/",
@@ -2064,7 +2408,7 @@
       "ext": "",
       "name": "clock-tower",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 7,
       "uid": 501,
@@ -2073,11 +2417,11 @@
       "blksize": 4194304,
       "ino": 19164189,
       "blocks": 0,
-      "atimeMs": 1549493808398.293,
+      "atimeMs": 1550005240423.2246,
       "mtimeMs": 1548442017775.6418,
       "ctimeMs": 1548442017775.6418,
       "birthtimeMs": 1548442017772.166,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.776Z",
       "ctime": "2019-01-25T18:46:57.776Z",
       "birthtime": "2019-01-25T18:46:57.772Z"
@@ -2087,7 +2431,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1fcdd376986eab0fc050fd53462af740",
+        "contentDigest": "495c49d90d6ec8643274b2592cfb4aef",
         "type": "Directory",
         "description": "Directory \"src/images/doi-chang\"",
         "owner": "gatsby-source-filesystem"
@@ -2099,7 +2443,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2019-01-25T18:46:57.781Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.781Z",
       "birthTime": "2019-01-25T18:46:57.776Z",
       "root": "/",
@@ -2108,7 +2452,7 @@
       "ext": "",
       "name": "doi-chang",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 8,
       "uid": 501,
@@ -2117,11 +2461,11 @@
       "blksize": 4194304,
       "ino": 19164195,
       "blocks": 0,
-      "atimeMs": 1549493808398.3384,
+      "atimeMs": 1550005240423.2866,
       "mtimeMs": 1548442017780.6863,
       "ctimeMs": 1548442017780.6863,
       "birthtimeMs": 1548442017776.2964,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.781Z",
       "ctime": "2019-01-25T18:46:57.781Z",
       "birthtime": "2019-01-25T18:46:57.776Z"
@@ -2131,7 +2475,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9b989db0213090f7daa93cd559e4a77b",
+        "contentDigest": "52730f5fd03d21def846f0835fadc9cd",
         "type": "Directory",
         "description": "Directory \"src/images/doi-mae-salong\"",
         "owner": "gatsby-source-filesystem"
@@ -2143,7 +2487,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.784Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.784Z",
       "birthTime": "2019-01-25T18:46:57.781Z",
       "root": "/",
@@ -2152,7 +2496,7 @@
       "ext": "",
       "name": "doi-mae-salong",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 6,
       "uid": 501,
@@ -2161,11 +2505,11 @@
       "blksize": 4194304,
       "ino": 19164202,
       "blocks": 0,
-      "atimeMs": 1549493808398.3535,
+      "atimeMs": 1550005240423.2747,
       "mtimeMs": 1548442017783.6938,
       "ctimeMs": 1548442017783.6938,
       "birthtimeMs": 1548442017781.4946,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.784Z",
       "ctime": "2019-01-25T18:46:57.784Z",
       "birthtime": "2019-01-25T18:46:57.781Z"
@@ -2175,7 +2519,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6190dfff344aa0423fdb7dc5db28e883",
+        "contentDigest": "29e14f5783d21ebf1450f1921b87846f",
         "type": "Directory",
         "description": "Directory \"src/images/golden-triangle\"",
         "owner": "gatsby-source-filesystem"
@@ -2187,7 +2531,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2019-01-25T18:46:57.794Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.794Z",
       "birthTime": "2019-01-25T18:46:57.785Z",
       "root": "/",
@@ -2196,7 +2540,7 @@
       "ext": "",
       "name": "golden-triangle",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 10,
       "uid": 501,
@@ -2205,11 +2549,11 @@
       "blksize": 4194304,
       "ino": 19164207,
       "blocks": 0,
-      "atimeMs": 1549493808398.375,
+      "atimeMs": 1550005240423.2988,
       "mtimeMs": 1548442017794.076,
       "ctimeMs": 1548442017794.076,
       "birthtimeMs": 1548442017784.5337,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.794Z",
       "ctime": "2019-01-25T18:46:57.794Z",
       "birthtime": "2019-01-25T18:46:57.785Z"
@@ -2219,7 +2563,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b6dd3042bcd2ca29a6ae929b31a4ee5c",
+        "contentDigest": "02cd122296174884d33e8c6b67a36a62",
         "type": "Directory",
         "description": "Directory \"src/images/koh-lipe\"",
         "owner": "gatsby-source-filesystem"
@@ -2231,7 +2575,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.797Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.797Z",
       "birthTime": "2019-01-25T18:46:57.795Z",
       "root": "/",
@@ -2240,7 +2584,7 @@
       "ext": "",
       "name": "koh-lipe",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 6,
       "uid": 501,
@@ -2249,11 +2593,11 @@
       "blksize": 4194304,
       "ino": 19164216,
       "blocks": 0,
-      "atimeMs": 1549493808398.3901,
+      "atimeMs": 1550005240423.3105,
       "mtimeMs": 1548442017797.302,
       "ctimeMs": 1548442017797.302,
       "birthtimeMs": 1548442017794.995,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.797Z",
       "ctime": "2019-01-25T18:46:57.797Z",
       "birthtime": "2019-01-25T18:46:57.795Z"
@@ -2263,7 +2607,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "aacf7760f82cd9cf83e0d28adc07adc8",
+        "contentDigest": "259bf22910b43a3e6de88ffdf801e030",
         "type": "Directory",
         "description": "Directory \"src/images/monks\"",
         "owner": "gatsby-source-filesystem"
@@ -2275,7 +2619,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-03T23:54:14.807Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-02-03T23:54:14.807Z",
       "birthTime": "2019-02-03T23:54:14.805Z",
       "root": "/",
@@ -2284,7 +2628,7 @@
       "ext": "",
       "name": "monks",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
@@ -2293,11 +2637,11 @@
       "blksize": 4194304,
       "ino": 19532669,
       "blocks": 0,
-      "atimeMs": 1549493808398.4045,
+      "atimeMs": 1550005240423.3274,
       "mtimeMs": 1549238054807.478,
       "ctimeMs": 1549238054807.478,
       "birthtimeMs": 1549238054805.2139,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-02-03T23:54:14.807Z",
       "ctime": "2019-02-03T23:54:14.807Z",
       "birthtime": "2019-02-03T23:54:14.805Z"
@@ -2307,7 +2651,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "56c806a8d8824df9d682961efbc3bc0c",
+        "contentDigest": "2164f39db15a96b5da338030531e432b",
         "type": "Directory",
         "description": "Directory \"src/images/old-chiangmai-khantoke\"",
         "owner": "gatsby-source-filesystem"
@@ -2319,7 +2663,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-01-25T18:46:57.800Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-01-25T18:46:57.800Z",
       "birthTime": "2019-01-25T18:46:57.798Z",
       "root": "/",
@@ -2328,7 +2672,7 @@
       "ext": "",
       "name": "old-chiangmai-khantoke",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 6,
       "uid": 501,
@@ -2337,11 +2681,11 @@
       "blksize": 4194304,
       "ino": 19164221,
       "blocks": 0,
-      "atimeMs": 1549493808398.4197,
+      "atimeMs": 1550005240423.3408,
       "mtimeMs": 1548442017800.2485,
       "ctimeMs": 1548442017800.2485,
       "birthtimeMs": 1548442017797.8564,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-01-25T18:46:57.800Z",
       "ctime": "2019-01-25T18:46:57.800Z",
       "birthtime": "2019-01-25T18:46:57.798Z"
@@ -2351,7 +2695,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a552503f3d42f58ba4a44b9414e7b939",
+        "contentDigest": "40777b15eb001687e780557dbb104532",
         "type": "Directory",
         "description": "Directory \"src/images/wat-phra\"",
         "owner": "gatsby-source-filesystem"
@@ -2363,7 +2707,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-03T23:54:14.834Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.423Z",
       "changeTime": "2019-02-03T23:54:14.834Z",
       "birthTime": "2019-02-03T23:54:14.808Z",
       "root": "/",
@@ -2372,7 +2716,7 @@
       "ext": "",
       "name": "wat-phra",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
@@ -2381,11 +2725,11 @@
       "blksize": 4194304,
       "ino": 19532673,
       "blocks": 0,
-      "atimeMs": 1549493808398.4338,
+      "atimeMs": 1550005240423.352,
       "mtimeMs": 1549238054834.002,
       "ctimeMs": 1549238054834.002,
       "birthtimeMs": 1549238054808.2554,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.423Z",
       "mtime": "2019-02-03T23:54:14.834Z",
       "ctime": "2019-02-03T23:54:14.834Z",
       "birthtime": "2019-02-03T23:54:14.808Z"
@@ -2395,7 +2739,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "681c14b7bfe02d3d44d27b107e9c641a",
+        "contentDigest": "1dcd46c7bcdb8fad9708d0edde8bfe4a",
         "type": "Directory",
         "description": "Directory \"src/images/white-temple\"",
         "owner": "gatsby-source-filesystem"
@@ -2407,7 +2751,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-01-25T18:46:57.803Z",
-      "accessTime": "2019-02-06T22:56:48.398Z",
+      "accessTime": "2019-02-12T21:00:40.424Z",
       "changeTime": "2019-01-25T18:46:57.803Z",
       "birthTime": "2019-01-25T18:46:57.801Z",
       "root": "/",
@@ -2416,7 +2760,7 @@
       "ext": "",
       "name": "white-temple",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
@@ -2425,11 +2769,11 @@
       "blksize": 4194304,
       "ino": 19164226,
       "blocks": 0,
-      "atimeMs": 1549493808398.4485,
+      "atimeMs": 1550005240423.6133,
       "mtimeMs": 1548442017802.8772,
       "ctimeMs": 1548442017802.8772,
       "birthtimeMs": 1548442017800.964,
-      "atime": "2019-02-06T22:56:48.398Z",
+      "atime": "2019-02-12T21:00:40.424Z",
       "mtime": "2019-01-25T18:46:57.803Z",
       "ctime": "2019-01-25T18:46:57.803Z",
       "birthtime": "2019-01-25T18:46:57.801Z"
@@ -2454,7 +2798,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-11-07T18:47:20.715Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2018-11-07T18:47:20.715Z",
       "birthTime": "2018-11-07T18:47:20.715Z",
       "root": "/",
@@ -2463,7 +2807,7 @@
       "ext": ".png",
       "name": "gatsby-icon",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2472,108 +2816,14 @@
       "blksize": 4194304,
       "ino": 15850178,
       "blocks": 48,
-      "atimeMs": 1549477907746.6807,
+      "atimeMs": 1550004963155.0095,
       "mtimeMs": 1541616440715.4856,
       "ctimeMs": 1541616440715.4856,
       "birthtimeMs": 1541616440715.013,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2018-11-07T18:47:20.715Z",
       "ctime": "2018-11-07T18:47:20.715Z",
       "birthtime": "2018-11-07T18:47:20.715Z"
-    },
-    "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48": {
-      "id": "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48",
-      "children": [
-        "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2699ea3227b244a0a02ae1302cfa30af",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/black-house/black-house.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/black-house.jpg",
-      "relativePath": "black-house/black-house.jpg",
-      "extension": "jpg",
-      "size": 59382,
-      "prettySize": "59.4 kB",
-      "modifiedTime": "2019-01-25T18:46:57.770Z",
-      "accessTime": "2019-02-06T18:31:50.221Z",
-      "changeTime": "2019-01-25T18:46:57.770Z",
-      "birthTime": "2019-01-25T18:46:57.770Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
-      "base": "black-house.jpg",
-      "ext": ".jpg",
-      "name": "black-house",
-      "relativeDirectory": "black-house",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164185,
-      "blocks": 120,
-      "atimeMs": 1549477910221.3926,
-      "mtimeMs": 1548442017770.0662,
-      "ctimeMs": 1548442017770.0662,
-      "birthtimeMs": 1548442017769.639,
-      "atime": "2019-02-06T18:31:50.221Z",
-      "mtime": "2019-01-25T18:46:57.770Z",
-      "ctime": "2019-01-25T18:46:57.770Z",
-      "birthtime": "2019-01-25T18:46:57.770Z"
-    },
-    "145efe90-b394-5d70-a099-24c103dcb2cc": {
-      "id": "145efe90-b394-5d70-a099-24c103dcb2cc",
-      "children": [
-        "0e038c53-e8bc-5d29-89bd-df67f0a1f9f4"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4e1a0d517bab6ea501010758260f3205",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/black-house/crocodile.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/crocodile.jpg",
-      "relativePath": "black-house/crocodile.jpg",
-      "extension": "jpg",
-      "size": 56512,
-      "prettySize": "56.5 kB",
-      "modifiedTime": "2019-01-25T18:46:57.771Z",
-      "accessTime": "2019-02-06T18:31:50.221Z",
-      "changeTime": "2019-01-25T18:46:57.771Z",
-      "birthTime": "2019-01-25T18:46:57.770Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
-      "base": "crocodile.jpg",
-      "ext": ".jpg",
-      "name": "crocodile",
-      "relativeDirectory": "black-house",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164186,
-      "blocks": 112,
-      "atimeMs": 1549477910221.4075,
-      "mtimeMs": 1548442017770.5625,
-      "ctimeMs": 1548442017770.5625,
-      "birthtimeMs": 1548442017770.1663,
-      "atime": "2019-02-06T18:31:50.221Z",
-      "mtime": "2019-01-25T18:46:57.771Z",
-      "ctime": "2019-01-25T18:46:57.771Z",
-      "birthtime": "2019-01-25T18:46:57.770Z"
     },
     "ccf39244-7d1d-56e3-a81d-f7bb3d840032": {
       "id": "ccf39244-7d1d-56e3-a81d-f7bb3d840032",
@@ -2595,7 +2845,7 @@
       "size": 43806,
       "prettySize": "43.8 kB",
       "modifiedTime": "2019-01-25T18:46:57.773Z",
-      "accessTime": "2019-02-06T18:31:50.221Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-01-25T18:46:57.773Z",
       "birthTime": "2019-01-25T18:46:57.772Z",
       "root": "/",
@@ -2604,7 +2854,7 @@
       "ext": ".jpg",
       "name": "clock-tower",
       "relativeDirectory": "clock-tower",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2613,61 +2863,155 @@
       "blksize": 4194304,
       "ino": 19164190,
       "blocks": 88,
-      "atimeMs": 1549477910221.4512,
+      "atimeMs": 1550005229852.2644,
       "mtimeMs": 1548442017772.5664,
       "ctimeMs": 1548442017772.5664,
       "birthtimeMs": 1548442017772.2178,
-      "atime": "2019-02-06T18:31:50.221Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-01-25T18:46:57.773Z",
       "ctime": "2019-01-25T18:46:57.773Z",
       "birthtime": "2019-01-25T18:46:57.772Z"
     },
-    "2b4a9039-c1d5-529c-8942-3c311264c621": {
-      "id": "2b4a9039-c1d5-529c-8942-3c311264c621",
+    "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48": {
+      "id": "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48",
       "children": [
-        "73f39843-9996-5268-bc23-b0ceb329bc11"
+        "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c54acf2047db99dce5ed86d07750a21f",
+        "contentDigest": "2699ea3227b244a0a02ae1302cfa30af",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/images/doi-chang/coffee-map.jpg\"",
+        "description": "File \"src/images/black-house/black-house.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/coffee-map.jpg",
-      "relativePath": "doi-chang/coffee-map.jpg",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/black-house.jpg",
+      "relativePath": "black-house/black-house.jpg",
       "extension": "jpg",
-      "size": 61178,
-      "prettySize": "61.2 kB",
-      "modifiedTime": "2019-01-25T18:46:57.778Z",
-      "accessTime": "2019-02-06T18:31:47.746Z",
-      "changeTime": "2019-01-25T18:46:57.778Z",
-      "birthTime": "2019-01-25T18:46:57.777Z",
+      "size": 59382,
+      "prettySize": "59.4 kB",
+      "modifiedTime": "2019-01-25T18:46:57.770Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
+      "changeTime": "2019-01-25T18:46:57.770Z",
+      "birthTime": "2019-01-25T18:46:57.770Z",
       "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
-      "base": "coffee-map.jpg",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "black-house.jpg",
       "ext": ".jpg",
-      "name": "coffee-map",
-      "relativeDirectory": "doi-chang",
-      "dev": 16777222,
+      "name": "black-house",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 19164197,
+      "ino": 19164185,
       "blocks": 120,
-      "atimeMs": 1549477907746.4644,
-      "mtimeMs": 1548442017777.6353,
-      "ctimeMs": 1548442017777.6353,
-      "birthtimeMs": 1548442017777.148,
-      "atime": "2019-02-06T18:31:47.746Z",
-      "mtime": "2019-01-25T18:46:57.778Z",
-      "ctime": "2019-01-25T18:46:57.778Z",
-      "birthtime": "2019-01-25T18:46:57.777Z"
+      "atimeMs": 1550005229852.2485,
+      "mtimeMs": 1548442017770.0662,
+      "ctimeMs": 1548442017770.0662,
+      "birthtimeMs": 1548442017769.639,
+      "atime": "2019-02-12T21:00:29.852Z",
+      "mtime": "2019-01-25T18:46:57.770Z",
+      "ctime": "2019-01-25T18:46:57.770Z",
+      "birthtime": "2019-01-25T18:46:57.770Z"
+    },
+    "9d61cb1e-20e7-58a7-a4e6-4b30758faba9": {
+      "id": "9d61cb1e-20e7-58a7-a4e6-4b30758faba9",
+      "children": [
+        "7b93dc0d-fc4f-5423-af33-8177afba3fda"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ac6a13fd5de3e8bc495534c2af303714",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea-plantation.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-plantation.jpg",
+      "relativePath": "doi-mae-salong/tea-plantation.jpg",
+      "extension": "jpg",
+      "size": 50364,
+      "prettySize": "50.4 kB",
+      "modifiedTime": "2019-01-25T18:46:57.783Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.783Z",
+      "birthTime": "2019-01-25T18:46:57.782Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea-plantation.jpg",
+      "ext": ".jpg",
+      "name": "tea-plantation",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164204,
+      "blocks": 104,
+      "atimeMs": 1550004963154.946,
+      "mtimeMs": 1548442017782.8076,
+      "ctimeMs": 1548442017782.8076,
+      "birthtimeMs": 1548442017782.3938,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.783Z",
+      "ctime": "2019-01-25T18:46:57.783Z",
+      "birthtime": "2019-01-25T18:46:57.782Z"
+    },
+    "145efe90-b394-5d70-a099-24c103dcb2cc": {
+      "id": "145efe90-b394-5d70-a099-24c103dcb2cc",
+      "children": [
+        "0e038c53-e8bc-5d29-89bd-df67f0a1f9f4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4e1a0d517bab6ea501010758260f3205",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/crocodile.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/crocodile.jpg",
+      "relativePath": "black-house/crocodile.jpg",
+      "extension": "jpg",
+      "size": 56512,
+      "prettySize": "56.5 kB",
+      "modifiedTime": "2019-01-25T18:46:57.771Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.771Z",
+      "birthTime": "2019-01-25T18:46:57.770Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "crocodile.jpg",
+      "ext": ".jpg",
+      "name": "crocodile",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164186,
+      "blocks": 112,
+      "atimeMs": 1550004963154.52,
+      "mtimeMs": 1548442017770.5625,
+      "ctimeMs": 1548442017770.5625,
+      "birthtimeMs": 1548442017770.1663,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.771Z",
+      "ctime": "2019-01-25T18:46:57.771Z",
+      "birthtime": "2019-01-25T18:46:57.770Z"
     },
     "c8640557-84e5-5183-a009-3d294a234fb2": {
       "id": "c8640557-84e5-5183-a009-3d294a234fb2",
@@ -2689,7 +3033,7 @@
       "size": 56271,
       "prettySize": "56.3 kB",
       "modifiedTime": "2019-01-25T18:46:57.778Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-01-25T18:46:57.778Z",
       "birthTime": "2019-01-25T18:46:57.778Z",
       "root": "/",
@@ -2698,7 +3042,7 @@
       "ext": ".jpg",
       "name": "doi-chang-coffee",
       "relativeDirectory": "doi-chang",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2707,14 +3051,61 @@
       "blksize": 4194304,
       "ino": 19164198,
       "blocks": 112,
-      "atimeMs": 1549477910221.539,
+      "atimeMs": 1550005229852.2893,
       "mtimeMs": 1548442017778.2815,
       "ctimeMs": 1548442017778.2815,
       "birthtimeMs": 1548442017777.7388,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-01-25T18:46:57.778Z",
       "ctime": "2019-01-25T18:46:57.778Z",
       "birthtime": "2019-01-25T18:46:57.778Z"
+    },
+    "2b4a9039-c1d5-529c-8942-3c311264c621": {
+      "id": "2b4a9039-c1d5-529c-8942-3c311264c621",
+      "children": [
+        "73f39843-9996-5268-bc23-b0ceb329bc11"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c54acf2047db99dce5ed86d07750a21f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-chang/coffee-map.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang/coffee-map.jpg",
+      "relativePath": "doi-chang/coffee-map.jpg",
+      "extension": "jpg",
+      "size": 61178,
+      "prettySize": "61.2 kB",
+      "modifiedTime": "2019-01-25T18:46:57.778Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.778Z",
+      "birthTime": "2019-01-25T18:46:57.777Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-chang",
+      "base": "coffee-map.jpg",
+      "ext": ".jpg",
+      "name": "coffee-map",
+      "relativeDirectory": "doi-chang",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164197,
+      "blocks": 120,
+      "atimeMs": 1550004963154.7812,
+      "mtimeMs": 1548442017777.6353,
+      "ctimeMs": 1548442017777.6353,
+      "birthtimeMs": 1548442017777.148,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.778Z",
+      "ctime": "2019-01-25T18:46:57.778Z",
+      "birthtime": "2019-01-25T18:46:57.777Z"
     },
     "53ee1132-7857-5c86-b630-b15085f0cdaa": {
       "id": "53ee1132-7857-5c86-b630-b15085f0cdaa",
@@ -2736,7 +3127,7 @@
       "size": 59063,
       "prettySize": "59.1 kB",
       "modifiedTime": "2019-01-25T18:46:57.779Z",
-      "accessTime": "2019-02-06T18:31:47.746Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.779Z",
       "birthTime": "2019-01-25T18:46:57.779Z",
       "root": "/",
@@ -2745,7 +3136,7 @@
       "ext": ".jpg",
       "name": "doi-chang-sunrise",
       "relativeDirectory": "doi-chang",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2754,11 +3145,11 @@
       "blksize": 4194304,
       "ino": 19164199,
       "blocks": 120,
-      "atimeMs": 1549477907746.4976,
+      "atimeMs": 1550004963154.813,
       "mtimeMs": 1548442017779.2095,
       "ctimeMs": 1548442017779.2095,
       "birthtimeMs": 1548442017778.578,
-      "atime": "2019-02-06T18:31:47.746Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.779Z",
       "ctime": "2019-01-25T18:46:57.779Z",
       "birthtime": "2019-01-25T18:46:57.779Z"
@@ -2783,7 +3174,7 @@
       "size": 36541,
       "prettySize": "36.5 kB",
       "modifiedTime": "2019-01-25T18:46:57.781Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.781Z",
       "birthTime": "2019-01-25T18:46:57.781Z",
       "root": "/",
@@ -2792,7 +3183,7 @@
       "ext": ".jpg",
       "name": "more-doi-chang-coffee",
       "relativeDirectory": "doi-chang",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2801,61 +3192,14 @@
       "blksize": 4194304,
       "ino": 19164201,
       "blocks": 72,
-      "atimeMs": 1549477907746.531,
+      "atimeMs": 1550004963154.8445,
       "mtimeMs": 1548442017781.208,
       "ctimeMs": 1548442017781.208,
       "birthtimeMs": 1548442017780.6804,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.781Z",
       "ctime": "2019-01-25T18:46:57.781Z",
       "birthtime": "2019-01-25T18:46:57.781Z"
-    },
-    "9d61cb1e-20e7-58a7-a4e6-4b30758faba9": {
-      "id": "9d61cb1e-20e7-58a7-a4e6-4b30758faba9",
-      "children": [
-        "7b93dc0d-fc4f-5423-af33-8177afba3fda"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "ac6a13fd5de3e8bc495534c2af303714",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/doi-mae-salong/tea-plantation.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-plantation.jpg",
-      "relativePath": "doi-mae-salong/tea-plantation.jpg",
-      "extension": "jpg",
-      "size": 50364,
-      "prettySize": "50.4 kB",
-      "modifiedTime": "2019-01-25T18:46:57.783Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
-      "changeTime": "2019-01-25T18:46:57.783Z",
-      "birthTime": "2019-01-25T18:46:57.782Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
-      "base": "tea-plantation.jpg",
-      "ext": ".jpg",
-      "name": "tea-plantation",
-      "relativeDirectory": "doi-mae-salong",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164204,
-      "blocks": 104,
-      "atimeMs": 1549477910221.604,
-      "mtimeMs": 1548442017782.8076,
-      "ctimeMs": 1548442017782.8076,
-      "birthtimeMs": 1548442017782.3938,
-      "atime": "2019-02-06T18:31:50.222Z",
-      "mtime": "2019-01-25T18:46:57.783Z",
-      "ctime": "2019-01-25T18:46:57.783Z",
-      "birthtime": "2019-01-25T18:46:57.782Z"
     },
     "46cec956-65ea-5902-b9d5-4bc9d522c62d": {
       "id": "46cec956-65ea-5902-b9d5-4bc9d522c62d",
@@ -2877,7 +3221,7 @@
       "size": 49211,
       "prettySize": "49.2 kB",
       "modifiedTime": "2019-01-25T18:46:57.786Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.786Z",
       "birthTime": "2019-01-25T18:46:57.786Z",
       "root": "/",
@@ -2886,7 +3230,7 @@
       "ext": ".jpg",
       "name": "cher-and-uncle",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2895,11 +3239,11 @@
       "blksize": 4194304,
       "ino": 19164209,
       "blocks": 104,
-      "atimeMs": 1549477907746.7715,
+      "atimeMs": 1550004963155.0945,
       "mtimeMs": 1548442017786.2212,
       "ctimeMs": 1548442017786.2212,
       "birthtimeMs": 1548442017785.667,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.786Z",
       "ctime": "2019-01-25T18:46:57.786Z",
       "birthtime": "2019-01-25T18:46:57.786Z"
@@ -2924,7 +3268,7 @@
       "size": 34350,
       "prettySize": "34.4 kB",
       "modifiedTime": "2019-01-25T18:46:57.796Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-01-25T18:46:57.796Z",
       "birthTime": "2019-01-25T18:46:57.795Z",
       "root": "/",
@@ -2933,7 +3277,7 @@
       "ext": ".jpg",
       "name": "koh-lipe-boat",
       "relativeDirectory": "koh-lipe",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2942,11 +3286,11 @@
       "blksize": 4194304,
       "ino": 19164217,
       "blocks": 72,
-      "atimeMs": 1549477910221.7998,
+      "atimeMs": 1550005229852.3499,
       "mtimeMs": 1548442017795.5117,
       "ctimeMs": 1548442017795.5117,
       "birthtimeMs": 1548442017795.116,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-01-25T18:46:57.796Z",
       "ctime": "2019-01-25T18:46:57.796Z",
       "birthtime": "2019-01-25T18:46:57.795Z"
@@ -2971,7 +3315,7 @@
       "size": 51940,
       "prettySize": "51.9 kB",
       "modifiedTime": "2019-01-25T18:46:57.797Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.797Z",
       "birthTime": "2019-01-25T18:46:57.797Z",
       "root": "/",
@@ -2980,7 +3324,7 @@
       "ext": ".jpg",
       "name": "koh-lipe-mountain-resort",
       "relativeDirectory": "koh-lipe",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -2989,11 +3333,11 @@
       "blksize": 4194304,
       "ino": 19164219,
       "blocks": 104,
-      "atimeMs": 1549477910221.8357,
+      "atimeMs": 1550004963155.327,
       "mtimeMs": 1548442017797.1357,
       "ctimeMs": 1548442017797.1357,
       "birthtimeMs": 1548442017796.6055,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.797Z",
       "ctime": "2019-01-25T18:46:57.797Z",
       "birthtime": "2019-01-25T18:46:57.797Z"
@@ -3018,7 +3362,7 @@
       "size": 42811,
       "prettySize": "42.8 kB",
       "modifiedTime": "2019-01-25T18:46:57.798Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.798Z",
       "birthTime": "2019-01-25T18:46:57.797Z",
       "root": "/",
@@ -3027,7 +3371,7 @@
       "ext": ".jpg",
       "name": "koh-lipe-speed-boat",
       "relativeDirectory": "koh-lipe",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3036,11 +3380,11 @@
       "blksize": 4194304,
       "ino": 19164220,
       "blocks": 88,
-      "atimeMs": 1549477907746.9866,
+      "atimeMs": 1550004963155.343,
       "mtimeMs": 1548442017797.7043,
       "ctimeMs": 1548442017797.7043,
       "birthtimeMs": 1548442017797.294,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.798Z",
       "ctime": "2019-01-25T18:46:57.798Z",
       "birthtime": "2019-01-25T18:46:57.797Z"
@@ -3065,7 +3409,7 @@
       "size": 59894,
       "prettySize": "59.9 kB",
       "modifiedTime": "2019-01-25T18:46:57.801Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-01-25T18:46:57.801Z",
       "birthTime": "2019-01-25T18:46:57.800Z",
       "root": "/",
@@ -3074,7 +3418,7 @@
       "ext": ".jpg",
       "name": "khantoke-thai-dancers",
       "relativeDirectory": "old-chiangmai-khantoke",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3083,11 +3427,11 @@
       "blksize": 4194304,
       "ino": 19164225,
       "blocks": 120,
-      "atimeMs": 1549477910221.9587,
+      "atimeMs": 1550005229852.388,
       "mtimeMs": 1548442017800.7764,
       "ctimeMs": 1548442017800.7764,
       "birthtimeMs": 1548442017800.2405,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-01-25T18:46:57.801Z",
       "ctime": "2019-01-25T18:46:57.801Z",
       "birthtime": "2019-01-25T18:46:57.800Z"
@@ -3112,7 +3456,7 @@
       "size": 54482,
       "prettySize": "54.5 kB",
       "modifiedTime": "2019-01-25T18:46:57.803Z",
-      "accessTime": "2019-02-06T18:31:53.911Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-01-25T18:46:57.803Z",
       "birthTime": "2019-01-25T18:46:57.803Z",
       "root": "/",
@@ -3121,7 +3465,7 @@
       "ext": ".jpg",
       "name": "white-temple",
       "relativeDirectory": "white-temple",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3130,108 +3474,14 @@
       "blksize": 4194304,
       "ino": 19164229,
       "blocks": 112,
-      "atimeMs": 1549477913911.1802,
+      "atimeMs": 1550005229852.429,
       "mtimeMs": 1548442017803.4636,
       "ctimeMs": 1548442017803.4636,
       "birthtimeMs": 1548442017802.8708,
-      "atime": "2019-02-06T18:31:53.911Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-01-25T18:46:57.803Z",
       "ctime": "2019-01-25T18:46:57.803Z",
       "birthtime": "2019-01-25T18:46:57.803Z"
-    },
-    "1257399a-6936-56f9-8603-a22dd50f9afa": {
-      "id": "1257399a-6936-56f9-8603-a22dd50f9afa",
-      "children": [
-        "4c45ebdb-daab-55d8-9522-06cb6cecfaa5"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3495cb3332f44d57e99249337e63e461",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/black-house/dinner-table.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/dinner-table.jpg",
-      "relativePath": "black-house/dinner-table.jpg",
-      "extension": "jpg",
-      "size": 107457,
-      "prettySize": "107 kB",
-      "modifiedTime": "2019-01-25T18:46:57.772Z",
-      "accessTime": "2019-02-06T18:31:50.221Z",
-      "changeTime": "2019-01-25T18:46:57.772Z",
-      "birthTime": "2019-01-25T18:46:57.771Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
-      "base": "dinner-table.jpg",
-      "ext": ".jpg",
-      "name": "dinner-table",
-      "relativeDirectory": "black-house",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164187,
-      "blocks": 216,
-      "atimeMs": 1549477910221.413,
-      "mtimeMs": 1548442017771.5078,
-      "ctimeMs": 1548442017771.5078,
-      "birthtimeMs": 1548442017770.7598,
-      "atime": "2019-02-06T18:31:50.221Z",
-      "mtime": "2019-01-25T18:46:57.772Z",
-      "ctime": "2019-01-25T18:46:57.772Z",
-      "birthtime": "2019-01-25T18:46:57.771Z"
-    },
-    "d531ce36-8dff-5936-a460-9b9ec1b00740": {
-      "id": "d531ce36-8dff-5936-a460-9b9ec1b00740",
-      "children": [
-        "024cbb1d-bd35-59a4-ae93-a9fd8af16462"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "687e813e85c6104c990f9441ea416265",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/black-house/gong.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/gong.jpg",
-      "relativePath": "black-house/gong.jpg",
-      "extension": "jpg",
-      "size": 65911,
-      "prettySize": "65.9 kB",
-      "modifiedTime": "2019-01-25T18:46:57.772Z",
-      "accessTime": "2019-02-06T18:31:47.746Z",
-      "changeTime": "2019-01-25T18:46:57.772Z",
-      "birthTime": "2019-01-25T18:46:57.772Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
-      "base": "gong.jpg",
-      "ext": ".jpg",
-      "name": "gong",
-      "relativeDirectory": "black-house",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164188,
-      "blocks": 136,
-      "atimeMs": 1549477907746.2434,
-      "mtimeMs": 1548442017772.082,
-      "ctimeMs": 1548442017772.082,
-      "birthtimeMs": 1548442017771.6084,
-      "atime": "2019-02-06T18:31:47.746Z",
-      "mtime": "2019-01-25T18:46:57.772Z",
-      "ctime": "2019-01-25T18:46:57.772Z",
-      "birthtime": "2019-01-25T18:46:57.772Z"
     },
     "b0efb867-3af8-5cbb-9cd2-7cbd6442e24d": {
       "id": "b0efb867-3af8-5cbb-9cd2-7cbd6442e24d",
@@ -3253,7 +3503,7 @@
       "size": 82666,
       "prettySize": "82.7 kB",
       "modifiedTime": "2019-01-25T18:46:57.774Z",
-      "accessTime": "2019-02-06T18:31:50.221Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.774Z",
       "birthTime": "2019-01-25T18:46:57.774Z",
       "root": "/",
@@ -3262,7 +3512,7 @@
       "ext": ".jpg",
       "name": "northern-breakfast",
       "relativeDirectory": "clock-tower",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3271,11 +3521,11 @@
       "blksize": 4194304,
       "ino": 19164192,
       "blocks": 168,
-      "atimeMs": 1549477910221.473,
+      "atimeMs": 1550004963154.6682,
       "mtimeMs": 1548442017774.3079,
       "ctimeMs": 1548442017774.3079,
       "birthtimeMs": 1548442017773.5798,
-      "atime": "2019-02-06T18:31:50.221Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.774Z",
       "ctime": "2019-01-25T18:46:57.774Z",
       "birthtime": "2019-01-25T18:46:57.774Z"
@@ -3300,7 +3550,7 @@
       "size": 99759,
       "prettySize": "99.8 kB",
       "modifiedTime": "2019-01-25T18:46:57.775Z",
-      "accessTime": "2019-02-06T18:31:47.746Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.775Z",
       "birthTime": "2019-01-25T18:46:57.775Z",
       "root": "/",
@@ -3309,7 +3559,7 @@
       "ext": ".jpg",
       "name": "nothern-thai-coffee",
       "relativeDirectory": "clock-tower",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3318,11 +3568,11 @@
       "blksize": 4194304,
       "ino": 19164193,
       "blocks": 200,
-      "atimeMs": 1549477907746.3645,
+      "atimeMs": 1550004963154.684,
       "mtimeMs": 1548442017775.4956,
       "ctimeMs": 1548442017775.4956,
       "birthtimeMs": 1548442017774.5227,
-      "atime": "2019-02-06T18:31:47.746Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.775Z",
       "ctime": "2019-01-25T18:46:57.775Z",
       "birthtime": "2019-01-25T18:46:57.775Z"
@@ -3347,7 +3597,7 @@
       "size": 84248,
       "prettySize": "84.2 kB",
       "modifiedTime": "2019-01-25T18:46:57.776Z",
-      "accessTime": "2019-02-06T18:31:50.221Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.776Z",
       "birthTime": "2019-01-25T18:46:57.776Z",
       "root": "/",
@@ -3356,7 +3606,7 @@
       "ext": ".jpg",
       "name": "street-dog",
       "relativeDirectory": "clock-tower",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3365,14 +3615,249 @@
       "blksize": 4194304,
       "ino": 19164194,
       "blocks": 168,
-      "atimeMs": 1549477910221.4949,
+      "atimeMs": 1550004963154.6997,
       "mtimeMs": 1548442017776.1987,
       "ctimeMs": 1548442017776.1987,
       "birthtimeMs": 1548442017775.6343,
-      "atime": "2019-02-06T18:31:50.221Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.776Z",
       "ctime": "2019-01-25T18:46:57.776Z",
       "birthtime": "2019-01-25T18:46:57.776Z"
+    },
+    "1257399a-6936-56f9-8603-a22dd50f9afa": {
+      "id": "1257399a-6936-56f9-8603-a22dd50f9afa",
+      "children": [
+        "4c45ebdb-daab-55d8-9522-06cb6cecfaa5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3495cb3332f44d57e99249337e63e461",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/dinner-table.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/dinner-table.jpg",
+      "relativePath": "black-house/dinner-table.jpg",
+      "extension": "jpg",
+      "size": 107457,
+      "prettySize": "107 kB",
+      "modifiedTime": "2019-01-25T18:46:57.772Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.772Z",
+      "birthTime": "2019-01-25T18:46:57.771Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "dinner-table.jpg",
+      "ext": ".jpg",
+      "name": "dinner-table",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164187,
+      "blocks": 216,
+      "atimeMs": 1550004963154.5366,
+      "mtimeMs": 1548442017771.5078,
+      "ctimeMs": 1548442017771.5078,
+      "birthtimeMs": 1548442017770.7598,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.772Z",
+      "ctime": "2019-01-25T18:46:57.772Z",
+      "birthtime": "2019-01-25T18:46:57.771Z"
+    },
+    "d531ce36-8dff-5936-a460-9b9ec1b00740": {
+      "id": "d531ce36-8dff-5936-a460-9b9ec1b00740",
+      "children": [
+        "024cbb1d-bd35-59a4-ae93-a9fd8af16462"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "687e813e85c6104c990f9441ea416265",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/black-house/gong.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house/gong.jpg",
+      "relativePath": "black-house/gong.jpg",
+      "extension": "jpg",
+      "size": 65911,
+      "prettySize": "65.9 kB",
+      "modifiedTime": "2019-01-25T18:46:57.772Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.772Z",
+      "birthTime": "2019-01-25T18:46:57.772Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/black-house",
+      "base": "gong.jpg",
+      "ext": ".jpg",
+      "name": "gong",
+      "relativeDirectory": "black-house",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164188,
+      "blocks": 136,
+      "atimeMs": 1550004963154.5527,
+      "mtimeMs": 1548442017772.082,
+      "ctimeMs": 1548442017772.082,
+      "birthtimeMs": 1548442017771.6084,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.772Z",
+      "ctime": "2019-01-25T18:46:57.772Z",
+      "birthtime": "2019-01-25T18:46:57.772Z"
+    },
+    "8387e7d6-c001-5e87-81b1-647f31888a87": {
+      "id": "8387e7d6-c001-5e87-81b1-647f31888a87",
+      "children": [
+        "39ad55a0-8d73-52c6-84f5-1a471160fa66"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c2e50678c8a466ceac06c8449f070eec",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea-tasting.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-tasting.jpg",
+      "relativePath": "doi-mae-salong/tea-tasting.jpg",
+      "extension": "jpg",
+      "size": 67105,
+      "prettySize": "67.1 kB",
+      "modifiedTime": "2019-01-25T18:46:57.784Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.784Z",
+      "birthTime": "2019-01-25T18:46:57.783Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea-tasting.jpg",
+      "ext": ".jpg",
+      "name": "tea-tasting",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164205,
+      "blocks": 136,
+      "atimeMs": 1550004963154.9626,
+      "mtimeMs": 1548442017783.5474,
+      "ctimeMs": 1548442017783.5474,
+      "birthtimeMs": 1548442017782.92,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.784Z",
+      "ctime": "2019-01-25T18:46:57.784Z",
+      "birthtime": "2019-01-25T18:46:57.783Z"
+    },
+    "8334443d-5e18-5c01-b6ad-6878d3fac933": {
+      "id": "8334443d-5e18-5c01-b6ad-6878d3fac933",
+      "children": [
+        "408f0f0b-925c-5330-bf13-2b1f403ab75f"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5341ff6b0f0f04fc904f8a99823b3b89",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea-and-bananas.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-and-bananas.jpg",
+      "relativePath": "doi-mae-salong/tea-and-bananas.jpg",
+      "extension": "jpg",
+      "size": 75882,
+      "prettySize": "75.9 kB",
+      "modifiedTime": "2019-01-25T18:46:57.782Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.782Z",
+      "birthTime": "2019-01-25T18:46:57.782Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea-and-bananas.jpg",
+      "ext": ".jpg",
+      "name": "tea-and-bananas",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164203,
+      "blocks": 152,
+      "atimeMs": 1550004963154.929,
+      "mtimeMs": 1548442017782.2034,
+      "ctimeMs": 1548442017782.2034,
+      "birthtimeMs": 1548442017781.6384,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.782Z",
+      "ctime": "2019-01-25T18:46:57.782Z",
+      "birthtime": "2019-01-25T18:46:57.782Z"
+    },
+    "85ee43e9-266e-578f-ac2c-6716a4b62b43": {
+      "id": "85ee43e9-266e-578f-ac2c-6716a4b62b43",
+      "children": [
+        "241dd2b0-2853-5d83-9374-cb250d3e90d8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "07a29f834e99498dec4673107b59a045",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/doi-mae-salong/tea.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea.jpg",
+      "relativePath": "doi-mae-salong/tea.jpg",
+      "extension": "jpg",
+      "size": 77576,
+      "prettySize": "77.6 kB",
+      "modifiedTime": "2019-01-25T18:46:57.784Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
+      "changeTime": "2019-01-25T18:46:57.784Z",
+      "birthTime": "2019-01-25T18:46:57.784Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
+      "base": "tea.jpg",
+      "ext": ".jpg",
+      "name": "tea",
+      "relativeDirectory": "doi-mae-salong",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164206,
+      "blocks": 152,
+      "atimeMs": 1550005229852.3132,
+      "mtimeMs": 1548442017784.4062,
+      "ctimeMs": 1548442017784.4062,
+      "birthtimeMs": 1548442017783.674,
+      "atime": "2019-02-12T21:00:29.852Z",
+      "mtime": "2019-01-25T18:46:57.784Z",
+      "ctime": "2019-01-25T18:46:57.784Z",
+      "birthtime": "2019-01-25T18:46:57.784Z"
     },
     "c74e3187-5068-536a-96f6-0fb73d55f530": {
       "id": "c74e3187-5068-536a-96f6-0fb73d55f530",
@@ -3394,7 +3879,7 @@
       "size": 73536,
       "prettySize": "73.5 kB",
       "modifiedTime": "2019-01-25T18:46:57.777Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.777Z",
       "birthTime": "2019-01-25T18:46:57.776Z",
       "root": "/",
@@ -3403,7 +3888,7 @@
       "ext": ".jpg",
       "name": "buns",
       "relativeDirectory": "doi-chang",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3412,11 +3897,11 @@
       "blksize": 4194304,
       "ino": 19164196,
       "blocks": 144,
-      "atimeMs": 1549477910221.5198,
+      "atimeMs": 1550004963154.7646,
       "mtimeMs": 1548442017776.9233,
       "ctimeMs": 1548442017776.9233,
       "birthtimeMs": 1548442017776.3428,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.777Z",
       "ctime": "2019-01-25T18:46:57.777Z",
       "birthtime": "2019-01-25T18:46:57.776Z"
@@ -3441,7 +3926,7 @@
       "size": 88867,
       "prettySize": "88.9 kB",
       "modifiedTime": "2019-01-25T18:46:57.780Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.780Z",
       "birthTime": "2019-01-25T18:46:57.779Z",
       "root": "/",
@@ -3450,7 +3935,7 @@
       "ext": ".jpg",
       "name": "doi-chang",
       "relativeDirectory": "doi-chang",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3459,155 +3944,14 @@
       "blksize": 4194304,
       "ino": 19164200,
       "blocks": 176,
-      "atimeMs": 1549477910221.5598,
+      "atimeMs": 1550004963154.8286,
       "mtimeMs": 1548442017780.3196,
       "ctimeMs": 1548442017780.3196,
       "birthtimeMs": 1548442017779.3313,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.780Z",
       "ctime": "2019-01-25T18:46:57.780Z",
       "birthtime": "2019-01-25T18:46:57.779Z"
-    },
-    "8334443d-5e18-5c01-b6ad-6878d3fac933": {
-      "id": "8334443d-5e18-5c01-b6ad-6878d3fac933",
-      "children": [
-        "408f0f0b-925c-5330-bf13-2b1f403ab75f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5341ff6b0f0f04fc904f8a99823b3b89",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/doi-mae-salong/tea-and-bananas.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-and-bananas.jpg",
-      "relativePath": "doi-mae-salong/tea-and-bananas.jpg",
-      "extension": "jpg",
-      "size": 75882,
-      "prettySize": "75.9 kB",
-      "modifiedTime": "2019-01-25T18:46:57.782Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
-      "changeTime": "2019-01-25T18:46:57.782Z",
-      "birthTime": "2019-01-25T18:46:57.782Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
-      "base": "tea-and-bananas.jpg",
-      "ext": ".jpg",
-      "name": "tea-and-bananas",
-      "relativeDirectory": "doi-mae-salong",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164203,
-      "blocks": 152,
-      "atimeMs": 1549477907746.5938,
-      "mtimeMs": 1548442017782.2034,
-      "ctimeMs": 1548442017782.2034,
-      "birthtimeMs": 1548442017781.6384,
-      "atime": "2019-02-06T18:31:47.747Z",
-      "mtime": "2019-01-25T18:46:57.782Z",
-      "ctime": "2019-01-25T18:46:57.782Z",
-      "birthtime": "2019-01-25T18:46:57.782Z"
-    },
-    "8387e7d6-c001-5e87-81b1-647f31888a87": {
-      "id": "8387e7d6-c001-5e87-81b1-647f31888a87",
-      "children": [
-        "39ad55a0-8d73-52c6-84f5-1a471160fa66"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c2e50678c8a466ceac06c8449f070eec",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/doi-mae-salong/tea-tasting.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea-tasting.jpg",
-      "relativePath": "doi-mae-salong/tea-tasting.jpg",
-      "extension": "jpg",
-      "size": 67105,
-      "prettySize": "67.1 kB",
-      "modifiedTime": "2019-01-25T18:46:57.784Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
-      "changeTime": "2019-01-25T18:46:57.784Z",
-      "birthTime": "2019-01-25T18:46:57.783Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
-      "base": "tea-tasting.jpg",
-      "ext": ".jpg",
-      "name": "tea-tasting",
-      "relativeDirectory": "doi-mae-salong",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164205,
-      "blocks": 136,
-      "atimeMs": 1549477910221.6165,
-      "mtimeMs": 1548442017783.5474,
-      "ctimeMs": 1548442017783.5474,
-      "birthtimeMs": 1548442017782.92,
-      "atime": "2019-02-06T18:31:50.222Z",
-      "mtime": "2019-01-25T18:46:57.784Z",
-      "ctime": "2019-01-25T18:46:57.784Z",
-      "birthtime": "2019-01-25T18:46:57.783Z"
-    },
-    "85ee43e9-266e-578f-ac2c-6716a4b62b43": {
-      "id": "85ee43e9-266e-578f-ac2c-6716a4b62b43",
-      "children": [
-        "241dd2b0-2853-5d83-9374-cb250d3e90d8"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "07a29f834e99498dec4673107b59a045",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/doi-mae-salong/tea.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong/tea.jpg",
-      "relativePath": "doi-mae-salong/tea.jpg",
-      "extension": "jpg",
-      "size": 77576,
-      "prettySize": "77.6 kB",
-      "modifiedTime": "2019-01-25T18:46:57.784Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
-      "changeTime": "2019-01-25T18:46:57.784Z",
-      "birthTime": "2019-01-25T18:46:57.784Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/doi-mae-salong",
-      "base": "tea.jpg",
-      "ext": ".jpg",
-      "name": "tea",
-      "relativeDirectory": "doi-mae-salong",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164206,
-      "blocks": 152,
-      "atimeMs": 1549477910221.6294,
-      "mtimeMs": 1548442017784.4062,
-      "ctimeMs": 1548442017784.4062,
-      "birthtimeMs": 1548442017783.674,
-      "atime": "2019-02-06T18:31:50.222Z",
-      "mtime": "2019-01-25T18:46:57.784Z",
-      "ctime": "2019-01-25T18:46:57.784Z",
-      "birthtime": "2019-01-25T18:46:57.784Z"
     },
     "57e50717-94f7-507d-8d45-0329c1fb2284": {
       "id": "57e50717-94f7-507d-8d45-0329c1fb2284",
@@ -3629,7 +3973,7 @@
       "size": 84071,
       "prettySize": "84.1 kB",
       "modifiedTime": "2019-01-25T18:46:57.785Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.785Z",
       "birthTime": "2019-01-25T18:46:57.785Z",
       "root": "/",
@@ -3638,7 +3982,7 @@
       "ext": ".jpg",
       "name": "ancient-stupa",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3647,11 +3991,11 @@
       "blksize": 4194304,
       "ino": 19164208,
       "blocks": 168,
-      "atimeMs": 1549477907746.7542,
+      "atimeMs": 1550004963155.0774,
       "mtimeMs": 1548442017785.4424,
       "ctimeMs": 1548442017785.4424,
       "birthtimeMs": 1548442017784.6064,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.785Z",
       "ctime": "2019-01-25T18:46:57.785Z",
       "birthtime": "2019-01-25T18:46:57.785Z"
@@ -3676,7 +4020,7 @@
       "size": 78809,
       "prettySize": "78.8 kB",
       "modifiedTime": "2019-01-25T18:46:57.787Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.787Z",
       "birthTime": "2019-01-25T18:46:57.786Z",
       "root": "/",
@@ -3685,7 +4029,7 @@
       "ext": ".jpg",
       "name": "chiang-saen-temple",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3694,11 +4038,11 @@
       "blksize": 4194304,
       "ino": 19164210,
       "blocks": 160,
-      "atimeMs": 1549477907746.7878,
+      "atimeMs": 1550004963155.1106,
       "mtimeMs": 1548442017787.0962,
       "ctimeMs": 1548442017787.0962,
       "birthtimeMs": 1548442017786.3877,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.787Z",
       "ctime": "2019-01-25T18:46:57.787Z",
       "birthtime": "2019-01-25T18:46:57.786Z"
@@ -3723,7 +4067,7 @@
       "size": 80642,
       "prettySize": "80.6 kB",
       "modifiedTime": "2019-01-25T18:46:57.788Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-01-25T18:46:57.788Z",
       "birthTime": "2019-01-25T18:46:57.787Z",
       "root": "/",
@@ -3732,7 +4076,7 @@
       "ext": ".jpg",
       "name": "decorated-dragon",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3741,11 +4085,11 @@
       "blksize": 4194304,
       "ino": 19164211,
       "blocks": 160,
-      "atimeMs": 1549477910221.6875,
+      "atimeMs": 1550005229852.3315,
       "mtimeMs": 1548442017787.9404,
       "ctimeMs": 1548442017787.9404,
       "birthtimeMs": 1548442017787.2231,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-01-25T18:46:57.788Z",
       "ctime": "2019-01-25T18:46:57.788Z",
       "birthtime": "2019-01-25T18:46:57.787Z"
@@ -3770,7 +4114,7 @@
       "size": 67261,
       "prettySize": "67.3 kB",
       "modifiedTime": "2019-01-25T18:46:57.789Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.789Z",
       "birthTime": "2019-01-25T18:46:57.788Z",
       "root": "/",
@@ -3779,7 +4123,7 @@
       "ext": ".jpg",
       "name": "golden-triangle-sign",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3788,11 +4132,11 @@
       "blksize": 4194304,
       "ino": 19164212,
       "blocks": 136,
-      "atimeMs": 1549477907746.8228,
+      "atimeMs": 1550004963155.1438,
       "mtimeMs": 1548442017788.7808,
       "ctimeMs": 1548442017788.7808,
       "birthtimeMs": 1548442017788.074,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.789Z",
       "ctime": "2019-01-25T18:46:57.789Z",
       "birthtime": "2019-01-25T18:46:57.788Z"
@@ -3817,7 +4161,7 @@
       "size": 90163,
       "prettySize": "90.2 kB",
       "modifiedTime": "2019-01-25T18:46:57.790Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.790Z",
       "birthTime": "2019-01-25T18:46:57.789Z",
       "root": "/",
@@ -3826,7 +4170,7 @@
       "ext": ".jpg",
       "name": "shiny-floor-temple",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3835,11 +4179,11 @@
       "blksize": 4194304,
       "ino": 19164213,
       "blocks": 184,
-      "atimeMs": 1549477910221.7122,
+      "atimeMs": 1550004963155.1836,
       "mtimeMs": 1548442017789.7903,
       "ctimeMs": 1548442017789.7903,
       "birthtimeMs": 1548442017788.9155,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.790Z",
       "ctime": "2019-01-25T18:46:57.790Z",
       "birthtime": "2019-01-25T18:46:57.789Z"
@@ -3864,7 +4208,7 @@
       "size": 93901,
       "prettySize": "93.9 kB",
       "modifiedTime": "2019-01-25T18:46:57.795Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.795Z",
       "birthTime": "2019-01-25T18:46:57.794Z",
       "root": "/",
@@ -3873,7 +4217,7 @@
       "ext": ".jpg",
       "name": "water-dragon",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3882,11 +4226,11 @@
       "blksize": 4194304,
       "ino": 19164215,
       "blocks": 184,
-      "atimeMs": 1549477907746.8733,
+      "atimeMs": 1550004963155.2166,
       "mtimeMs": 1548442017794.7268,
       "ctimeMs": 1548442017794.7268,
       "birthtimeMs": 1548442017794.0676,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.795Z",
       "ctime": "2019-01-25T18:46:57.795Z",
       "birthtime": "2019-01-25T18:46:57.794Z"
@@ -3911,7 +4255,7 @@
       "size": 116544,
       "prettySize": "117 kB",
       "modifiedTime": "2019-01-25T18:46:57.796Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.796Z",
       "birthTime": "2019-01-25T18:46:57.796Z",
       "root": "/",
@@ -3920,7 +4264,7 @@
       "ext": ".jpg",
       "name": "koh-lipe-coral",
       "relativeDirectory": "koh-lipe",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -3929,61 +4273,14 @@
       "blksize": 4194304,
       "ino": 19164218,
       "blocks": 232,
-      "atimeMs": 1549477910221.8171,
+      "atimeMs": 1550004963155.3108,
       "mtimeMs": 1548442017796.476,
       "ctimeMs": 1548442017796.476,
       "birthtimeMs": 1548442017795.6626,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.796Z",
       "ctime": "2019-01-25T18:46:57.796Z",
       "birthtime": "2019-01-25T18:46:57.796Z"
-    },
-    "7d87b2b1-9737-5ea2-9848-6456192ae1c8": {
-      "id": "7d87b2b1-9737-5ea2-9848-6456192ae1c8",
-      "children": [
-        "5a491435-e9cf-5512-9f7a-e45cab1f97c4"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d79a945c87e556343bdc38ca5d93a9b3",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg",
-      "relativePath": "old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg",
-      "extension": "jpg",
-      "size": 67981,
-      "prettySize": "68 kB",
-      "modifiedTime": "2019-01-25T18:46:57.799Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
-      "changeTime": "2019-01-25T18:46:57.799Z",
-      "birthTime": "2019-01-25T18:46:57.798Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
-      "base": "khantoke-hill-tribe-hmong-dancers.jpg",
-      "ext": ".jpg",
-      "name": "khantoke-hill-tribe-hmong-dancers",
-      "relativeDirectory": "old-chiangmai-khantoke",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19164222,
-      "blocks": 136,
-      "atimeMs": 1549477910221.9211,
-      "mtimeMs": 1548442017798.525,
-      "ctimeMs": 1548442017798.525,
-      "birthtimeMs": 1548442017797.9236,
-      "atime": "2019-02-06T18:31:50.222Z",
-      "mtime": "2019-01-25T18:46:57.799Z",
-      "ctime": "2019-01-25T18:46:57.799Z",
-      "birthtime": "2019-01-25T18:46:57.798Z"
     },
     "ed335406-c6b0-5656-ad0b-a7e3f5d58678": {
       "id": "ed335406-c6b0-5656-ad0b-a7e3f5d58678",
@@ -4005,7 +4302,7 @@
       "size": 68062,
       "prettySize": "68.1 kB",
       "modifiedTime": "2019-01-25T18:46:57.799Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-25T18:46:57.799Z",
       "birthTime": "2019-01-25T18:46:57.799Z",
       "root": "/",
@@ -4014,7 +4311,7 @@
       "ext": ".jpg",
       "name": "khantoke-hill-tribe-stick-dancers",
       "relativeDirectory": "old-chiangmai-khantoke",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4023,11 +4320,11 @@
       "blksize": 4194304,
       "ino": 19164223,
       "blocks": 136,
-      "atimeMs": 1549477910221.9326,
+      "atimeMs": 1550004963155.518,
       "mtimeMs": 1548442017799.3115,
       "ctimeMs": 1548442017799.3115,
       "birthtimeMs": 1548442017798.7224,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-25T18:46:57.799Z",
       "ctime": "2019-01-25T18:46:57.799Z",
       "birthtime": "2019-01-25T18:46:57.799Z"
@@ -4052,7 +4349,7 @@
       "size": 69105,
       "prettySize": "69.1 kB",
       "modifiedTime": "2019-01-25T18:46:57.800Z",
-      "accessTime": "2019-02-06T18:31:47.747Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-25T18:46:57.800Z",
       "birthTime": "2019-01-25T18:46:57.799Z",
       "root": "/",
@@ -4061,7 +4358,7 @@
       "ext": ".jpg",
       "name": "khantoke-musicians",
       "relativeDirectory": "old-chiangmai-khantoke",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4070,11 +4367,11 @@
       "blksize": 4194304,
       "ino": 19164224,
       "blocks": 136,
-      "atimeMs": 1549477907747.183,
+      "atimeMs": 1550004963155.5342,
       "mtimeMs": 1548442017800.1272,
       "ctimeMs": 1548442017800.1272,
       "birthtimeMs": 1548442017799.4216,
-      "atime": "2019-02-06T18:31:47.747Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-25T18:46:57.800Z",
       "ctime": "2019-01-25T18:46:57.800Z",
       "birthtime": "2019-01-25T18:46:57.799Z"
@@ -4099,7 +4396,7 @@
       "size": 82164,
       "prettySize": "82.2 kB",
       "modifiedTime": "2019-01-25T18:46:57.802Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-25T18:46:57.802Z",
       "birthTime": "2019-01-25T18:46:57.801Z",
       "root": "/",
@@ -4108,7 +4405,7 @@
       "ext": ".jpg",
       "name": "chalermchai-kositpipat",
       "relativeDirectory": "white-temple",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4117,14 +4414,61 @@
       "blksize": 4194304,
       "ino": 19164227,
       "blocks": 168,
-      "atimeMs": 1549477910222.0146,
+      "atimeMs": 1550004963155.7178,
       "mtimeMs": 1548442017801.7793,
       "ctimeMs": 1548442017801.7793,
       "birthtimeMs": 1548442017801.031,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-25T18:46:57.802Z",
       "ctime": "2019-01-25T18:46:57.802Z",
       "birthtime": "2019-01-25T18:46:57.801Z"
+    },
+    "7d87b2b1-9737-5ea2-9848-6456192ae1c8": {
+      "id": "7d87b2b1-9737-5ea2-9848-6456192ae1c8",
+      "children": [
+        "5a491435-e9cf-5512-9f7a-e45cab1f97c4"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d79a945c87e556343bdc38ca5d93a9b3",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg",
+      "relativePath": "old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg",
+      "extension": "jpg",
+      "size": 67981,
+      "prettySize": "68 kB",
+      "modifiedTime": "2019-01-25T18:46:57.799Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
+      "changeTime": "2019-01-25T18:46:57.799Z",
+      "birthTime": "2019-01-25T18:46:57.798Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/old-chiangmai-khantoke",
+      "base": "khantoke-hill-tribe-hmong-dancers.jpg",
+      "ext": ".jpg",
+      "name": "khantoke-hill-tribe-hmong-dancers",
+      "relativeDirectory": "old-chiangmai-khantoke",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19164222,
+      "blocks": 136,
+      "atimeMs": 1550004963155.5015,
+      "mtimeMs": 1548442017798.525,
+      "ctimeMs": 1548442017798.525,
+      "birthtimeMs": 1548442017797.9236,
+      "atime": "2019-02-12T20:56:03.156Z",
+      "mtime": "2019-01-25T18:46:57.799Z",
+      "ctime": "2019-01-25T18:46:57.799Z",
+      "birthtime": "2019-01-25T18:46:57.798Z"
     },
     "112985b4-2b8f-5708-a450-eab44dac67a1": {
       "id": "112985b4-2b8f-5708-a450-eab44dac67a1",
@@ -4146,7 +4490,7 @@
       "size": 100062,
       "prettySize": "100 kB",
       "modifiedTime": "2019-01-25T18:46:57.803Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-25T18:46:57.803Z",
       "birthTime": "2019-01-25T18:46:57.802Z",
       "root": "/",
@@ -4155,7 +4499,7 @@
       "ext": ".jpg",
       "name": "white-temple-detail",
       "relativeDirectory": "white-temple",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4164,11 +4508,11 @@
       "blksize": 4194304,
       "ino": 19164228,
       "blocks": 200,
-      "atimeMs": 1549477910222.0256,
+      "atimeMs": 1550004963155.7346,
       "mtimeMs": 1548442017802.7527,
       "ctimeMs": 1548442017802.7527,
       "birthtimeMs": 1548442017801.9395,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-25T18:46:57.803Z",
       "ctime": "2019-01-25T18:46:57.803Z",
       "birthtime": "2019-01-25T18:46:57.802Z"
@@ -4183,12 +4527,32 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "d296f84f-351a-5d22-8622-424de993c405": {
+      "id": "d296f84f-351a-5d22-8622-424de993c405",
+      "children": [],
+      "parent": "ccf39244-7d1d-56e3-a81d-f7bb3d840032",
+      "internal": {
+        "contentDigest": "af6c4f8503b70a86bb08d87aad890cc3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0": {
       "id": "afd0bfb0-9a94-5f1d-ae0a-1ee54ad205f0",
       "children": [],
       "parent": "202f8b38-d281-5e7c-9ab6-2f06a8e8ea48",
       "internal": {
         "contentDigest": "2699ea3227b244a0a02ae1302cfa30af",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "7b93dc0d-fc4f-5423-af33-8177afba3fda": {
+      "id": "7b93dc0d-fc4f-5423-af33-8177afba3fda",
+      "children": [],
+      "parent": "9d61cb1e-20e7-58a7-a4e6-4b30758faba9",
+      "internal": {
+        "contentDigest": "ac6a13fd5de3e8bc495534c2af303714",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4203,12 +4567,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "d296f84f-351a-5d22-8622-424de993c405": {
-      "id": "d296f84f-351a-5d22-8622-424de993c405",
+    "4d4fc9f7-5e28-53c8-869e-95679c8790be": {
+      "id": "4d4fc9f7-5e28-53c8-869e-95679c8790be",
       "children": [],
-      "parent": "ccf39244-7d1d-56e3-a81d-f7bb3d840032",
+      "parent": "c8640557-84e5-5183-a009-3d294a234fb2",
       "internal": {
-        "contentDigest": "af6c4f8503b70a86bb08d87aad890cc3",
+        "contentDigest": "3ed29065a505f1d98cbbbf1d035b6773",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4219,16 +4583,6 @@
       "parent": "2b4a9039-c1d5-529c-8942-3c311264c621",
       "internal": {
         "contentDigest": "c54acf2047db99dce5ed86d07750a21f",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "4d4fc9f7-5e28-53c8-869e-95679c8790be": {
-      "id": "4d4fc9f7-5e28-53c8-869e-95679c8790be",
-      "children": [],
-      "parent": "c8640557-84e5-5183-a009-3d294a234fb2",
-      "internal": {
-        "contentDigest": "3ed29065a505f1d98cbbbf1d035b6773",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4249,16 +4603,6 @@
       "parent": "6d91fcf5-4ccc-5e5a-a13f-7513a218ab0e",
       "internal": {
         "contentDigest": "7b63c202bee35c6a76d99fa633d6bae7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "7b93dc0d-fc4f-5423-af33-8177afba3fda": {
-      "id": "7b93dc0d-fc4f-5423-af33-8177afba3fda",
-      "children": [],
-      "parent": "9d61cb1e-20e7-58a7-a4e6-4b30758faba9",
-      "internal": {
-        "contentDigest": "ac6a13fd5de3e8bc495534c2af303714",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4323,52 +4667,52 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "8334a61d-2ef8-5c01-954f-1c0f862b481e": {
-      "id": "8334a61d-2ef8-5c01-954f-1c0f862b481e",
+    "3609b4ef-4ee8-5dad-a26b-455041704848": {
+      "id": "3609b4ef-4ee8-5dad-a26b-455041704848",
       "children": [
-        "6f94e5f4-d6ee-5ceb-b8ad-987c97d18491"
+        "634a2451-b8b0-5e7b-a575-e95e954a2696"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c0153ebc8738bdb9bae3daf2ed2d0949",
+        "contentDigest": "9e30dcf6010785cf3c002be0ac36af06",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/images/about/mike-chiang-rai-street-photographer.jpg\"",
+        "description": "File \"src/images/clock-tower/mike-cher.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/about/mike-chiang-rai-street-photographer.jpg",
-      "relativePath": "about/mike-chiang-rai-street-photographer.jpg",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/mike-cher.jpg",
+      "relativePath": "clock-tower/mike-cher.jpg",
       "extension": "jpg",
-      "size": 161535,
-      "prettySize": "162 kB",
-      "modifiedTime": "2019-02-05T23:36:27.595Z",
-      "accessTime": "2019-02-06T18:31:53.910Z",
-      "changeTime": "2019-02-05T23:36:27.595Z",
-      "birthTime": "2019-02-05T23:36:27.594Z",
+      "size": 134875,
+      "prettySize": "135 kB",
+      "modifiedTime": "2019-01-25T18:46:57.773Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
+      "changeTime": "2019-01-25T18:46:57.773Z",
+      "birthTime": "2019-01-25T18:46:57.773Z",
       "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/about",
-      "base": "mike-chiang-rai-street-photographer.jpg",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
+      "base": "mike-cher.jpg",
       "ext": ".jpg",
-      "name": "mike-chiang-rai-street-photographer",
-      "relativeDirectory": "about",
-      "dev": 16777222,
+      "name": "mike-cher",
+      "relativeDirectory": "clock-tower",
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 19576988,
-      "blocks": 320,
-      "atimeMs": 1549477913909.7607,
-      "mtimeMs": 1549409787594.8345,
-      "ctimeMs": 1549409787594.8345,
-      "birthtimeMs": 1549409787594.067,
-      "atime": "2019-02-06T18:31:53.910Z",
-      "mtime": "2019-02-05T23:36:27.595Z",
-      "ctime": "2019-02-05T23:36:27.595Z",
-      "birthtime": "2019-02-05T23:36:27.594Z"
+      "ino": 19164191,
+      "blocks": 264,
+      "atimeMs": 1550004963154.651,
+      "mtimeMs": 1548442017773.4836,
+      "ctimeMs": 1548442017773.4836,
+      "birthtimeMs": 1548442017772.6619,
+      "atime": "2019-02-12T20:56:03.155Z",
+      "mtime": "2019-01-25T18:46:57.773Z",
+      "ctime": "2019-01-25T18:46:57.773Z",
+      "birthtime": "2019-01-25T18:46:57.773Z"
     },
     "0251d178-9611-5d26-9753-a2722e3de2be": {
       "id": "0251d178-9611-5d26-9753-a2722e3de2be",
@@ -4390,7 +4734,7 @@
       "size": 148703,
       "prettySize": "149 kB",
       "modifiedTime": "2019-02-05T23:36:27.596Z",
-      "accessTime": "2019-02-06T18:31:47.746Z",
+      "accessTime": "2019-02-12T20:56:03.154Z",
       "changeTime": "2019-02-05T23:36:27.596Z",
       "birthTime": "2019-02-05T23:36:27.595Z",
       "root": "/",
@@ -4399,7 +4743,7 @@
       "ext": ".jpg",
       "name": "mike-doi-chang-tripod",
       "relativeDirectory": "about",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4408,61 +4752,61 @@
       "blksize": 4194304,
       "ino": 19576989,
       "blocks": 296,
-      "atimeMs": 1549477907746.1228,
+      "atimeMs": 1550004963154.4336,
       "mtimeMs": 1549409787595.7415,
       "ctimeMs": 1549409787595.7415,
       "birthtimeMs": 1549409787594.925,
-      "atime": "2019-02-06T18:31:47.746Z",
+      "atime": "2019-02-12T20:56:03.154Z",
       "mtime": "2019-02-05T23:36:27.596Z",
       "ctime": "2019-02-05T23:36:27.596Z",
       "birthtime": "2019-02-05T23:36:27.595Z"
     },
-    "3609b4ef-4ee8-5dad-a26b-455041704848": {
-      "id": "3609b4ef-4ee8-5dad-a26b-455041704848",
+    "8334a61d-2ef8-5c01-954f-1c0f862b481e": {
+      "id": "8334a61d-2ef8-5c01-954f-1c0f862b481e",
       "children": [
-        "634a2451-b8b0-5e7b-a575-e95e954a2696"
+        "6f94e5f4-d6ee-5ceb-b8ad-987c97d18491"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9e30dcf6010785cf3c002be0ac36af06",
+        "contentDigest": "c0153ebc8738bdb9bae3daf2ed2d0949",
         "type": "File",
         "mediaType": "image/jpeg",
-        "description": "File \"src/images/clock-tower/mike-cher.jpg\"",
+        "description": "File \"src/images/about/mike-chiang-rai-street-photographer.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower/mike-cher.jpg",
-      "relativePath": "clock-tower/mike-cher.jpg",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/about/mike-chiang-rai-street-photographer.jpg",
+      "relativePath": "about/mike-chiang-rai-street-photographer.jpg",
       "extension": "jpg",
-      "size": 134875,
-      "prettySize": "135 kB",
-      "modifiedTime": "2019-01-25T18:46:57.773Z",
-      "accessTime": "2019-02-06T18:31:47.746Z",
-      "changeTime": "2019-01-25T18:46:57.773Z",
-      "birthTime": "2019-01-25T18:46:57.773Z",
+      "size": 161535,
+      "prettySize": "162 kB",
+      "modifiedTime": "2019-02-05T23:36:27.595Z",
+      "accessTime": "2019-02-12T20:56:03.154Z",
+      "changeTime": "2019-02-05T23:36:27.595Z",
+      "birthTime": "2019-02-05T23:36:27.594Z",
       "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/clock-tower",
-      "base": "mike-cher.jpg",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/about",
+      "base": "mike-chiang-rai-street-photographer.jpg",
       "ext": ".jpg",
-      "name": "mike-cher",
-      "relativeDirectory": "clock-tower",
-      "dev": 16777222,
+      "name": "mike-chiang-rai-street-photographer",
+      "relativeDirectory": "about",
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 19164191,
-      "blocks": 264,
-      "atimeMs": 1549477907746.3298,
-      "mtimeMs": 1548442017773.4836,
-      "ctimeMs": 1548442017773.4836,
-      "birthtimeMs": 1548442017772.6619,
-      "atime": "2019-02-06T18:31:47.746Z",
-      "mtime": "2019-01-25T18:46:57.773Z",
-      "ctime": "2019-01-25T18:46:57.773Z",
-      "birthtime": "2019-01-25T18:46:57.773Z"
+      "ino": 19576988,
+      "blocks": 320,
+      "atimeMs": 1550004963154.4167,
+      "mtimeMs": 1549409787594.8345,
+      "ctimeMs": 1549409787594.8345,
+      "birthtimeMs": 1549409787594.067,
+      "atime": "2019-02-12T20:56:03.154Z",
+      "mtime": "2019-02-05T23:36:27.595Z",
+      "ctime": "2019-02-05T23:36:27.595Z",
+      "birthtime": "2019-02-05T23:36:27.594Z"
     },
     "707629f9-42b6-5412-8cba-7593add72a26": {
       "id": "707629f9-42b6-5412-8cba-7593add72a26",
@@ -4484,7 +4828,7 @@
       "size": 164359,
       "prettySize": "164 kB",
       "modifiedTime": "2019-02-03T23:54:14.807Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-02-03T23:54:14.807Z",
       "birthTime": "2019-02-03T23:54:14.807Z",
       "root": "/",
@@ -4493,7 +4837,7 @@
       "ext": ".jpg",
       "name": "monk-chanting",
       "relativeDirectory": "monks",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4502,34 +4846,14 @@
       "blksize": 4194304,
       "ino": 19532671,
       "blocks": 328,
-      "atimeMs": 1549477910221.8848,
+      "atimeMs": 1550004963155.423,
       "mtimeMs": 1549238054807.2595,
       "ctimeMs": 1549238054807.2595,
       "birthtimeMs": 1549238054806.678,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-02-03T23:54:14.807Z",
       "ctime": "2019-02-03T23:54:14.807Z",
       "birthtime": "2019-02-03T23:54:14.807Z"
-    },
-    "4c45ebdb-daab-55d8-9522-06cb6cecfaa5": {
-      "id": "4c45ebdb-daab-55d8-9522-06cb6cecfaa5",
-      "children": [],
-      "parent": "1257399a-6936-56f9-8603-a22dd50f9afa",
-      "internal": {
-        "contentDigest": "3495cb3332f44d57e99249337e63e461",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "024cbb1d-bd35-59a4-ae93-a9fd8af16462": {
-      "id": "024cbb1d-bd35-59a4-ae93-a9fd8af16462",
-      "children": [],
-      "parent": "d531ce36-8dff-5936-a460-9b9ec1b00740",
-      "internal": {
-        "contentDigest": "687e813e85c6104c990f9441ea416265",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "f9dcf709-07d1-59e0-a103-2891c6733482": {
       "id": "f9dcf709-07d1-59e0-a103-2891c6733482",
@@ -4561,6 +4885,56 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "4c45ebdb-daab-55d8-9522-06cb6cecfaa5": {
+      "id": "4c45ebdb-daab-55d8-9522-06cb6cecfaa5",
+      "children": [],
+      "parent": "1257399a-6936-56f9-8603-a22dd50f9afa",
+      "internal": {
+        "contentDigest": "3495cb3332f44d57e99249337e63e461",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "024cbb1d-bd35-59a4-ae93-a9fd8af16462": {
+      "id": "024cbb1d-bd35-59a4-ae93-a9fd8af16462",
+      "children": [],
+      "parent": "d531ce36-8dff-5936-a460-9b9ec1b00740",
+      "internal": {
+        "contentDigest": "687e813e85c6104c990f9441ea416265",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "39ad55a0-8d73-52c6-84f5-1a471160fa66": {
+      "id": "39ad55a0-8d73-52c6-84f5-1a471160fa66",
+      "children": [],
+      "parent": "8387e7d6-c001-5e87-81b1-647f31888a87",
+      "internal": {
+        "contentDigest": "c2e50678c8a466ceac06c8449f070eec",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "408f0f0b-925c-5330-bf13-2b1f403ab75f": {
+      "id": "408f0f0b-925c-5330-bf13-2b1f403ab75f",
+      "children": [],
+      "parent": "8334443d-5e18-5c01-b6ad-6878d3fac933",
+      "internal": {
+        "contentDigest": "5341ff6b0f0f04fc904f8a99823b3b89",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "241dd2b0-2853-5d83-9374-cb250d3e90d8": {
+      "id": "241dd2b0-2853-5d83-9374-cb250d3e90d8",
+      "children": [],
+      "parent": "85ee43e9-266e-578f-ac2c-6716a4b62b43",
+      "internal": {
+        "contentDigest": "07a29f834e99498dec4673107b59a045",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "c9fb5330-3d55-5fda-ae6c-d61d04417dd5": {
       "id": "c9fb5330-3d55-5fda-ae6c-d61d04417dd5",
       "children": [],
@@ -4577,36 +4951,6 @@
       "parent": "4d252404-8ae3-55a1-b268-a0e8e5a933d9",
       "internal": {
         "contentDigest": "b343d23a77ef8de3221eaa2089a12acb",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "408f0f0b-925c-5330-bf13-2b1f403ab75f": {
-      "id": "408f0f0b-925c-5330-bf13-2b1f403ab75f",
-      "children": [],
-      "parent": "8334443d-5e18-5c01-b6ad-6878d3fac933",
-      "internal": {
-        "contentDigest": "5341ff6b0f0f04fc904f8a99823b3b89",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "39ad55a0-8d73-52c6-84f5-1a471160fa66": {
-      "id": "39ad55a0-8d73-52c6-84f5-1a471160fa66",
-      "children": [],
-      "parent": "8387e7d6-c001-5e87-81b1-647f31888a87",
-      "internal": {
-        "contentDigest": "c2e50678c8a466ceac06c8449f070eec",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "241dd2b0-2853-5d83-9374-cb250d3e90d8": {
-      "id": "241dd2b0-2853-5d83-9374-cb250d3e90d8",
-      "children": [],
-      "parent": "85ee43e9-266e-578f-ac2c-6716a4b62b43",
-      "internal": {
-        "contentDigest": "07a29f834e99498dec4673107b59a045",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4681,16 +5025,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "5a491435-e9cf-5512-9f7a-e45cab1f97c4": {
-      "id": "5a491435-e9cf-5512-9f7a-e45cab1f97c4",
-      "children": [],
-      "parent": "7d87b2b1-9737-5ea2-9848-6456192ae1c8",
-      "internal": {
-        "contentDigest": "d79a945c87e556343bdc38ca5d93a9b3",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "6121bee3-0a58-5a89-a0d5-d516076dc0be": {
       "id": "6121bee3-0a58-5a89-a0d5-d516076dc0be",
       "children": [],
@@ -4721,6 +5055,16 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "5a491435-e9cf-5512-9f7a-e45cab1f97c4": {
+      "id": "5a491435-e9cf-5512-9f7a-e45cab1f97c4",
+      "children": [],
+      "parent": "7d87b2b1-9737-5ea2-9848-6456192ae1c8",
+      "internal": {
+        "contentDigest": "d79a945c87e556343bdc38ca5d93a9b3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "d32d2d14-140d-5f32-a387-0837706a99eb": {
       "id": "d32d2d14-140d-5f32-a387-0837706a99eb",
       "children": [],
@@ -4730,53 +5074,6 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
-    },
-    "41e29167-5027-5969-b138-38f82cee6227": {
-      "id": "41e29167-5027-5969-b138-38f82cee6227",
-      "children": [
-        "a9db18a7-b9a0-503f-ad4f-c3dede6e1e1d"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "06deea786cc105e230e1560a25d7dde9",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/monks/monk-and-school-girl.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/monks/monk-and-school-girl.jpg",
-      "relativePath": "monks/monk-and-school-girl.jpg",
-      "extension": "jpg",
-      "size": 224498,
-      "prettySize": "224 kB",
-      "modifiedTime": "2019-02-03T23:54:14.806Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
-      "changeTime": "2019-02-03T23:54:14.806Z",
-      "birthTime": "2019-02-03T23:54:14.805Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/monks",
-      "base": "monk-and-school-girl.jpg",
-      "ext": ".jpg",
-      "name": "monk-and-school-girl",
-      "relativeDirectory": "monks",
-      "dev": 16777222,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 19532670,
-      "blocks": 440,
-      "atimeMs": 1549477910221.8792,
-      "mtimeMs": 1549238054806.4907,
-      "ctimeMs": 1549238054806.4907,
-      "birthtimeMs": 1549238054805.2693,
-      "atime": "2019-02-06T18:31:50.222Z",
-      "mtime": "2019-02-03T23:54:14.806Z",
-      "ctime": "2019-02-03T23:54:14.806Z",
-      "birthtime": "2019-02-03T23:54:14.805Z"
     },
     "f41ff04e-1da9-5967-9109-6978341d760a": {
       "id": "f41ff04e-1da9-5967-9109-6978341d760a",
@@ -4798,7 +5095,7 @@
       "size": 225670,
       "prettySize": "226 kB",
       "modifiedTime": "2019-02-03T23:54:14.808Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-02-03T23:54:14.808Z",
       "birthTime": "2019-02-03T23:54:14.807Z",
       "root": "/",
@@ -4807,7 +5104,7 @@
       "ext": ".jpg",
       "name": "young-monks",
       "relativeDirectory": "monks",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4816,14 +5113,61 @@
       "blksize": 4194304,
       "ino": 19532672,
       "blocks": 448,
-      "atimeMs": 1549477910221.898,
+      "atimeMs": 1550004963155.439,
       "mtimeMs": 1549238054808.0994,
       "ctimeMs": 1549238054808.0994,
       "birthtimeMs": 1549238054807.4736,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-02-03T23:54:14.808Z",
       "ctime": "2019-02-03T23:54:14.808Z",
       "birthtime": "2019-02-03T23:54:14.807Z"
+    },
+    "41e29167-5027-5969-b138-38f82cee6227": {
+      "id": "41e29167-5027-5969-b138-38f82cee6227",
+      "children": [
+        "a9db18a7-b9a0-503f-ad4f-c3dede6e1e1d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "06deea786cc105e230e1560a25d7dde9",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/monks/monk-and-school-girl.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/michaelcastor/projects/thailand-blog/src/images/monks/monk-and-school-girl.jpg",
+      "relativePath": "monks/monk-and-school-girl.jpg",
+      "extension": "jpg",
+      "size": 224498,
+      "prettySize": "224 kB",
+      "modifiedTime": "2019-02-03T23:54:14.806Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
+      "changeTime": "2019-02-03T23:54:14.806Z",
+      "birthTime": "2019-02-03T23:54:14.805Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/thailand-blog/src/images/monks",
+      "base": "monk-and-school-girl.jpg",
+      "ext": ".jpg",
+      "name": "monk-and-school-girl",
+      "relativeDirectory": "monks",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 19532670,
+      "blocks": 440,
+      "atimeMs": 1550005229852.3662,
+      "mtimeMs": 1549238054806.4907,
+      "ctimeMs": 1549238054806.4907,
+      "birthtimeMs": 1549238054805.2693,
+      "atime": "2019-02-12T21:00:29.852Z",
+      "mtime": "2019-02-03T23:54:14.806Z",
+      "ctime": "2019-02-03T23:54:14.806Z",
+      "birthtime": "2019-02-03T23:54:14.805Z"
     },
     "63a51314-27d5-5c6c-b54a-d6c39295759e": {
       "id": "63a51314-27d5-5c6c-b54a-d6c39295759e",
@@ -4845,7 +5189,7 @@
       "size": 209716,
       "prettySize": "210 kB",
       "modifiedTime": "2019-02-03T23:54:14.834Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2019-02-03T23:54:14.834Z",
       "birthTime": "2019-02-03T23:54:14.832Z",
       "root": "/",
@@ -4854,7 +5198,7 @@
       "ext": ".jpg",
       "name": "nan-buddha",
       "relativeDirectory": "wat-phra",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4863,21 +5207,21 @@
       "blksize": 4194304,
       "ino": 19532675,
       "blocks": 416,
-      "atimeMs": 1549477910221.9868,
+      "atimeMs": 1550005229852.4138,
       "mtimeMs": 1549238054833.593,
       "ctimeMs": 1549238054833.593,
       "birthtimeMs": 1549238054832.3625,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2019-02-03T23:54:14.834Z",
       "ctime": "2019-02-03T23:54:14.834Z",
       "birthtime": "2019-02-03T23:54:14.832Z"
     },
-    "6f94e5f4-d6ee-5ceb-b8ad-987c97d18491": {
-      "id": "6f94e5f4-d6ee-5ceb-b8ad-987c97d18491",
+    "634a2451-b8b0-5e7b-a575-e95e954a2696": {
+      "id": "634a2451-b8b0-5e7b-a575-e95e954a2696",
       "children": [],
-      "parent": "8334a61d-2ef8-5c01-954f-1c0f862b481e",
+      "parent": "3609b4ef-4ee8-5dad-a26b-455041704848",
       "internal": {
-        "contentDigest": "c0153ebc8738bdb9bae3daf2ed2d0949",
+        "contentDigest": "9e30dcf6010785cf3c002be0ac36af06",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4892,12 +5236,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "634a2451-b8b0-5e7b-a575-e95e954a2696": {
-      "id": "634a2451-b8b0-5e7b-a575-e95e954a2696",
+    "6f94e5f4-d6ee-5ceb-b8ad-987c97d18491": {
+      "id": "6f94e5f4-d6ee-5ceb-b8ad-987c97d18491",
       "children": [],
-      "parent": "3609b4ef-4ee8-5dad-a26b-455041704848",
+      "parent": "8334a61d-2ef8-5c01-954f-1c0f862b481e",
       "internal": {
-        "contentDigest": "9e30dcf6010785cf3c002be0ac36af06",
+        "contentDigest": "c0153ebc8738bdb9bae3daf2ed2d0949",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -4932,7 +5276,7 @@
       "size": 321299,
       "prettySize": "321 kB",
       "modifiedTime": "2019-02-05T23:36:27.594Z",
-      "accessTime": "2019-02-06T18:31:53.910Z",
+      "accessTime": "2019-02-12T20:56:03.154Z",
       "changeTime": "2019-02-05T23:36:27.594Z",
       "birthTime": "2019-02-05T23:36:27.593Z",
       "root": "/",
@@ -4941,7 +5285,7 @@
       "ext": ".jpg",
       "name": "cher-selfie-stick",
       "relativeDirectory": "about",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -4950,24 +5294,14 @@
       "blksize": 4194304,
       "ino": 19576987,
       "blocks": 632,
-      "atimeMs": 1549477913909.7385,
+      "atimeMs": 1550004963154.398,
       "mtimeMs": 1549409787593.8237,
       "ctimeMs": 1549409787593.8237,
       "birthtimeMs": 1549409787593.1846,
-      "atime": "2019-02-06T18:31:53.910Z",
+      "atime": "2019-02-12T20:56:03.154Z",
       "mtime": "2019-02-05T23:36:27.594Z",
       "ctime": "2019-02-05T23:36:27.594Z",
       "birthtime": "2019-02-05T23:36:27.593Z"
-    },
-    "a9db18a7-b9a0-503f-ad4f-c3dede6e1e1d": {
-      "id": "a9db18a7-b9a0-503f-ad4f-c3dede6e1e1d",
-      "children": [],
-      "parent": "41e29167-5027-5969-b138-38f82cee6227",
-      "internal": {
-        "contentDigest": "06deea786cc105e230e1560a25d7dde9",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "e18204a2-f98a-51c2-96b8-f447c874e65d": {
       "id": "e18204a2-f98a-51c2-96b8-f447c874e65d",
@@ -4975,6 +5309,16 @@
       "parent": "f41ff04e-1da9-5967-9109-6978341d760a",
       "internal": {
         "contentDigest": "11746d23278f20fcb47008184be15950",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a9db18a7-b9a0-503f-ad4f-c3dede6e1e1d": {
+      "id": "a9db18a7-b9a0-503f-ad4f-c3dede6e1e1d",
+      "children": [],
+      "parent": "41e29167-5027-5969-b138-38f82cee6227",
+      "internal": {
+        "contentDigest": "06deea786cc105e230e1560a25d7dde9",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -5009,7 +5353,7 @@
       "size": 418231,
       "prettySize": "418 kB",
       "modifiedTime": "2019-02-03T23:54:14.835Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-02-03T23:54:14.835Z",
       "birthTime": "2019-02-03T23:54:14.834Z",
       "root": "/",
@@ -5018,7 +5362,7 @@
       "ext": ".jpg",
       "name": "nan-chedi",
       "relativeDirectory": "wat-phra",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5027,11 +5371,11 @@
       "blksize": 4194304,
       "ino": 19532676,
       "blocks": 824,
-      "atimeMs": 1549477910221.9927,
+      "atimeMs": 1550004963155.657,
       "mtimeMs": 1549238054835.4094,
       "ctimeMs": 1549238054835.4094,
       "birthtimeMs": 1549238054833.9905,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-02-03T23:54:14.835Z",
       "ctime": "2019-02-03T23:54:14.835Z",
       "birthtime": "2019-02-03T23:54:14.834Z"
@@ -5066,7 +5410,7 @@
       "size": 572617,
       "prettySize": "573 kB",
       "modifiedTime": "2019-01-25T18:46:57.794Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.155Z",
       "changeTime": "2019-01-25T18:46:57.794Z",
       "birthTime": "2019-01-25T18:46:57.790Z",
       "root": "/",
@@ -5075,7 +5419,7 @@
       "ext": ".jpg",
       "name": "statue",
       "relativeDirectory": "golden-triangle",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5084,11 +5428,11 @@
       "blksize": 4194304,
       "ino": 19164214,
       "blocks": 1120,
-      "atimeMs": 1549477910221.7332,
+      "atimeMs": 1550004963155.2004,
       "mtimeMs": 1548442017793.8018,
       "ctimeMs": 1548442017793.8018,
       "birthtimeMs": 1548442017790.053,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.155Z",
       "mtime": "2019-01-25T18:46:57.794Z",
       "ctime": "2019-01-25T18:46:57.794Z",
       "birthtime": "2019-01-25T18:46:57.790Z"
@@ -5133,7 +5477,7 @@
       "size": 1034086,
       "prettySize": "1.03 MB",
       "modifiedTime": "2018-11-10T03:58:07.000Z",
-      "accessTime": "2019-02-06T18:31:53.911Z",
+      "accessTime": "2019-02-12T21:00:29.852Z",
       "changeTime": "2018-11-10T03:58:33.794Z",
       "birthTime": "2018-11-10T03:58:07.000Z",
       "root": "/",
@@ -5142,7 +5486,7 @@
       "ext": ".jpg",
       "name": "rice-field",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5151,11 +5495,11 @@
       "blksize": 4194304,
       "ino": 16567876,
       "blocks": 2024,
-      "atimeMs": 1549477913910.9707,
+      "atimeMs": 1550005229852.391,
       "mtimeMs": 1541822287000,
       "ctimeMs": 1541822313793.9617,
       "birthtimeMs": 1541822287000,
-      "atime": "2019-02-06T18:31:53.911Z",
+      "atime": "2019-02-12T21:00:29.852Z",
       "mtime": "2018-11-10T03:58:07.000Z",
       "ctime": "2018-11-10T03:58:33.794Z",
       "birthtime": "2018-11-10T03:58:07.000Z"
@@ -5190,7 +5534,7 @@
       "size": 3991176,
       "prettySize": "3.99 MB",
       "modifiedTime": "2019-02-03T23:54:14.831Z",
-      "accessTime": "2019-02-06T18:31:50.222Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-02-03T23:54:14.831Z",
       "birthTime": "2019-02-03T23:54:14.808Z",
       "root": "/",
@@ -5199,7 +5543,7 @@
       "ext": ".jpg",
       "name": "mike-in-nan",
       "relativeDirectory": "wat-phra",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5208,11 +5552,11 @@
       "blksize": 4194304,
       "ino": 19532674,
       "blocks": 7800,
-      "atimeMs": 1549477910221.974,
+      "atimeMs": 1550004963155.625,
       "mtimeMs": 1549238054831.081,
       "ctimeMs": 1549238054831.081,
       "birthtimeMs": 1549238054808.3096,
-      "atime": "2019-02-06T18:31:50.222Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-02-03T23:54:14.831Z",
       "ctime": "2019-02-03T23:54:14.831Z",
       "birthtime": "2019-02-03T23:54:14.808Z"
@@ -5232,7 +5576,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5ee8904a0202128ab3977cb6db4db61a",
+        "contentDigest": "371086ed07e742e7b2860a66e4c2722a",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -5244,7 +5588,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2019-02-04T19:48:43.775Z",
-      "accessTime": "2019-02-06T22:56:48.491Z",
+      "accessTime": "2019-02-12T21:00:40.549Z",
       "changeTime": "2019-02-04T19:48:43.775Z",
       "birthTime": "2019-01-25T18:46:57.805Z",
       "root": "/",
@@ -5253,7 +5597,7 @@
       "ext": "",
       "name": "posts",
       "relativeDirectory": "..",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 12,
       "uid": 501,
@@ -5262,11 +5606,11 @@
       "blksize": 4194304,
       "ino": 19164233,
       "blocks": 0,
-      "atimeMs": 1549493808490.562,
+      "atimeMs": 1550005240549.0703,
       "mtimeMs": 1549309723774.9426,
       "ctimeMs": 1549309723774.9426,
       "birthtimeMs": 1548442017804.714,
-      "atime": "2019-02-06T22:56:48.491Z",
+      "atime": "2019-02-12T21:00:40.549Z",
       "mtime": "2019-02-04T19:48:43.775Z",
       "ctime": "2019-02-04T19:48:43.775Z",
       "birthtime": "2019-01-25T18:46:57.805Z"
@@ -5291,7 +5635,7 @@
       "size": 732,
       "prettySize": "732 B",
       "modifiedTime": "2019-01-27T08:36:44.087Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.087Z",
       "birthTime": "2019-01-27T08:36:44.086Z",
       "root": "/",
@@ -5300,7 +5644,7 @@
       "ext": ".md",
       "name": "black-house",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5309,11 +5653,11 @@
       "blksize": 4194304,
       "ino": 19233936,
       "blocks": 8,
-      "atimeMs": 1549477907747.8972,
+      "atimeMs": 1550004963156.1736,
       "mtimeMs": 1548578204086.6384,
       "ctimeMs": 1548578204086.6384,
       "birthtimeMs": 1548578204086.2524,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.087Z",
       "ctime": "2019-01-27T08:36:44.087Z",
       "birthtime": "2019-01-27T08:36:44.086Z"
@@ -5338,7 +5682,7 @@
       "size": 701,
       "prettySize": "701 B",
       "modifiedTime": "2019-01-27T08:36:44.087Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.087Z",
       "birthTime": "2019-01-27T08:36:44.087Z",
       "root": "/",
@@ -5347,7 +5691,7 @@
       "ext": ".md",
       "name": "clock-tower",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5356,11 +5700,11 @@
       "blksize": 4194304,
       "ino": 19233937,
       "blocks": 8,
-      "atimeMs": 1549477907747.9136,
+      "atimeMs": 1550004963156.19,
       "mtimeMs": 1548578204087.0957,
       "ctimeMs": 1548578204087.0957,
       "birthtimeMs": 1548578204086.819,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.087Z",
       "ctime": "2019-01-27T08:36:44.087Z",
       "birthtime": "2019-01-27T08:36:44.087Z"
@@ -5385,7 +5729,7 @@
       "size": 805,
       "prettySize": "805 B",
       "modifiedTime": "2019-01-27T08:36:44.088Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.088Z",
       "birthTime": "2019-01-27T08:36:44.087Z",
       "root": "/",
@@ -5394,7 +5738,7 @@
       "ext": ".md",
       "name": "doi-chang",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5403,11 +5747,11 @@
       "blksize": 4194304,
       "ino": 19233938,
       "blocks": 8,
-      "atimeMs": 1549477907747.9294,
+      "atimeMs": 1550004963156.2053,
       "mtimeMs": 1548578204087.5042,
       "ctimeMs": 1548578204087.5042,
       "birthtimeMs": 1548578204087.2683,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.088Z",
       "ctime": "2019-01-27T08:36:44.088Z",
       "birthtime": "2019-01-27T08:36:44.087Z"
@@ -5432,7 +5776,7 @@
       "size": 694,
       "prettySize": "694 B",
       "modifiedTime": "2019-01-27T08:36:44.088Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.088Z",
       "birthTime": "2019-01-27T08:36:44.088Z",
       "root": "/",
@@ -5441,7 +5785,7 @@
       "ext": ".md",
       "name": "doi-mae-salong",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5450,11 +5794,11 @@
       "blksize": 4194304,
       "ino": 19233939,
       "blocks": 8,
-      "atimeMs": 1549477907747.9456,
+      "atimeMs": 1550004963156.221,
       "mtimeMs": 1548578204088.0374,
       "ctimeMs": 1548578204088.0374,
       "birthtimeMs": 1548578204087.7307,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.088Z",
       "ctime": "2019-01-27T08:36:44.088Z",
       "birthtime": "2019-01-27T08:36:44.088Z"
@@ -5479,7 +5823,7 @@
       "size": 814,
       "prettySize": "814 B",
       "modifiedTime": "2019-01-27T08:36:44.088Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.088Z",
       "birthTime": "2019-01-27T08:36:44.088Z",
       "root": "/",
@@ -5488,7 +5832,7 @@
       "ext": ".md",
       "name": "golden-triangle",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5497,11 +5841,11 @@
       "blksize": 4194304,
       "ino": 19233940,
       "blocks": 8,
-      "atimeMs": 1549477907747.9617,
+      "atimeMs": 1550004963156.2363,
       "mtimeMs": 1548578204088.4172,
       "ctimeMs": 1548578204088.4172,
       "birthtimeMs": 1548578204088.2175,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.088Z",
       "ctime": "2019-01-27T08:36:44.088Z",
       "birthtime": "2019-01-27T08:36:44.088Z"
@@ -5526,7 +5870,7 @@
       "size": 752,
       "prettySize": "752 B",
       "modifiedTime": "2019-02-04T19:48:43.775Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-02-04T19:48:43.775Z",
       "birthTime": "2019-02-04T19:48:43.775Z",
       "root": "/",
@@ -5535,7 +5879,7 @@
       "ext": ".md",
       "name": "khantoke",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5544,11 +5888,11 @@
       "blksize": 4194304,
       "ino": 19543210,
       "blocks": 8,
-      "atimeMs": 1549477907747.9773,
+      "atimeMs": 1550004963156.2517,
       "mtimeMs": 1549309723775.0737,
       "ctimeMs": 1549309723775.0737,
       "birthtimeMs": 1549309723774.9348,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-02-04T19:48:43.775Z",
       "ctime": "2019-02-04T19:48:43.775Z",
       "birthtime": "2019-02-04T19:48:43.775Z"
@@ -5573,7 +5917,7 @@
       "size": 747,
       "prettySize": "747 B",
       "modifiedTime": "2019-01-27T08:36:44.089Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.089Z",
       "birthTime": "2019-01-27T08:36:44.089Z",
       "root": "/",
@@ -5582,7 +5926,7 @@
       "ext": ".md",
       "name": "koh-lipe",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5591,11 +5935,11 @@
       "blksize": 4194304,
       "ino": 19233942,
       "blocks": 8,
-      "atimeMs": 1549477907747.9956,
+      "atimeMs": 1550004963156.27,
       "mtimeMs": 1548578204089.2068,
       "ctimeMs": 1548578204089.2068,
       "birthtimeMs": 1548578204088.9106,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.089Z",
       "ctime": "2019-01-27T08:36:44.089Z",
       "birthtime": "2019-01-27T08:36:44.089Z"
@@ -5620,7 +5964,7 @@
       "size": 858,
       "prettySize": "858 B",
       "modifiedTime": "2019-02-03T23:54:14.836Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-02-03T23:54:14.836Z",
       "birthTime": "2019-02-03T23:54:14.836Z",
       "root": "/",
@@ -5629,7 +5973,7 @@
       "ext": ".md",
       "name": "monks",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5638,11 +5982,11 @@
       "blksize": 4194304,
       "ino": 19532678,
       "blocks": 8,
-      "atimeMs": 1549477907748.014,
+      "atimeMs": 1550004963156.287,
       "mtimeMs": 1549238054836.3113,
       "ctimeMs": 1549238054836.3113,
       "birthtimeMs": 1549238054836.1,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-02-03T23:54:14.836Z",
       "ctime": "2019-02-03T23:54:14.836Z",
       "birthtime": "2019-02-03T23:54:14.836Z"
@@ -5667,7 +6011,7 @@
       "size": 725,
       "prettySize": "725 B",
       "modifiedTime": "2019-02-03T23:54:14.837Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-02-03T23:54:14.837Z",
       "birthTime": "2019-02-03T23:54:14.836Z",
       "root": "/",
@@ -5676,7 +6020,7 @@
       "ext": ".md",
       "name": "wat-phra-that-chae-heng",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5685,11 +6029,11 @@
       "blksize": 4194304,
       "ino": 19532679,
       "blocks": 8,
-      "atimeMs": 1549477907748.0298,
+      "atimeMs": 1550004963156.302,
       "mtimeMs": 1549238054836.5935,
       "ctimeMs": 1549238054836.5935,
       "birthtimeMs": 1549238054836.4219,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-02-03T23:54:14.837Z",
       "ctime": "2019-02-03T23:54:14.837Z",
       "birthtime": "2019-02-03T23:54:14.836Z"
@@ -5714,7 +6058,7 @@
       "size": 749,
       "prettySize": "749 B",
       "modifiedTime": "2019-01-27T08:36:44.090Z",
-      "accessTime": "2019-02-06T18:31:47.748Z",
+      "accessTime": "2019-02-12T20:56:03.156Z",
       "changeTime": "2019-01-27T08:36:44.090Z",
       "birthTime": "2019-01-27T08:36:44.090Z",
       "root": "/",
@@ -5723,7 +6067,7 @@
       "ext": ".md",
       "name": "white-temple",
       "relativeDirectory": "",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -5732,11 +6076,11 @@
       "blksize": 4194304,
       "ino": 19233943,
       "blocks": 8,
-      "atimeMs": 1549477907748.0454,
+      "atimeMs": 1550004963156.317,
       "mtimeMs": 1548578204089.9163,
       "ctimeMs": 1548578204089.9163,
       "birthtimeMs": 1548578204089.5986,
-      "atime": "2019-02-06T18:31:47.748Z",
+      "atime": "2019-02-12T20:56:03.156Z",
       "mtime": "2019-01-27T08:36:44.090Z",
       "ctime": "2019-01-27T08:36:44.090Z",
       "birthtime": "2019-01-27T08:36:44.090Z"
@@ -5785,28 +6129,6 @@
       "rawMarkdownBody": "<div>\n\n![clock-tower](../images/clock-tower/clock-tower.jpg)\n\nThe ornate clock tower presides over a roundabout in downtown Chiang Rai city.\n\n</div>\n<div>\n\n\n![northern-breakfast](../images/clock-tower/northern-breakfast.jpg)\n\nThis area is great for food and inexpensive lodgings.  You can get coffee or grab breakfast and watch the traffic zoom around the clock tower from the small street cafes.\n\n</div>\n<div>\n\n![street-dog](../images/clock-tower/street-dog.jpg)\n\nLucky shot of a street dog and this cyclist passing by. \n\n</div>\n ",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/clock-tower.md"
     },
-    "22849c10-8051-5a76-87a4-c4b194559587": {
-      "id": "22849c10-8051-5a76-87a4-c4b194559587",
-      "children": [],
-      "parent": "63b7fedf-d6b9-5798-9d94-ce9d8799536e",
-      "internal": {
-        "content": "<div>\n\n![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)\n\nThere are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.\n\n</div>\n<div>\n\n![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)\n\nWe were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  \n\n</div>\n<div>\n\n![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)\n\nBack at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  \n\n</div>\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "5fc4557402492aa5b856fcb855d556cb",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Doi Chang Coffee",
-        "slug": "/doi-chang",
-        "date": "2016-12-28",
-        "subtitle": "Visiting Thailand's Boutique Coffee Growing Region ",
-        "cover": "../images/doi-chang/doi-chang-coffee.jpg",
-        "_PARENT": "63b7fedf-d6b9-5798-9d94-ce9d8799536e"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "<div>\n\n![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)\n\nThere are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.\n\n</div>\n<div>\n\n![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)\n\nWe were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  \n\n</div>\n<div>\n\n![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)\n\nBack at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  \n\n</div>\n\n\n",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md"
-    },
     "3faef22a-d6b5-55d1-9343-549692555c44": {
       "id": "3faef22a-d6b5-55d1-9343-549692555c44",
       "children": [],
@@ -5828,6 +6150,28 @@
       "excerpt": "",
       "rawMarkdownBody": "<div>\n\n![tea](../images/doi-mae-salong/tea.jpg)\n\nWay up on the border with Myanmar is the small village of Doi Mae Salong which is famous for growing excellent quality oolong tea. \n\n</div>\n<div>\n\n![tea-tasting](../images/doi-mae-salong/tea-tasting.jpg)\n\nWe sat down for a tea tasting in a building that also housed tea processing and storage facilities.\n\n</div>\n<div>\n\n![tea-plantation](../images/doi-mae-salong/tea-plantation.jpg)\n\nWalk amongst the rows of tea shrubs and take in the beauty of the mountains of Northern Thailand.\n\n</div>",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-mae-salong.md"
+    },
+    "22849c10-8051-5a76-87a4-c4b194559587": {
+      "id": "22849c10-8051-5a76-87a4-c4b194559587",
+      "children": [],
+      "parent": "63b7fedf-d6b9-5798-9d94-ce9d8799536e",
+      "internal": {
+        "content": "<div>\n\n![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)\n\nThere are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.\n\n</div>\n<div>\n\n![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)\n\nWe were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  \n\n</div>\n<div>\n\n![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)\n\nBack at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  \n\n</div>\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "5fc4557402492aa5b856fcb855d556cb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Doi Chang Coffee",
+        "slug": "/doi-chang",
+        "date": "2016-12-28",
+        "subtitle": "Visiting Thailand's Boutique Coffee Growing Region ",
+        "cover": "../images/doi-chang/doi-chang-coffee.jpg",
+        "_PARENT": "63b7fedf-d6b9-5798-9d94-ce9d8799536e"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![doi-chang-espresso](../images/doi-chang/doi-chang-coffee.jpg)\n\nThere are two worthy stops for coffee in Doi Chang.  The cup was from the Doi Chang Coffe Growers Collective which is definitely worth a visit.\n\n</div>\n<div>\n\n![doi-chang-mountain-view](../images/doi-chang/doi-chang.jpg)\n\nWe were lucky enough to have a local take us up to this viewpoint to watch the sunrise.  \n\n</div>\n<div>\n\n![doi-chang-coffee-essence-and-steamed-buns](../images/doi-chang/buns.jpg)\n\nBack at the coffee collective, we ordered steamed buns and they came with coffee essence which is tea made from the coffee flowers.  \n\n</div>\n\n\n",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/doi-chang.md"
     },
     "5783c44b-f908-5240-8d10-7268e98564e4": {
       "id": "5783c44b-f908-5240-8d10-7268e98564e4",
@@ -5851,28 +6195,6 @@
       "rawMarkdownBody": "<div>\n\n![dragon](../images/golden-triangle/decorated-dragon.jpg)\n\nThis ornate water dragon or \"naga\" guards the entrance to a temple complex on a bluff overlooking the Mekong river.\n\n</div>\n<div>\n\n![temple](../images/golden-triangle/shiny-floor-temple.jpg)\n\nThis amazing temple was closed on arrival but we still got this lucky shot of the polished luminescent marble floor glowing as the sun went down.\n\n</div>\n<div>\n\n![statue](../images/golden-triangle/statue.jpg)\n\nIt's common for the the monks to adorn the statues that surround the chedi's of the older temple complexes.  This statue is possibly well over 500 years old.\n\n</div>",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/golden-triangle.md"
     },
-    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
-      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
-      "children": [],
-      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
-      "internal": {
-        "content": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
-        "type": "MarkdownRemark",
-        "contentDigest": "cf55eae148947e5349213a41dc9d846d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Khantoke",
-        "slug": "/khantoke",
-        "date": "2016-12-28",
-        "subtitle": "Old Chiang Mai Village Khantoke",
-        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
-        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
-      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
-    },
     "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0": {
       "id": "dc4af54d-d9e6-51ab-83f9-d2f71412e2b0",
       "children": [],
@@ -5894,6 +6216,28 @@
       "excerpt": "",
       "rawMarkdownBody": "<div>\n\n![boat](../images/koh-lipe/koh-lipe-boat.jpg)\n\nKoh Lipe is located on the Andaman Sea in Thailand's deep south on the border with Malaysia. \n\n</div>\n<div>\n\n![mountain-resort](../images/koh-lipe/koh-lipe-mountain-resort.jpg)\n\nWe stayed in this beach bungalow on the northern side of the island at the Mountain Report which is know mostly to Thai's on holiday.\n\n</div>\n<div>\n\n![coral](../images/koh-lipe/koh-lipe-coral.jpg)\n\nThe snorkeling was incredible.  We rented our on long-tail boat and local guide for a day of island hopping and snorkeling over coral forests like this.\n\n</div>",
       "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/koh-lipe.md"
+    },
+    "b9464a23-861b-5dd2-b75f-9b21df7b93ff": {
+      "id": "b9464a23-861b-5dd2-b75f-9b21df7b93ff",
+      "children": [],
+      "parent": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8",
+      "internal": {
+        "content": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
+        "type": "MarkdownRemark",
+        "contentDigest": "cf55eae148947e5349213a41dc9d846d",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Khantoke",
+        "slug": "/khantoke",
+        "date": "2016-12-28",
+        "subtitle": "Old Chiang Mai Village Khantoke",
+        "cover": "../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg",
+        "_PARENT": "d02d6a1c-9c2d-5d10-a617-88f8de8357e8"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "<div>\n\n![thai-dancers](../images/old-chiangmai-khantoke/khantoke-thai-dancers.jpg)\n\nNorthern Thai Lanna style dancers were definitely a highlight. \n\n</div>\n<div>\n\n\n![stick-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-stick-dancers.jpg)\n \nStick dancing with bamboo poles is common throughout Southeast Asia.\n\n</div>\n<div>\n\n![hill-tribe-dancers](../images/old-chiangmai-khantoke/khantoke-hill-tribe-hmong-dancers.jpg)\n\nThere are many different regional tribes referred to in Thailand as \"hill tribes.\"  Each has their own distinct dress, dance and music.\n\n</div>",
+      "fileAbsolutePath": "/Users/michaelcastor/projects/thailand-blog/src/posts/khantoke.md"
     },
     "eef6e24b-dc05-5b21-b649-28b9bb392bf3": {
       "id": "eef6e24b-dc05-5b21-b649-28b9bb392bf3",
@@ -6402,7 +6746,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a993c88e15d432d2abcdd0a8d6e12fd4"
+    "PLUGINS_HASH": "60a9a7eab67fe4c4f728cd3c5af31ed0"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -6541,7 +6885,6 @@
     "connections": {
       "MarkdownRemark": [
         null,
-        null,
         "sq--src-components-archive-js",
         "sq--src-components-listing-js"
       ]
@@ -6625,14 +6968,6 @@
       "query": "query usersMichaelcastorProjectsThailandBlogSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
     },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n  file(relativePath: {regex: \"/rice-field/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 973632614
-    },
     "sq--src-components-listing-js": {
       "name": "BlogPostListing",
       "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/listing.js",
@@ -6640,6 +6975,14 @@
       "jsonName": "sq--src-components-listing-js",
       "query": "query BlogPostListing {\n  firstLine: allMarkdownRemark(limit: 10, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          slug\n          cover {\n            id\n            childImageSharp {\n              fluid(maxWidth: 1000) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n  secondLine: allMarkdownRemark(skip: 4, limit: 4, sort: {order: DESC, fields: [frontmatter___date]}) {\n    edges {\n      node {\n        excerpt\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n          slug\n          cover {\n            id\n            childImageSharp {\n              fluid(maxWidth: 1000) {\n                ...GatsbyImageSharpFluid_tracedSVG\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 175183909
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/michaelcastor/projects/thailand-blog/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n      description\n    }\n  }\n  file(relativePath: {regex: \"/rice-field/\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid_tracedSVG\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_tracedSVG on ImageSharpFluid {\n  tracedSVG\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 973632614
     }
   }
 }

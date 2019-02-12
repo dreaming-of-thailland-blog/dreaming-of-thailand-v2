@@ -28,15 +28,18 @@ const PostContainer = styled.div`
 padding: 1vh; 
   background: #E1E2E1;
   h1 {
-    font-size: 1.5rem;
+    font-family: Lora;
   }
 
   .post-body {
-    //box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
+    box-shadow: 0px 8px 15px rgba(192, 192, 192, 0.3);
     padding: auto 10vh auto 10vh;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 5vh 5vh;
+    font-family: Karma;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
   }
 
   .post-links {
