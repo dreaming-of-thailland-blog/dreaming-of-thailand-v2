@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Merriweather"},{"family":"Karma"},{"family":"PT Serif"},{"family":"Lora"},{"family":"Roboto Slab"},{"family":"Roboto","variants":["400","400i","700","700i"]},{"family":"Open Sans","variants":["400","700"]}]},
+      options: {"plugins":[],"fonts":[{"family":"Roboto Slab"},{"family":"Lora"},{"family":"Karma"}]},
     },{
       plugin: require('/Users/michaelcastor/projects/thailand-blog/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-133339457-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"optimizeId":"YOUR_GOOGLE_OPTIMIZE_TRACKING_ID","experimentId":"YOUR_GOOGLE_EXPERIMENT_ID","variationId":"YOUR_GOOGLE_OPTIMIZE_VARIATION_ID","sampleRate":5,"siteSpeedSampleRate":10},

@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Camera, Menu } from 'react-feather';
 import styled from 'styled-components';
+import ArchiveTab from './ArchiveTab';
+import Archive from '../components/archive';
+import BackDrop from './BackDrop';
 
 const HeaderWrapper = styled.div`
   background: #212121;
@@ -9,6 +12,26 @@ const HeaderWrapper = styled.div`
   color: #ffffff;
   img {
     margin-bottom: 0;
+  }
+
+  .drawer-closed {
+    display: none;
+    transform: translateX(-100%);
+    transition: transform 5.3s ease-out;
+  }
+
+  .drawer-open {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 200;
+    width: 50%;
+    max-width: 500px;
+    transform: translateX(0);
+    background: #E1E2E1;
+    color: #000000;
+    overflow: scroll; 
   }
 `;
 
@@ -111,7 +134,8 @@ class Header extends React.Component {
     super(props);
 
     this.state = {
-      toggle: false
+      toggle: false,
+      sideDrawerOpen: false
     };
   }
 
@@ -119,9 +143,36 @@ class Header extends React.Component {
     this.setState({ toggle: !this.state.toggle });
   };
 
+  handleDrawerToggle = () => {
+    this.setState((prevState) => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
+
+  backDropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false });
+  };
+
   render() {
+    let drawerClasses = 'drawer-closed';
+
+    if (this.state.sideDrawerOpen) {
+      drawerClasses = 'drawer-open';
+    }
+
+    let backDrop;
+
+    if (this.state.sideDrawerOpen) {
+      backDrop = <BackDrop click={this.backDropClickHandler}>hello world</BackDrop>;
+    }
+
     return (
       <HeaderWrapper>
+        <ArchiveTab drawerClickHandler={this.handleDrawerToggle} />
+        {backDrop}
+        <div className={drawerClasses}>
+          <Archive />
+        </div>
         <HeaderContainer>
           <div>
             <Link to='/'>

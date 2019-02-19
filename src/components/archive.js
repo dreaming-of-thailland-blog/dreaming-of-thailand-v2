@@ -26,6 +26,10 @@ const postArchiveQuery = graphql`
       }
     }`;
 
+const ArchiveTitle = styled.h3`
+    padding-left: 5rem;
+`;
+
 const ArchiveList = styled.ul`
   padding: auto 10vh;
   margin: 0;
@@ -36,6 +40,10 @@ const ArchiveList = styled.ul`
     text-decoration: underline;
     color: #524763;
   }
+
+  a:hover {
+    color: #b30000;
+  }
 `;
 
 const Archive = () => (
@@ -43,7 +51,7 @@ const Archive = () => (
     query={postArchiveQuery}
     render={({ allMarkdownRemark }) => (
       <>
-        <h3>Archive</h3>
+        <ArchiveTitle>Archive</ArchiveTitle>
         <ArchiveList>
           {allMarkdownRemark.edges.map(edge => (
             <li key={edge.node.frontmatter.slug}>
