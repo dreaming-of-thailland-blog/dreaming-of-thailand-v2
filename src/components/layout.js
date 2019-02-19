@@ -8,8 +8,8 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header';
 import Footer from './footer';
-// import Archive from './archive';
-// import './layout.css'
+// import ArchiveTab from './ArchiveTab';
+// import ArchiveDrawer from './ArchiveDrawer';
 import 'normalize.css/normalize.css';
 
 const MainLayout = styled.main`
@@ -104,16 +104,22 @@ padding: 1vh;
 `;
 
 // passing in location for React Spring Animation
-const Layout = ({ children, location }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
+class Layout extends React.Component {
+
+  //= ({ children, location }) =>
+  render() {
+    const { children, location } = this.props;
+
+    return (
+      <StaticQuery
+        query={graphql`
+          query SiteTitleQuery {
+            site {
+              siteMetadata {
+                title
+                description
+              }
+            }
           file(relativePath: {
             regex: "/rice-field/"
             }) {
@@ -125,45 +131,47 @@ const Layout = ({ children, location }) => (
         }
       }
     `}
-    render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            {
-              name: data.site.siteMetadata.title,
-              content: data.site.siteMetadata.description,
-            },
-            { name: 'Thailand, Photography, Travel', content: 'Travel Photography' },
-          ]}
-        >
-          <html lang="en" />
-        </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <Spring
-          from={{ height: location.pathname === '/' ? 100 : 350 }}
-          to={{ height: location.pathname === '/' ? 350 : 0 }}
-        >
-          {styles => (
-            <div style={{ overflow: 'hidden', ...styles }}>
-              <Img fluid={data.file.childImageSharp.fluid} />
-            </div>
-          )}
-        </Spring>
-        <MainLayout>
-          {location.pathname === '/' ?
-            <div className='grid-container'>
-              {children}
-            </div>
-            : <PostContainer className='post-container'>
-              {children}
-            </PostContainer>}
-          <Footer />
-        </MainLayout>
-      </>
-    )}
-  />
-);
+        render={data => (
+          <>
+            <Helmet
+              title={data.site.siteMetadata.title}
+              meta={[
+                {
+                  name: data.site.siteMetadata.title,
+                  content: data.site.siteMetadata.description,
+                },
+                { name: 'Thailand, Photography, Travel', content: 'Travel Photography' },
+              ]}
+            >
+              <html lang="en" />
+            </Helmet>
+            <Header siteTitle={data.site.siteMetadata.title} />
+            <MainLayout>
+              <Spring
+                from={{ height: location.pathname === '/' ? 100 : 350 }}
+                to={{ height: location.pathname === '/' ? 350 : 0 }}
+              >
+                {styles => (
+                  <div style={{ overflow: 'hidden', ...styles }}>
+                    <Img fluid={data.file.childImageSharp.fluid} />
+                  </div>
+                )}
+              </Spring>
+              {location.pathname === '/' ?
+                <div className='grid-container'>
+                  {children}
+                </div>
+                : <PostContainer className='post-container'>
+                  {children}
+                </PostContainer>}
+              <Footer />
+            </MainLayout>
+          </>
+        )}
+      />
+    );
+  } // render ending
+} // class ending
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
